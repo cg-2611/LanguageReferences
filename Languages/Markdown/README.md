@@ -1,6 +1,6 @@
 Markdown
 ========
-Markdwon language reference.
+Markdown language reference.
 
 Headings
 --------
@@ -25,7 +25,7 @@ Blockquotes
 
 >\>Mulitple line
 >
->\>Blockquote
+>\>Blockquote (line above contains \>)
 
 >\>Blockquote
 >>\>\>Nested Blockquote
@@ -65,13 +65,11 @@ Code
 For word or phrase use \`:
 ``Code``
 
-For block of code indent one tab:
-`
-    <html>
-        <head>
-        </head>
-    </html>
-`
+For block of code use triple \`'s and also supply language next to top row of \`'s:
+```python
+string = "python markdown code block"
+print(string)
+```
 
 Horizontal Separator
 --------------------
