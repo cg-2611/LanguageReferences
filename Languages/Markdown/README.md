@@ -1,6 +1,6 @@
 Markdown
 ========
-Markdwon language reference.
+Markdown language reference.
 
 Headings
 --------
@@ -25,7 +25,7 @@ Blockquotes
 
 >\>Mulitple line
 >
->\>Blockquote
+>\>Blockquote (line above contains \>)
 
 >\>Blockquote
 >>\>\>Nested Blockquote
