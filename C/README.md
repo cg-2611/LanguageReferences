@@ -12,7 +12,7 @@ To specify an output file name and/or location for the executable, use the `-o` 
 ```
 gcc -o output/path/file_name file.c
 ```
-e.g. to compile a `hello_world.c` source file into a `bin` directory with more useful name than `a.out`, run:
+e.g. to compile a `hello_world.c` source file into a `bin` directory with a name different to `a.out`, run:
 ```
 gcc -o ./bin/hello_world hello_world.c
 ```
@@ -37,12 +37,12 @@ If the `-o` option was used, e.g. the compiled file is called `hello_world` and 
 ```
 ./hello_world
 ```
-If a path was also provided during compilation e.g. the option `-o ./bin/hello_world` was used, then either navigate to the directory containing the executable, run:
+If a path was also provided during compilation e.g. the option `-o ./bin/hello_world` was used, then either navigate to the directory containing the executable:
 ```
 cd ./bin
 ./hello_world
 ```
-or include the path in the executed command, run:
+or include the path in the executed command:
 ```
 ./bin/hello_wold
 ```
