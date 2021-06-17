@@ -199,3 +199,33 @@ Useful Links
     - <https://www.tutorialspoint.com/java/index.htm>
     - <https://www.w3schools.com/java/default.asp>
     - <https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html>
+
+TODO
+----
+- [x] Strings
+- [ ] User Input
+- [ ] Files
+- [ ] Command Line Arguments
+- [ ] Arrays
+- [ ] Casting
+- [ ] Objects
+- [ ] Utils
+- [ ] Data Structures
+- [ ] Exceptions
+- [ ] Enums
+- [ ] Interfaces
+- [ ] Abstract Classes
+- [ ] System Properties
+- [ ] Threads
+- [ ] GUI
+- [ ] Unit Testing
+- [ ] Maven
+- [ ] Gradle
+- [ ] Date and Time
+- [ ] Networking
+- [ ] Javadoc
+
+- [ ] Overloading and Polymorphism
+- [ ] Generics
+- [ ] Serialisation
+- [ ] Lambda Expressions
