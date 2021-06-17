@@ -209,7 +209,6 @@ TODO
 - [ ] Arrays
 - [ ] Casting
 - [ ] Objects
-- [ ] Utils
 - [ ] Data Structures
 - [ ] Exceptions
 - [ ] Enums
@@ -224,7 +223,6 @@ TODO
 - [ ] Date and Time
 - [ ] Networking
 - [ ] Javadoc
-
 - [ ] Overloading and Polymorphism
 - [ ] Generics
 - [ ] Serialisation
