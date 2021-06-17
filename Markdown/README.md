@@ -196,7 +196,7 @@ Useful Links
 - #### Extended Syntax Links:
     - <https://www.markdownguide.org/extended-syntax>
     - <https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting>
-- ### General Information Links
+- #### General Information Links
     - <https://daringfireball.net/projects/markdown/>
     - <https://guides.github.com/features/mastering-markdown/>
     - <https://github.github.com/gfm/>
