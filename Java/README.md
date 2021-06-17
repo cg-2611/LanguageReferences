@@ -13,6 +13,9 @@ Contents
         - [Bitwise Operators](#bitwise-operators)
         - [Assignment Operators](#assignment-operators)
         - [Miscellaneous Operators](#miscellaneous-operators)
+    - [Control Flow Statements](#control-flow-statements)
+        - [Decision Making](#decision-making)
+        - [Loop Control](#loop-control)
 - [Execution](#execution)
     - [Compiling](#compiling)
     - [Running](#running)
@@ -59,6 +62,7 @@ double x = 4.62;
 int y = (int) x; // y has value 4
 ```
 ### Operators
+---
 #### Arithmetic Operators:
 ```java
 x + y // addition
@@ -113,6 +117,48 @@ x || y // logical OR
 ?:         // conditional/ternary operator
 instanceof // returns if an onject is an instance of a given class
 ```
+### Control Flow Statements
+---
+#### Decision Making:
+```java
+// if statement
+if (condition) {
+    // do something
+} else if (another condition) {
+    // do something else
+} else {
+    // do something if no conditions met
+}
+
+// switch statement (breaks optional)
+switch (expression) {
+    case value 1:
+        // do something and fall through
+    case value 2: 
+        // do something else
+        break;
+    default:
+        // do something if no cases matched
+        break;
+}
+```
+#### Loop Control
+```java
+// for loop
+for (initialisation; condition; update) {
+    // do something
+}
+
+// while loop
+while (condition) {
+    // do something
+}
+
+// do-while loop
+do {
+    // do something
+} while (condition);
+```
 
 Execution
 ----------
@@ -152,3 +198,4 @@ Useful Links
     - <https://docs.oracle.com/javase/tutorial/>
     - <https://www.tutorialspoint.com/java/index.htm>
     - <https://www.w3schools.com/java/default.asp>
+    - <https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html>
