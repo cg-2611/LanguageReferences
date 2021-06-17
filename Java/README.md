@@ -4,8 +4,6 @@ Contents
 --------
 - [Language Basics](#language-basics)
     - [Comments](#comments)
-    - [Primitive Data Types](#primitive-data-types)
-    - [Casting Primitive Types](#casting-primitive-types)
     - [Operators](#operators)
         - [Arithmetic Operators](#arithmetic-operators)
         - [Comaprison Operators](#comparison-operators)
@@ -16,7 +14,9 @@ Contents
     - [Control Flow Statements](#control-flow-statements)
         - [Decision Making](#decision-making)
         - [Loop Control](#loop-control)
-- [Execution](#execution)
+    - [Primitive Data Types](#primitive-data-types)
+    - [Casting Primitive Types](#casting-primitive-types)
+- [Executing Programs](#executing-programs)
     - [Compiling](#compiling)
     - [Running](#running)
 - [Useful Links](#useful-links)
@@ -37,29 +37,6 @@ Language Basics
 /**
  * javadoc comment
  */
-```
-### Primitive Data Types
----
-```java
-byte    // 8 bits,  1 byte 
-short   // 16 bits, 2 bytes
-int     // 32 bits, 4 bytes
-long    // 64 bits, 8 bytes
-float   // 32 bits, 4 bytes
-double  // 64 bits, 8 bytes
-char    // 16 bits, 2 bytes
-boolean // 1 bit
-```
-### Casting Primitive Types
----
-```java
-// from a smaller type to a larger type:
-int x = 4;
-double y = x;
-
-// from a larger type to a smaller type:
-double x = 4.62;
-int y = (int) x; // y has value 4
 ```
 ### Operators
 ---
@@ -159,8 +136,31 @@ do {
     // do something
 } while (condition);
 ```
+### Primitive Data Types
+---
+```java
+byte    // 8 bits,  1 byte 
+short   // 16 bits, 2 bytes
+int     // 32 bits, 4 bytes
+long    // 64 bits, 8 bytes
+float   // 32 bits, 4 bytes
+double  // 64 bits, 8 bytes
+char    // 16 bits, 2 bytes
+boolean // 1 bit
+```
+### Casting Primitive Types
+---
+```java
+// from a smaller type to a larger type:
+int x = 4;
+double y = x;
 
-Execution
+// from a larger type to a smaller type:
+double x = 4.62;
+int y = (int) x; // y has value 4
+```
+
+Executing Programs
 ----------
 ### Compiling
 ---
