@@ -162,7 +162,7 @@ for (initialisation; condition; update) {
 }
 
 // for-each loop
-for (type object : collection) {
+for (type object : array) {
 
 }
 
