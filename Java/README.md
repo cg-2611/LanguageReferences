@@ -3,7 +3,11 @@
 ## Contents
 - [Language Basics](#language-basics)
     - [Comments](#comments)
+    - [Variables](#variables)
+    - [Primitive Data Types](#primitive-data-types)
+    - [Casting Primitive Types](#casting-primitive-types)
     - [Operators](#operators)
+        - [Unary Operators](#unary-operators)
         - [Arithmetic Operators](#arithmetic-operators)
         - [Comaprison Operators](#comparison-operators)
         - [Logical Operators](#logical-operators)
@@ -13,8 +17,6 @@
     - [Control Flow Statements](#control-flow-statements)
         - [Decision Making](#decision-making)
         - [Loop Control](#loop-control)
-    - [Primitive Data Types](#primitive-data-types)
-    - [Casting Primitive Types](#casting-primitive-types)
 - [Executing Programs](#executing-programs)
     - [Compiling](#compiling)
     - [Running](#running)
@@ -36,8 +38,45 @@
  * javadoc comment
  */
 ```
+### Variables
+---
+```java
+type identifier = value;
+```
+### Primitive Data Types
+---
+```java
+byte    // 8 bits,  1 byte 
+short   // 16 bits, 2 bytes
+int     // 32 bits, 4 bytes
+long    // 64 bits, 8 bytes
+float   // 32 bits, 4 bytes
+double  // 64 bits, 8 bytes
+char    // 16 bits, 2 bytes
+boolean // 1 bit
+```
+### Casting Primitive Types
+---
+```java
+// from a smaller type to a larger type:
+int x = 4;
+double y = x;
+
+// from a larger type to a smaller type:
+double x = 4.62;
+int y = (int) x; // y has value 4
+```
 ### Operators
 ---
+### Unary Operators:
+```java
++x  // positive value
+-x  // negative value
+x++ // postfix increment
+++x // prefix increment
+x-- // postfix decrement
+--x // prefix decrement
+```
 #### Arithmetic Operators:
 ```java
 x + y // addition
@@ -45,8 +84,6 @@ x - y // subtraction
 x * y // multiplication
 x / y // division
 x % y // modulus
-x++   // increment
-x--   // decrement
 ```
 #### Comparison Operators:
 ```java
@@ -68,7 +105,7 @@ x || y // logical OR
 &   // binary AND
 |   // binary OR
 ^   // binary XOR
-~   // binary one's complement
+~   // binary complement
 <<  // binary left shift
 >>  // binary right shift
 >>> // binary shift right zerro fill 
@@ -117,7 +154,7 @@ switch (expression) {
         break;
 }
 ```
-#### Loop Control
+#### Loop Control:
 ```java
 // for loop
 for (initialisation; condition; update) {
@@ -139,29 +176,6 @@ do {
     // do something
 } while (condition);
 ```
-### Primitive Data Types
----
-```java
-byte    // 8 bits,  1 byte 
-short   // 16 bits, 2 bytes
-int     // 32 bits, 4 bytes
-long    // 64 bits, 8 bytes
-float   // 32 bits, 4 bytes
-double  // 64 bits, 8 bytes
-char    // 16 bits, 2 bytes
-boolean // 1 bit
-```
-### Casting Primitive Types
----
-```java
-// from a smaller type to a larger type:
-int x = 4;
-double y = x;
-
-// from a larger type to a smaller type:
-double x = 4.62;
-int y = (int) x; // y has value 4
-```
 
 ## Executing Programs
 ### Compiling
@@ -176,7 +190,6 @@ e.g. if the command is being run from the project root directory, run:
 javac -cp ./src -d ./bin ./src/**/*.java
 ```
 > Note: using `src/**/*.java` will maintain the package structure in the output directory specified by the `-d` option. 
-
 ### Running
 ---
 To run a compiled java program using the `java` command, run:
