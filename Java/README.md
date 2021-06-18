@@ -308,7 +308,8 @@ object.doSomething() // calls method 'doSomething' of object 'object'
 ```java
 throw new Exception(); // throws a new Exception object
 
-public void doSomething() throws Exception1, Exception 2 { // method that throws an Exception
+// method that throws Exception1 and Exception2 that must be caught
+public void doSomething() throws Exception1, Exception2 {
     // do something
 }
 ```
