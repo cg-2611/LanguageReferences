@@ -5,26 +5,25 @@
 
 ## Java
 - [x] Strings
+- [x] Command Line Arguments
+- [x] System Properties
+- [x] Casting
+- [x] Math
 - [ ] User Input
 - [ ] Files
-- [ ] Command Line Arguments
-- [ ] Arrays
-- [ ] Casting
-- [ ] Objects
 - [ ] Data Structures
+- [ ] Date and Time
 - [ ] Exceptions
+- [ ] Javadoc
 - [ ] Enums
 - [ ] Interfaces
 - [ ] Abstract Classes
-- [ ] System Properties
 - [ ] Threads
+- [ ] Networking
 - [ ] GUI
 - [ ] Unit Testing
 - [ ] Maven
 - [ ] Gradle
-- [ ] Date and Time
-- [ ] Networking
-- [ ] Javadoc
 - [ ] Overloading and Polymorphism
 - [ ] Generics
 - [ ] Serialisation
