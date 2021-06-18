@@ -1,7 +1,6 @@
-Java
-====
-Contents
---------
+# Java
+
+## Contents
 - [Language Basics](#language-basics)
     - [Comments](#comments)
     - [Operators](#operators)
@@ -23,8 +22,7 @@ Contents
     - [Execution Links](#execution-links)
     - [General Information Links](#general-information-links)
 
-Language Basics
---------------
+## Language Basics
 ### Comments
 ---
 ```java
@@ -126,6 +124,11 @@ for (initialisation; condition; update) {
     // do something
 }
 
+// for-each loop
+for (object : collection) {
+
+}
+
 // while loop
 while (condition) {
     // do something
@@ -160,8 +163,7 @@ double x = 4.62;
 int y = (int) x; // y has value 4
 ```
 
-Executing Programs
-----------
+## Executing Programs
 ### Compiling
 ---
 To compile a java program using the `javac` command, run:
@@ -186,8 +188,7 @@ e.g. if the command is being run from the project root directory where the entry
 java -cp ./bin mainpackage.HelloWorld
 ```
 
-Useful Links
-------------
+## Useful Links
 - #### Execution Links:
     - `javac` command documentation (for java version 11):
 <https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9>
@@ -199,31 +200,3 @@ Useful Links
     - <https://www.tutorialspoint.com/java/index.htm>
     - <https://www.w3schools.com/java/default.asp>
     - <https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html>
-
-TODO
-----
-- [x] Strings
-- [ ] User Input
-- [ ] Files
-- [ ] Command Line Arguments
-- [ ] Arrays
-- [ ] Casting
-- [ ] Objects
-- [ ] Data Structures
-- [ ] Exceptions
-- [ ] Enums
-- [ ] Interfaces
-- [ ] Abstract Classes
-- [ ] System Properties
-- [ ] Threads
-- [ ] GUI
-- [ ] Unit Testing
-- [ ] Maven
-- [ ] Gradle
-- [ ] Date and Time
-- [ ] Networking
-- [ ] Javadoc
-- [ ] Overloading and Polymorphism
-- [ ] Generics
-- [ ] Serialisation
-- [ ] Lambda Expressions
