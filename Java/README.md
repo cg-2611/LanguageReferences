@@ -2,8 +2,11 @@
 
 ## Contents
 - [Language Basics](#language-basics)
+    - [Entry Point](#entry-point)
     - [Comments](#comments)
-    - [Variables](#variables)
+    - [Varaibles and Constants](#variables-and-constants)
+        - [Variables](#variables)
+        - [Constants](#constants)
     - [Primitive Data Types](#primitive-data-types)
     - [Casting Primitive Types](#casting-primitive-types)
     - [Operators](#operators)
@@ -17,6 +20,22 @@
     - [Control Flow Statements](#control-flow-statements)
         - [Decision Making](#decision-making)
         - [Loop Control](#loop-control)
+- [Classes and Objects](#classes-and-objects)
+    - [Access Modifiers](#access-modifiers)
+        - [Class Access Modifers](#for-classes)
+        - [Class Member Acess Modifers](#for-class-members)
+    - [Classes](#classes)
+        - [Declaring Classes](#declaring-classes)
+        - [Constructor](#constructor)
+        - [Instance Fields](#instance-fields)
+        - [Instance Methods](#instance-methods)
+        - [Referencing Current Object](#referencing-current-object)
+        - [Class Fields](#class-fields)
+        - [Class Methods](#class-methods)
+        - [Nested Classes](#nested-classes)
+    - [Objects](#objects)
+        - [Object Creation](#object-creation)
+        - [Accessing Members](#accessing-members)
 - [Executing Programs](#executing-programs)
     - [Compiling](#compiling)
     - [Running](#running)
@@ -25,6 +44,13 @@
     - [General Information Links](#general-information-links)
 
 ## Language Basics
+### Entry Point
+---
+```java
+public static void main(String[] args) {
+    // do something
+}
+```
 ### Comments
 ---
 ```java
@@ -38,10 +64,26 @@
  * javadoc comment
  */
 ```
-### Variables
+### Variables and Constants
+---
+#### Variables:
+```java
+type identifier; // has value of 'null' until initialised
+
+type identifier = value; // has value of 'value'
+```
+#### Constants:
+```java
+static final type identifier = value;
+```
+### Arrays
 ---
 ```java
-type identifier = value;
+// declare array and allocate memory for n elements
+type[] identifier = new type[n];
+
+// declare and initialise array of 3 elements
+type[] identifer = {element 1, element 2, element 3};
 ```
 ### Primitive Data Types
 ---
@@ -175,6 +217,86 @@ while (condition) {
 do {
     // do something
 } while (condition);
+```
+
+## Classes and Objects
+### Access Modifiers
+---
+#### For Classes:
+```java
+public  // available to all other classes
+no-modifier // available to all classes in current package
+```
+#### For Class Members:
+```java
+public // available to all other classes
+protected // available to classes within package or any subclasses
+no-modifier // available to classes within package only
+private // available to class only
+```
+### Classes
+---
+#### Declaring Classes:
+```java
+public class ClassName extends SuperClass implements InterfaceOne, InterfaceTwo {
+    // class body
+}
+```
+#### Constructor:
+```java
+modifier ClassName(type parameter1, type parameter2) {
+    // do something
+}
+```
+#### Instance Fields:
+```java
+modifiers type identifer; // has value of 'null' until initalised
+
+modifiers type identifer = value; // has value of 'value'
+```
+#### Instance Methods:
+```java
+modifiers type methodName(type parameter1, type parameter2) throws Exception {
+    // method body
+}
+```
+#### Referencing Current Object:
+```java
+this.field // accesses field 'field' of current object
+this.doSomething() // calls method 'doSomething' of current object
+```
+#### Class Fields:
+```java
+modifiers static type identifer; // has value of 'null' until initalised
+
+modifiers static type identifer = value; // has value of 'value'
+```
+#### Class Methods:
+```java
+modifiers static type methodName(type parameter1, type parameter2) throws Exception {
+    // method body
+}
+```
+#### Nested Classes:
+```java
+modifier class OuterClass {
+    // outer class body
+
+    modifier class InnerClass {
+        // inner class body
+    }
+}
+```
+### Objects
+---
+#### Object Creation:
+```java
+ClassName identifier = new ClassName(argument1, argument2);
+```
+#### Accessing Members:
+```java
+object.field // access field 'field' of object 'object'
+object.doSomething() // calls method 'doSomething' of object 'object'
 ```
 
 ## Executing Programs
