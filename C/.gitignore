@@ -1,6 +1,2 @@
 # C gitignore
-a.out
-
-/*
-!/*.c
-!/.*
+*.out
