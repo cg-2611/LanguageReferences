@@ -1,6 +1,6 @@
 public class SystemProperties {
     
-    public SystemProperties() {}
+    private SystemProperties() {}
 
     public static String getOperatingSystemName() {
         return System.getProperty("os.name");

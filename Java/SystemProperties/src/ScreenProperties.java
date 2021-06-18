@@ -5,7 +5,7 @@ public class ScreenProperties {
 
     private static GraphicsDevice device = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
     
-    public ScreenProperties() {}
+    private ScreenProperties() {}
 
     public static int getScreenWidth() {
         return device.getDisplayMode().getWidth();

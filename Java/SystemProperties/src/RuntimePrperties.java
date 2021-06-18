@@ -1,6 +1,6 @@
 public class RuntimePrperties {
 
-    public RuntimePrperties() {}
+    private RuntimePrperties() {}
 
     public static String getRuntimeVersion() {
         return Runtime.version().toString();
