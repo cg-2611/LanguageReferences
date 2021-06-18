@@ -1,6 +1,3 @@
 # Java gitignore
 **/bin
 *.class
-
-**/src
-!*.java
