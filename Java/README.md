@@ -36,6 +36,9 @@
     - [Objects](#objects)
         - [Object Creation](#object-creation)
         - [Accessing Members](#accessing-members)
+- [Error Handling](#error-handling)
+    - [Throwing Exceptions](#throwing-exceptions)
+    - [Handling Exceptions](#handling-exceptions)
 - [Executing Programs](#executing-programs)
     - [Compiling](#compiling)
     - [Running](#running)
@@ -225,13 +228,13 @@ do {
 #### For Classes:
 ```java
 public  // available to all other classes
-no-modifier // available to all classes in current package
+no modifier // available to all classes in current package
 ```
 #### For Class Members:
 ```java
 public // available to all other classes
 protected // available to classes within package or any subclasses
-no-modifier // available to classes within package only
+no modifier // available to classes within package only
 private // available to class only
 ```
 ### Classes
@@ -297,6 +300,28 @@ ClassName identifier = new ClassName(argument1, argument2);
 ```java
 object.field // access field 'field' of object 'object'
 object.doSomething() // calls method 'doSomething' of object 'object'
+```
+
+## Error Handling
+### Throwing Exceptions:
+---
+```java
+throw new Exception(); // throws a new Exception object
+
+public void doSomething() throws Exception1, Exception 2 { // method that throws an Exception
+    // do something
+}
+```
+### Handling Exceptions:
+---
+```java
+try {
+    // do something
+} catch (Exception e) {
+    // catch exceptions and deal with them
+} finally {
+    // executes no matter if there was an exception or not
+}
 ```
 
 ## Executing Programs
