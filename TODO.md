@@ -13,7 +13,7 @@
 - [x] Files
 - [x] Data Structures
 - [x] Date and Time
-- [ ] Enums
+- [x] Enums
 - [ ] Interfaces
 - [ ] Abstract Classes
 - [ ] Exceptions
