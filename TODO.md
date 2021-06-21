@@ -1,6 +1,6 @@
 # TODO
 
-## Contens
+## Contents
 - [Java](#java)
 
 ## Java
@@ -9,15 +9,15 @@
 - [x] System Properties
 - [x] Casting
 - [x] Math
-- [ ] User Input
-- [ ] Files
-- [ ] Data Structures
-- [ ] Date and Time
-- [ ] Exceptions
-- [ ] Javadoc
+- [x] User Input
+- [x] Files
+- [x] Data Structures
+- [x] Date and Time
 - [ ] Enums
 - [ ] Interfaces
 - [ ] Abstract Classes
+- [ ] Exceptions
+- [ ] Javadoc
 - [ ] Threads
 - [ ] Networking
 - [ ] GUI
