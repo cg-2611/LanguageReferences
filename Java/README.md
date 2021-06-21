@@ -4,7 +4,7 @@
 - [Language Basics](#language-basics)
     - [Entry Point](#entry-point)
     - [Comments](#comments)
-    - [Varaibles and Constants](#variables-and-constants)
+    - [Variables and Constants](#variables-and-constants)
         - [Variables](#variables)
         - [Constants](#constants)
     - [Primitive Data Types](#primitive-data-types)
@@ -12,7 +12,7 @@
     - [Operators](#operators)
         - [Unary Operators](#unary-operators)
         - [Arithmetic Operators](#arithmetic-operators)
-        - [Comaprison Operators](#comparison-operators)
+        - [Comparison Operators](#comparison-operators)
         - [Logical Operators](#logical-operators)
         - [Bitwise Operators](#bitwise-operators)
         - [Assignment Operators](#assignment-operators)
@@ -22,8 +22,8 @@
         - [Loop Control](#loop-control)
 - [Classes and Objects](#classes-and-objects)
     - [Access Modifiers](#access-modifiers)
-        - [Class Access Modifers](#for-classes)
-        - [Class Member Acess Modifers](#for-class-members)
+        - [Class Access Modifiers](#for-classes)
+        - [Class Member Access Modifiers](#for-class-members)
     - [Classes](#classes)
         - [Declaring Classes](#declaring-classes)
         - [Constructor](#constructor)
@@ -86,7 +86,7 @@ static final type identifier = value;
 type[] identifier = new type[n];
 
 // declare and initialise array of 3 elements
-type[] identifer = {element 1, element 2, element 3};
+type[] identifier = {element 1, element 2, element 3};
 ```
 ### Primitive Data Types
 ---
@@ -153,14 +153,14 @@ x || y // logical OR
 ~   // binary complement
 <<  // binary left shift
 >>  // binary right shift
->>> // binary shift right zerro fill 
+>>> // binary shift right zero fill 
 ```
 #### Assignment Operators:
 ```java
 =   // simple assignment
 +=  // add and assign
 -=  // subtract and assign
-*=  // multiply and assing
+*=  // multiply and assign
 /=  // divide and assign
 %=  // modulus and assign
 <<= // left shift and assign
@@ -172,7 +172,7 @@ x || y // logical OR
 #### Miscellaneous Operators:
 ```java
 ?:         // conditional/ternary operator
-instanceof // returns if an onject is an instance of a given class
+instanceof // returns if an object is an instance of a given class
 ```
 ### Control Flow Statements
 ---
@@ -253,9 +253,9 @@ modifier ClassName(type parameter1, type parameter2) {
 ```
 #### Instance Fields:
 ```java
-modifiers type identifer; // has value of 'null' until initalised
+modifiers type identifier; // has value of 'null' until initialised
 
-modifiers type identifer = value; // has value of 'value'
+modifiers type identifier = value; // has value of 'value'
 ```
 #### Instance Methods:
 ```java
@@ -270,9 +270,9 @@ this.doSomething() // calls method 'doSomething' of current object
 ```
 #### Class Fields:
 ```java
-modifiers static type identifer; // has value of 'null' until initalised
+modifiers static type identifier; // has value of 'null' until initialised
 
-modifiers static type identifer = value; // has value of 'value'
+modifiers static type identifier = value; // has value of 'value'
 ```
 #### Class Methods:
 ```java
@@ -353,11 +353,12 @@ java -cp ./bin mainpackage.HelloWorld
 - #### Execution Links:
     - `javac` command documentation (for java version 11):
 <https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9>
-    - `java` command documentation (for java verion 11):
+    - `java` command documentation (for java version 11):
 <https://docs.oracle.com/en/java/javase/11/tools/java.html#GUID-3B1CE181-CD30-4178-9602-230B800D4FAE>
 
 - #### General Information Links:
     - <https://docs.oracle.com/javase/tutorial/>
     - <https://www.tutorialspoint.com/java/index.htm>
     - <https://www.w3schools.com/java/default.asp>
+    - <https://www.programiz.com/java-programming>
     - <https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html>
