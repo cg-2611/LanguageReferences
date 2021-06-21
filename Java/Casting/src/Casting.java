@@ -17,10 +17,10 @@ public class Casting {
         // casting float to integer using wrapper objects
         Integer integerFromFloat; 
         integerFromFloat = (int)floatValue.floatValue();
-        System.out.println("Mehtod 1: Float = " + floatValue + " -> Integer = " + integerFromFloat);
+        System.out.println("Method 1: Float = " + floatValue + " -> Integer = " + integerFromFloat);
 
         integerFromFloat = Math.round(floatValue);
-        System.out.println("Mehtod 2: Float = " + floatValue + " -> Integer = " + integerFromFloat);
+        System.out.println("Method 2: Float = " + floatValue + " -> Integer = " + integerFromFloat);
 
         System.out.println();
 
@@ -33,10 +33,10 @@ public class Casting {
         // casting double to integer using wrapper objects
         Integer integerFromDouble; 
         integerFromDouble = (int)doubleValue.doubleValue();
-        System.out.println("Mehtod 1: Double = " + doubleValue + " -> Integer = " + integerFromDouble);
+        System.out.println("Method 1: Double = " + doubleValue + " -> Integer = " + integerFromDouble);
 
         integerFromDouble = (int)Math.round(doubleValue);
-        System.out.println("Mehtod 2: Double = " + doubleValue + " -> Integer = " + integerFromDouble);
+        System.out.println("Method 2: Double = " + doubleValue + " -> Integer = " + integerFromDouble);
         
         System.out.println();
 
