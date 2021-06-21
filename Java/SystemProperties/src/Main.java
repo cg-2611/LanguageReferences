@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Runtime Properties");
         System.out.println("------------------");
-        System.out.println("Runtime version: " + RuntimePrperties.getRuntimeVersion());
-        System.out.println("Number of available CPU cores: " + RuntimePrperties.getNumberofCPUs());
-        System.out.println("Total runtime memory: " + RuntimePrperties.getTotalRuntimeMemory());
-        System.out.println("Maximum runtime memory: " + RuntimePrperties.getMaximumRuntimeMemory());
-        System.out.println("Free runtime memory: " + RuntimePrperties.getFreeRuntimeMemory());
+        System.out.println("Runtime version: " + RuntimeProperties.getRuntimeVersion());
+        System.out.println("Number of available CPU cores: " + RuntimeProperties.getNumberOfCPUs());
+        System.out.println("Total runtime memory: " + RuntimeProperties.getTotalRuntimeMemory());
+        System.out.println("Maximum runtime memory: " + RuntimeProperties.getMaximumRuntimeMemory());
+        System.out.println("Free runtime memory: " + RuntimeProperties.getFreeRuntimeMemory());
         System.out.println();
         
         System.out.println("System Properties");

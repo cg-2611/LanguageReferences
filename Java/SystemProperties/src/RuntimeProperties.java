@@ -1,12 +1,12 @@
-public class RuntimePrperties {
+public class RuntimeProperties {
 
-    private RuntimePrperties() {}
+    private RuntimeProperties() {}
 
     public static String getRuntimeVersion() {
         return Runtime.version().toString();
     }
     
-    public static int getNumberofCPUs() {
+    public static int getNumberOfCPUs() {
         return Runtime.getRuntime().availableProcessors();
     }
 
