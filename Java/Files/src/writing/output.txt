@@ -1,0 +1,6 @@
+This is
+
+	A
+Test stringThis string
+	was
+appended
