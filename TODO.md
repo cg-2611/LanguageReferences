@@ -19,12 +19,12 @@
 - [x] Exceptions
 - [x] Javadoc
 - [x] Threads
+- [x] Lambda Expressions
+- [x] Generics
+- [ ] Serialisation
+- [ ] Overloading and Polymorphism
 - [ ] Networking
 - [ ] GUI
 - [ ] Unit Testing
 - [ ] Maven
 - [ ] Gradle
-- [ ] Overloading and Polymorphism
-- [ ] Generics
-- [ ] Serialisation
-- [ ] Lambda Expressions
