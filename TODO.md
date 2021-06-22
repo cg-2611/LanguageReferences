@@ -18,7 +18,7 @@
 - [x] Abstract Classes
 - [x] Exceptions
 - [x] Javadoc
-- [ ] Threads
+- [x] Threads
 - [ ] Networking
 - [ ] GUI
 - [ ] Unit Testing
