@@ -14,10 +14,10 @@
 - [x] Data Structures
 - [x] Date and Time
 - [x] Enums
-- [ ] Interfaces
-- [ ] Abstract Classes
-- [ ] Exceptions
-- [ ] Javadoc
+- [x] Interfaces
+- [x] Abstract Classes
+- [x] Exceptions
+- [x] Javadoc
 - [ ] Threads
 - [ ] Networking
 - [ ] GUI

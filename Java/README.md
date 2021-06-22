@@ -2,64 +2,68 @@
 
 ## Contents
 - [Language Basics](#language-basics)
-    - [Entry Point](#entry-point)
-    - [Comments](#comments)
-    - [Variables and Constants](#variables-and-constants)
-        - [Variables](#variables)
-        - [Constants](#constants)
-    - [Primitive Data Types](#primitive-data-types)
-    - [Casting Primitive Types](#casting-primitive-types)
-    - [Operators](#operators)
-        - [Unary Operators](#unary-operators)
-        - [Arithmetic Operators](#arithmetic-operators)
-        - [Comparison Operators](#comparison-operators)
-        - [Logical Operators](#logical-operators)
-        - [Bitwise Operators](#bitwise-operators)
-        - [Assignment Operators](#assignment-operators)
-        - [Miscellaneous Operators](#miscellaneous-operators)
-    - [Control Flow Statements](#control-flow-statements)
-        - [Decision Making](#decision-making)
-        - [Loop Control](#loop-control)
+	- [Entry Point](#entry-point)
+	- [Comments](#comments)
+	- [Variables and Constants](#variables-and-constants)
+		- [Variables](#variables)
+		- [Constants](#constants)
+	- [Primitive Data Types](#primitive-data-types)
+	- [Casting Primitive Types](#casting-primitive-types)
+	- [Operators](#operators)
+		- [Unary Operators](#unary-operators)
+		- [Arithmetic Operators](#arithmetic-operators)
+		- [Comparison Operators](#comparison-operators)
+		- [Logical Operators](#logical-operators)
+		- [Bitwise Operators](#bitwise-operators)
+		- [Assignment Operators](#assignment-operators)
+		- [Miscellaneous Operators](#miscellaneous-operators)
+	- [Control Flow Statements](#control-flow-statements)
+		- [Decision Making](#decision-making)
+		- [Loop Control](#loop-control)
 - [Classes and Objects](#classes-and-objects)
-    - [Access Modifiers](#access-modifiers)
-        - [Class Access Modifiers](#for-classes)
-        - [Class Member Access Modifiers](#for-class-members)
-    - [Classes](#classes)
-        - [Declaring Classes](#declaring-classes)
-        - [Constructor](#constructor)
-        - [Instance Fields](#instance-fields)
-        - [Instance Methods](#instance-methods)
-        - [Referencing Current Object](#referencing-current-object)
-        - [Class Fields](#class-fields)
-        - [Class Methods](#class-methods)
-        - [Nested Classes](#nested-classes)
-    - [Objects](#objects)
-        - [Object Creation](#object-creation)
-        - [Accessing Members](#accessing-members)
-    - [Interfaces](#interfaces)
-        - [Declaring Interfaces](#declaring-interfaces)
-        - [Implementing Interfaces](#implementing-interfaces)
-        - [Extending Interfaces](#extending-interfaces)
-        - [Default Methods](#default-methods)
-    - [Abstract Classes](#abstract-classes)
-        - [Declaring Abstract Classes](#declaring-abstract-classes)
-        - [Using Abstract Classes](#using-abstract-classes)
+	- [Access Modifiers](#access-modifiers)
+		- [Class Access Modifiers](#for-classes)
+		- [Class Member Access Modifiers](#for-class-members)
+	- [Classes](#classes)
+		- [Declaring Classes](#declaring-classes)
+		- [Constructor](#constructor)
+		- [Instance Fields](#instance-fields)
+		- [Instance Methods](#instance-methods)
+		- [Referencing Current Object](#referencing-current-object)
+		- [Class Fields](#class-fields)
+		- [Class Methods](#class-methods)
+		- [Nested Classes](#nested-classes)
+	- [Objects](#objects)
+		- [Object Creation](#object-creation)
+		- [Accessing Members](#accessing-members)
+	- [Interfaces](#interfaces)
+		- [Declaring Interfaces](#declaring-interfaces)
+		- [Implementing Interfaces](#implementing-interfaces)
+		- [Extending Interfaces](#extending-interfaces)
+		- [Default Methods](#default-methods)
+	- [Abstract Classes](#abstract-classes)
+		- [Declaring Abstract Classes](#declaring-abstract-classes)
+		- [Using Abstract Classes](#using-abstract-classes)
 - [Error Handling](#error-handling)
-    - [Throwing Exceptions](#throwing-exceptions)
-    - [Handling Exceptions](#handling-exceptions)
+	- [Throwing Exceptions](#throwing-exceptions)
+	- [Handling Exceptions](#handling-exceptions)
 - [Executing Programs](#executing-programs)
-    - [Compiling](#compiling)
-    - [Running](#running)
+	- [Compiling](#compiling)
+	- [Running](#running)
+- [Javadoc](#javadoc)
+	- [Writing](#writing)
+	- [Generating](#generating)
 - [Useful Links](#useful-links)
-    - [Execution Links](#execution-links)
-    - [General Information Links](#general-information-links)
+	- [Execution Links](#execution-links)
+	- [Javadoc Links](#javadoc-links)
+	- [General Information Links](#general-information-links)
 
 ## Language Basics
 ### Entry Point
 ---
 ```java
 public static void main(String[] args) {
-    // do something
+	// do something
 }
 ```
 ### Comments
@@ -188,30 +192,30 @@ instanceof // returns if an object is an instance of a given class
 ```java
 // if statement
 if (condition) {
-    // do something
+	// do something
 } else if (another condition) {
-    // do something else
+	// do something else
 } else {
-    // do something if no conditions met
+	// do something if no conditions met
 }
 
 // switch statement (breaks optional)
 switch (expression) {
-    case value 1:
-        // do something and fall through
-    case value 2: 
-        // do something else
-        break;
-    default:
-        // do something if no cases matched
-        break;
+	case value 1:
+		// do something and fall through
+	case value 2: 
+		// do something else
+		break;
+	default:
+		// do something if no cases matched
+		break;
 }
 ```
 #### Loop Control:
 ```java
 // for loop
 for (initialisation; condition; update) {
-    // do something
+	// do something
 }
 
 // for-each loop
@@ -221,12 +225,12 @@ for (type object : array) {
 
 // while loop
 while (condition) {
-    // do something
+	// do something
 }
 
 // do-while loop
 do {
-    // do something
+	// do something
 } while (condition);
 ```
 
@@ -250,18 +254,18 @@ private // available to class only
 #### Declaring Classes:
 ```java
 public class ClassName extends SuperClass {
-    // class body
+	// class body
 
-    @Override
-    modifier type superClassMethod(type parameter 1) {
-        // do something
-    }
+	@Override
+	modifier type superClassMethod(type parameter 1) {
+		// do something
+	}
 }
 ```
 #### Constructor:
 ```java
 modifier ClassName(type parameter1, type parameter2) {
-    // do something
+	// do something
 }
 ```
 #### Instance Fields:
@@ -273,7 +277,7 @@ modifiers type identifier = value; // has value of 'value'
 #### Instance Methods:
 ```java
 modifiers type methodName(type parameter1, type parameter2) throws Exception {
-    // method body
+	// method body
 }
 ```
 #### Referencing Current Object:
@@ -290,17 +294,17 @@ modifiers static type identifier = value; // has value of 'value'
 #### Class Methods:
 ```java
 modifiers static type methodName(type parameter1, type parameter2) throws Exception {
-    // method body
+	// method body
 }
 ```
 #### Nested Classes:
 ```java
 modifier class OuterClass {
-    // outer class body
+	// outer class body
 
-    modifier class InnerClass {
-        // inner class body
-    }
+	modifier class InnerClass {
+		// inner class body
+	}
 }
 ```
 ### Objects
@@ -319,43 +323,43 @@ object.doSomething() // calls method 'doSomething' of object 'object'
 #### Declaring Interfaces:
 ```java
 public interface InterfaceName {
-    // declare abstract methods
-    modifiers type abstractMethod1();
-    modifiers type abstractMethod2(type parameter1, type parameter2);
+	// declare abstract methods
+	modifiers type abstractMethod1();
+	modifiers type abstractMethod2(type parameter1, type parameter2);
 }
 ```
 #### Implementing Interfaces:
 ```java
 public class ClassName implements InterfaceOne, InterfaceTwo {
-    // class body
+	// class body
 
-    modifiers type interfaceOneMethod(type parameter1) {
-        // method body
-    }
+	modifiers type interfaceOneMethod(type parameter1) {
+		// method body
+	}
 
-    modifiers type interfaceTwoMethod(type parameter2) {
+	modifiers type interfaceTwoMethod(type parameter2) {
 
-    }
+	}
 }
 ```
 #### Extending Interfaces:
 ```java
 public interface InterfaceName extends SuperInterfaceOne, SuperInterfaceTwo {
-    // interface body
+	// interface body
 }
 ```
 #### Default Methods:
 ```java
 public interface InterfaceName {
-    // interface body
+	// interface body
 
-    default type defaultInterfaceMethodOne(type parameter1, type parameter2) {
-        // method body
-    }
+	default type defaultInterfaceMethodOne(type parameter1, type parameter2) {
+		// method body
+	}
 
-    default type defaultInterfaceMethodTwo() {
-        // method body
-    }
+	default type defaultInterfaceMethodTwo() {
+		// method body
+	}
 }
 ```
 ### Abstract Classes:
@@ -364,38 +368,38 @@ public interface InterfaceName {
 ```java
 public abstract class AbstractClassName {
 
-    // abstract classes cannot be instantiated, but the constructor
-    // can be called by subclasses
-    public AbstractClassName() {
-        // constructor body
-    }
+	// abstract classes cannot be instantiated, but the constructor
+	// can be called by subclasses
+	public AbstractClassName() {
+		// constructor body
+	}
 
-    modifiers abstract type methodOne(type parameter1);
+	modifiers abstract type methodOne(type parameter1);
 
-    modifiers type methodTwo() {
-        // method body
-    }
+	modifiers type methodTwo() {
+		// method body
+	}
 
 }
 ```
 #### Using Abstract Classes:
 ```java
 modifiers class ClassName extends AbstractClassName {
-    modifiers ClassName() {
-        super() // calls constructor of AbstractClassName
+	modifiers ClassName() {
+		super() // calls constructor of AbstractClassName
 
-        //constructor body
-    }
+		//constructor body
+	}
 
-    @Override
-    modifiers type methodOne(type parameter1) {
-        // method body
-    }
+	@Override
+	modifiers type methodOne(type parameter1) {
+		// method body
+	}
 
-    @Override
-    modifiers type methodTwo() {
-        // new method body
-    }
+	@Override
+	modifiers type methodTwo() {
+		// new method body
+	}
 }
 ```
 
@@ -407,18 +411,18 @@ throw new Exception(); // throws a new Exception object
 
 // method that throws Exception1 and Exception2 that must be caught
 public void doSomething() throws Exception1, Exception2 {
-    // do something
+	// do something
 }
 ```
 ### Handling Exceptions:
 ---
 ```java
 try {
-    // do something
+	// do something
 } catch (Exception e) {
-    // catch exceptions and deal with them
+	// catch exceptions and deal with them
 } finally {
-    // executes no matter if there was an exception or not
+	// executes no matter if there was an exception or not
 }
 ```
 
@@ -446,17 +450,44 @@ e.g. if the command is being run from the project root directory where the entry
 java -cp ./bin mainpackage.HelloWorld
 ```
 
+## Javadoc
+### Writing
+---
+```java
+/**
+ * This is a javadoc comment.
+ * Javadoc comments are used to generate a html page that
+ * contains documentation about your program.
+ * 
+ * Tags such as {@link} (for linking to another class) and 
+ * @param (for providing documentation about method parameters)
+ * are supported.
+ * /
+```
+### Generating
+---
+To generate the javadoc html from the javadoc comments in the source code, the `javadoc` command can be used, run:
+```
+javadoc -d path/to/output/dir path/to/src/**/*.java
+```
+e.g. if the command is being run from the project root directory, and the output files are to be placed in directory in  called doc, run:
+```
+javadoc -d ./doc ./src/**/*.java
+```
+
 ## Useful Links
 - #### Execution Links:
-    - `javac` command documentation (for java version 11):
-<https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9>
-    - `java` command documentation (for java version 11):
-<https://docs.oracle.com/en/java/javase/11/tools/java.html#GUID-3B1CE181-CD30-4178-9602-230B800D4FAE>
+	- `javac` command documentation (for jdk version 11): <https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9>
+	- `java` command documentation (for jdk version 11): <https://docs.oracle.com/en/java/javase/11/tools/java.html#GUID-3B1CE181-CD30-4178-9602-230B800D4FAE>
+
+- #### Javadoc Links:
+	- `javadoc` command documentation (for jdk version 11): <https://docs.oracle.com/en/java/javase/11/tools/javadoc.html>
+	- Writing comments: <https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html>
 
 - #### General Information Links:
-    - <https://docs.oracle.com/javase/tutorial/>
-    - <https://www.tutorialspoint.com/java/index.htm>
-    - <https://www.w3schools.com/java/default.asp>
-    - <https://www.programiz.com/java-programming>
-    - <https://www.javatpoint.com/java-tutorial>
-    - <https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html>
+	- <https://docs.oracle.com/javase/tutorial/>
+	- <https://www.tutorialspoint.com/java/index.htm>
+	- <https://www.w3schools.com/java/default.asp>
+	- <https://www.programiz.com/java-programming>
+	- <https://www.javatpoint.com/java-tutorial>
+	- <https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html>
