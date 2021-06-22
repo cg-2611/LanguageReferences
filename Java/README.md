@@ -36,6 +36,11 @@
     - [Objects](#objects)
         - [Object Creation](#object-creation)
         - [Accessing Members](#accessing-members)
+    - [Interfaces](#interfaces)
+        - [Declaring Interfaces](#declaring-interfaces)
+        - [Implementing Interfaces](#implementing-interfaces)
+        - [Extending Interfaces](#extending-interfaces)
+        - [Default Methods](#default-methods)
 - [Error Handling](#error-handling)
     - [Throwing Exceptions](#throwing-exceptions)
     - [Handling Exceptions](#handling-exceptions)
@@ -241,7 +246,7 @@ private // available to class only
 ---
 #### Declaring Classes:
 ```java
-public class ClassName extends SuperClass implements InterfaceOne, InterfaceTwo {
+public class ClassName extends SuperClass {
     // class body
 }
 ```
@@ -322,6 +327,50 @@ try {
     // catch exceptions and deal with them
 } finally {
     // executes no matter if there was an exception or not
+}
+```
+### Interfaces
+---
+#### Declaring Interfaces:
+```java
+public interface InterfaceName {
+    // declare abstract methods
+    modifiers type abstractMethod1();
+    modifiers type abstractMethod2(type parameter1, type parameter2);
+}
+```
+#### Implementing Interfaces:
+```java
+public class ClassName implements InterfaceOne, InterfaceTwo {
+    // class body
+
+    modifiers type interfaceOneMethod(type parameter1) {
+        // method body
+    }
+
+    modifiers type interfaceTwoMethod(type parameter2) {
+
+    }
+}
+```
+#### Extending Interfaces:
+```java
+public interface InterfaceName extends SuperInterfaceOne, SuperInterfaceTwo {
+    // interface body
+}
+```
+#### Default Methods:
+```java
+public interface InterfaceName {
+    // interface body
+
+    default type defaultInterfaceMethodOne(type parameter1, type parameter2) {
+        // method body
+    }
+
+    default type defaultInterfaceMethodTwo() {
+        // method body
+    }
 }
 ```
 
