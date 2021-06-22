@@ -490,4 +490,5 @@ javadoc -d ./doc ./src/**/*.java
 	- <https://www.w3schools.com/java/default.asp>
 	- <https://www.programiz.com/java-programming>
 	- <https://www.javatpoint.com/java-tutorial>
+	- <https://www.baeldung.com/start-here>
 	- <https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html>
