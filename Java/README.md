@@ -41,6 +41,9 @@
         - [Implementing Interfaces](#implementing-interfaces)
         - [Extending Interfaces](#extending-interfaces)
         - [Default Methods](#default-methods)
+    - [Abstract Classes](#abstract-classes)
+        - [Declaring Abstract Classes](#declaring-abstract-classes)
+        - [Using Abstract Classes](#using-abstract-classes)
 - [Error Handling](#error-handling)
     - [Throwing Exceptions](#throwing-exceptions)
     - [Handling Exceptions](#handling-exceptions)
@@ -248,6 +251,11 @@ private // available to class only
 ```java
 public class ClassName extends SuperClass {
     // class body
+
+    @Override
+    modifier type superClassMethod(type parameter 1) {
+        // do something
+    }
 }
 ```
 #### Constructor:
@@ -306,29 +314,6 @@ ClassName identifier = new ClassName(argument1, argument2);
 object.field // access field 'field' of object 'object'
 object.doSomething() // calls method 'doSomething' of object 'object'
 ```
-
-## Error Handling
-### Throwing Exceptions:
----
-```java
-throw new Exception(); // throws a new Exception object
-
-// method that throws Exception1 and Exception2 that must be caught
-public void doSomething() throws Exception1, Exception2 {
-    // do something
-}
-```
-### Handling Exceptions:
----
-```java
-try {
-    // do something
-} catch (Exception e) {
-    // catch exceptions and deal with them
-} finally {
-    // executes no matter if there was an exception or not
-}
-```
 ### Interfaces
 ---
 #### Declaring Interfaces:
@@ -371,6 +356,69 @@ public interface InterfaceName {
     default type defaultInterfaceMethodTwo() {
         // method body
     }
+}
+```
+### Abstract Classes:
+---
+#### Declaring Abstract Classes:
+```java
+public abstract class AbstractClassName {
+
+    // abstract classes cannot be instantiated, but the constructor
+    // can be called by subclasses
+    public AbstractClassName() {
+        // constructor body
+    }
+
+    modifiers abstract type methodOne(type parameter1);
+
+    modifiers type methodTwo() {
+        // method body
+    }
+
+}
+```
+#### Using Abstract Classes:
+```java
+modifiers class ClassName extends AbstractClassName {
+    modifiers ClassName() {
+        super() // calls constructor of AbstractClassName
+
+        //constructor body
+    }
+
+    @Override
+    modifiers type methodOne(type parameter1) {
+        // method body
+    }
+
+    @Override
+    modifiers type methodTwo() {
+        // new method body
+    }
+}
+```
+
+## Error Handling
+### Throwing Exceptions:
+---
+```java
+throw new Exception(); // throws a new Exception object
+
+// method that throws Exception1 and Exception2 that must be caught
+public void doSomething() throws Exception1, Exception2 {
+    // do something
+}
+```
+### Handling Exceptions:
+---
+```java
+try {
+    // do something
+} catch (Exception e) {
+    // catch exceptions and deal with them
+} finally {
+    // executes no matter if there was an exception or not
 }
 ```
 
