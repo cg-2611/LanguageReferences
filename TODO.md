@@ -21,7 +21,7 @@
 - [x] Threads
 - [x] Lambda Expressions
 - [x] Generics
-- [ ] Serialisation
+- [x] Serialisation
 - [ ] Overloading and Polymorphism
 - [ ] Networking
 - [ ] GUI
