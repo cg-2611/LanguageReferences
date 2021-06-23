@@ -56,7 +56,7 @@ public class SerializationExample {
     }
 
     public static void main(String[] args) {
-        File outputFile = new File("./src/object.bin");
+        File outputFile = new File("./src/serialized_object.bin");
 
         SerializableClass serializableObject = new SerializableClass(3, "string", 5, "transient string");
 
@@ -69,5 +69,5 @@ public class SerializationExample {
 
         System.out.println("\nAfter Serialization: ");
         printFields(objectRead);
-    }    
+    }
 }

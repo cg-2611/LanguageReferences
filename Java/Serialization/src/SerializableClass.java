@@ -34,5 +34,5 @@ public class SerializableClass implements Serializable {
     public String getTransientString() {
         return transientString;
     }
-
+    
 }
