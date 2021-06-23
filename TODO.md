@@ -22,9 +22,10 @@
 - [x] Lambda Expressions
 - [x] Generics
 - [x] Serialisation
-- [ ] Overloading and Polymorphism
+- [x] Overloading 
+- [x] Polymorphism
 - [ ] Networking
-- [ ] GUI
-- [ ] Unit Testing
 - [ ] Maven
 - [ ] Gradle
+- [ ] GUI
+- [ ] Unit Testing
