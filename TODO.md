@@ -24,7 +24,7 @@
 - [x] Serialisation
 - [x] Overloading 
 - [x] Polymorphism
-- [ ] Networking
+- [x] Networking
 - [ ] Maven
 - [ ] Gradle
 - [ ] GUI
