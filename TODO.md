@@ -32,6 +32,6 @@
 - [ ] GUI
     - [x] Swing
     - [ ] JavaFX
-- [ ] Maven
+- [x] Maven
 - [ ] Gradle
 - [ ] Unit Testing
