@@ -145,7 +145,7 @@ mvn exec:java
 Using the `exec` goal of the `exec` command, both VM and command line arguments can be passed.
 Again there are 2 options for doing this, either run:
 ```
-    mvn exec:exec -Dexec.executable="java" -Dexec.args="-XvmArg1 -XvmArg2 -jar ./target/artifactId-version.jar"
+    mvn exec:exec -Dexec.executable="java" -Dexec.args="-XvmArg1 -XvmArg2 -jar ./target/artifactId-version.jar arg1 arg2"
 ```
 or the arguments can be supplied in the plugin configuration in the `pom.xml` file:
 ```xml
@@ -163,9 +163,12 @@ or the arguments can be supplied in the plugin configuration in the `pom.xml` fi
     <configuration>
         <executable>java</executable>
         <arguments>
-        <argument>-XstartOnFirstThread</argument>
+        <argument>-XvmArg1</argument>
+        <argument>-XvmArg2</argument>
         <argument>-jar</argument>
         <argument>./target/${project.artifactId}-${project.version}.jar</argument>
+        <argument>arg1</argument>
+        <argument>arg2</argument>
         </arguments>
     </configuration>
 </plugin>
