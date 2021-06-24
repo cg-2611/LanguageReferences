@@ -1,3 +1,9 @@
 # Java gitignore
-**/bin
+.classpath
+.project
+
 *.class
+
+**/bin
+
+**/target

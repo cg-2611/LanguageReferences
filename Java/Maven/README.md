@@ -57,12 +57,28 @@ java -cp ./target/classes mainpackage.MainClass
 
 To run a packaged maven project, from the root directory of the project, run:
 ```
-java -jar ./target/artifactId-specifiedVersion.jar mainpackage.MainClass
+java -jar ./target/artifactId-specifiedVersion.jar
 ```
-e.g. for a maven project with an artifactId of maven-project, a version of 1.0 and a main class located in package `main` called `App.java`, run:
+e.g. for a maven project with an artifactId of maven-project and a version of 1.0, run:
 ```
-java -jar ./target/maven-project-1.0.jar main.App
+java -jar ./target/maven-project-1.0.jar
 ```
+> Note: the maven-jar-plugin must be configured to put the main class in the manifest file to execute a jar this way:
+> ```xml
+> <plugin>
+>     <groupId>org.apache.maven.plugins</groupId>
+>     <artifactId>maven-jar-plugin</artifactId>
+>     <version>3.2.0</version>
+>     <configuration>
+>         <archive>
+>             <manifest>
+>                 <mainClass>${project.groupId}.App</mainClass>
+>             </manifest>
+>         </archive>
+>     </configuration>
+> </plugin>
+> ```
+
 #### Using `exec` Plugin:
 To run a compiled maven project using the `mvn exec` plugin, either run:
 ```
