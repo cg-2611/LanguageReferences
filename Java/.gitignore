@@ -1,6 +1,7 @@
 # Java gitignore
 .classpath
 .project
+.settings/
 
 *.class
 
