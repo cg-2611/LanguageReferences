@@ -12,6 +12,10 @@
 - [x] User Input
 - [x] Files
 - [x] Data Structures
+    - [x] ArrayList
+    - [x] LinkedList
+    - [x] Hashtable
+    - [x] Stack
 - [x] Date and Time
 - [x] Enums
 - [x] Interfaces
@@ -25,7 +29,9 @@
 - [x] Overloading 
 - [x] Polymorphism
 - [x] Networking
+- [ ] GUI
+    - [x] Swing
+    - [ ] JavaFX
 - [ ] Maven
 - [ ] Gradle
-- [ ] GUI
 - [ ] Unit Testing
