@@ -8,6 +8,7 @@
     - [Executing Projects](#executing-projects)
         - [Using `java` Command](#using-java-command)
         - [Using `exec` Plugin](#using-exec-plugin)
+        - [Arguments](#arguments)
 - [Plugins](#plugins)
 - [Dependencies](#dependencies)
 - [Useful Links](#useful-links)
@@ -88,6 +89,92 @@ or if the main class of the project is specified in the plugin configuration in 
 ```
 mvn exec:java
 ```
+The `pom.xml` file plugin configuration:
+```xml
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>3.0.0</version>
+    <executions>
+        <execution>
+        <goals>
+            <goal>java</goal>
+        </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <mainClass>${project.groupId}.MainClass</mainClass>
+    </configuration>
+</plugin>
+```
+#### Arguments:
+When running a maven project using the `java` command, command line and VM arguments can be passed as normal to the program.
+
+When running a maven project using the `exec` plugin, for the `java` goal there are 2 options, either run:
+```
+mvn exec:java -Dexec.mainClass="mainpackage.MainClass" -Dexec.args="argument1 argument2"
+```
+or the arguments can be supplied in the plugin configuration in the `pom.xml` file:
+```xml
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>3.0.0</version>
+    <executions>
+        <execution>
+        <goals>
+            <goal>java</goal>
+        </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <mainClass>${project.groupId}.MainClass</mainClass>
+        <arguments>
+            <argument>argument1</argument>
+            <argument>argument2</argument>
+          </arguments>
+    </configuration>
+</plugin>
+```
+Using this method, when executing the project, run:
+```
+mvn exec:java
+```
+> Note: VM arguments cannot be passed using the `java` goal of the `exec` plugin.
+
+Using the `exec` goal of the `exec` command, both VM and command line arguments can be passed.
+Again there are 2 options for doing this, either run:
+```
+    mvn exec:exec -Dexec.executable="java" -Dexec.args="-XvmArg1 -XvmArg2 -jar ./target/artifactId-version.jar"
+```
+or the arguments can be supplied in the plugin configuration in the `pom.xml` file:
+```xml
+ <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>3.0.0</version>
+    <executions>
+        <execution>
+        <goals>
+            <goal>exec</goal>
+        </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <executable>java</executable>
+        <arguments>
+        <argument>-XstartOnFirstThread</argument>
+        <argument>-jar</argument>
+        <argument>./target/${project.artifactId}-${project.version}.jar</argument>
+        </arguments>
+    </configuration>
+</plugin>
+```
+Using this method, when executing the project, run:
+```
+mvn exec:exec
+```
+> Note: the project must be packaged into a `jar` (or UBER-jar where applicable) before running using this method.
 
 ## Plugins
 Plugins allow for different tasks to be run during the development and build lifecycle of a maven project.

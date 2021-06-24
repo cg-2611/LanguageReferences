@@ -15,13 +15,6 @@ import static org.lwjgl.system.MemoryUtil.*;
 
 public class HelloWorld {
 
-	// mvn clean package
-    // java -XstartOnFirstThread -jar ./target/MavenLWJGLExample-/10.jar 
-    // or
-    // mvn exec:exec -Dexec.executable="java" -Dexec.args="-XstartOnFirstThread -jar ./target/MavenLWJGLExample-/10.jar"
-	// or with plugin config run:
-	// mvn exec:exec
-
 	// source: https://www.lwjgl.org/guide
 
 	// The window handle
