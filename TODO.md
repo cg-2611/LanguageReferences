@@ -33,5 +33,5 @@
     - [x] Swing
     - [ ] JavaFX
 - [x] Maven
-- [ ] Gradle
+- [x] Gradle
 - [ ] Unit Testing
