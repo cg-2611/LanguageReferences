@@ -57,7 +57,7 @@ This will create a jar file of the project in the `.target` directory.
 #### Using `java` Command:
 To run a compiled maven project, from the root directory of the project, run:
 ```
-java -cp ./target/classes mainpackage.MainClass
+java -cp ./target/classes MainClass
 ```
 
 To run a packaged maven project, from the root directory of the project, run:
@@ -87,7 +87,7 @@ java -jar ./target/maven-project-1.0.jar
 #### Using `exec` Plugin:
 To run a compiled maven project using the `mvn exec` plugin, either run:
 ```
-mvn exec:java -Dexec.mainClass="mainpackage.MainClass"
+mvn exec:java -Dexec.mainClass="MainClass"
 ```
 or if the main class of the project is specified in the plugin configuration in the `pom.xml` file, run:
 ```
@@ -116,7 +116,7 @@ When running a maven project using the `java` command, command line and VM argum
 
 When running a maven project using the `exec` plugin, for the `java` goal there are 2 options, either run:
 ```
-mvn exec:java -Dexec.mainClass="mainpackage.MainClass" -Dexec.args="argument1 argument2"
+mvn exec:java -Dexec.mainClass="MainClass" -Dexec.args="argument1 argument2"
 ```
 or the arguments can be supplied in the plugin configuration in the `pom.xml` file:
 ```xml
@@ -258,13 +258,13 @@ Once the `jar` has been installed in the local repository, it can then be used a
 #### Lib Directory Method:
 Another way of using local `jar` files in a maven project, is to create a local repository inside the project and put the `jar` files in there.
 
-To do this, first, in the project root, create a directory where the local `jar` files will go, e.g. `./lib`. 
+To do this, first, in the project root, create a directory where the local `jar` files will go, e.g. `./libs`. 
 Next, in the `pom.xml` file add:
 ```xml
 <repositories>
     <repository>
         <id>local-libraries</id>
-        <url>file://${project.basedir}/lib</url>
+        <url>file://${project.basedir}/libs</url>
     </repository>
 </repositories>
 ```
@@ -276,19 +276,19 @@ Next, add the dependency to the `pom.xml` file:
     <version>jarVersion</version>
 </dependency>
 ```
-Finally, place the `jar` file in the location `lib/jar/group/id/jarArtifactId/jarVersion` and add the file `jarArtifactId-jarVerion.pom` with the contents:
+Finally, place the `jar` file in the location `lib/jar/group/id/jarArtifactId/jarVersion` and add the file `jarArtifactId-jarVersion.pom` with the contents:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
 
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>jar.group.id</groupId>
-  <artifactId>jarArtifactId</artifactId>
-  <version>jarVersion</version>
+    <groupId>jar.group.id</groupId>
+    <artifactId>jarArtifactId</artifactId>
+    <version>jarVersion</version>
 </project>
 ```
-> Note: The `jar` file must have the name `jarArtifactId-jarVerion.jar`.
+> Note: The `jar` file must have the name `jarArtifactId-jarVersion.jar`.
 
 ## Useful Links
 - #### Documentation Links:
