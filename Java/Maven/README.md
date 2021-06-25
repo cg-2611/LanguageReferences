@@ -288,6 +288,7 @@ Finally, place the `jar` file in the location `lib/jar/group/id/jarArtifactId/ja
   <version>jarVersion</version>
 </project>
 ```
+> Note: The `jar` file must have the name `jarArtifactId-jarVerion.jar`.
 
 ## Useful Links
 - #### Documentation Links:
