@@ -17,7 +17,7 @@
     - [Dependency Links](#dependency-links)
     - [General Information Links](#general-information-links)
 
-## Project Management
+## Project Management
 ### Creating Projects
 ---
 To create a gradle project, the project directory must first be created.
