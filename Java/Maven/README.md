@@ -17,8 +17,8 @@
         - [Lib Directory Method](#lib-directory-method)
 - [Useful Links](#useful-links)
     - [Documentation Links](#documentation-links)
-    - [Repository Links](#repository-links)
     - [Plugin Links](#plugin-links)
+    - [Dependency Links](#dependency-links)
     - [General Information Links](#general-information-links)
 
 ## Project Management
@@ -297,7 +297,7 @@ Finally, place the `jar` file in the location `lib/jar/group/id/jarArtifactId/ja
     - <https://maven.apache.org/plugins/>
     - <https://repo.maven.apache.org/maven2/org/apache/maven/plugins/>
     - MojoHaus: <https://www.mojohaus.org/plugins.html>
-- #### Repository Links:
+- #### Dependency Links:
     - <https://maven.apache.org/guides/introduction/introduction-to-repositories.html>
     - Maven Central: <https://mvnrepository.com/repos/central>
     - Google: <https://maven.google.com/web/index.html>
