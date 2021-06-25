@@ -1,11 +1,14 @@
 # Java gitignore
 **/.classpath
 **/.project
-**/.settings
+**/.settings/
 
 *.class
 
-**/bin
+**/bin/
 
-**/target
+**/target/
 **/dependency-reduced-pom.xml
+
+.gradle
+**/build/
