@@ -1,0 +1,30 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    implementation fileTree('libs') { include '*.jar' }
+}
+
+application {
+    mainClass = 'example.App'
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'example.App'
+        )
+    }
+}
+
+java {
+  toolchain {
+    languageVersion.set(JavaLanguageVersion.of(11))
+  }
+}
