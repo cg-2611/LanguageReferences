@@ -1,5 +1,5 @@
 plugins {
-    id 'application'
+	id 'application'
 }
 
 project.ext.lwjglVersion = "3.2.3"
@@ -7,13 +7,13 @@ project.ext.jomlVersion = "1.10.1"
 project.ext.lwjglNatives = "natives-macos"
 
 repositories {
-    mavenCentral()
+	mavenCentral()
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.13.2'
+	testImplementation 'junit:junit:4.13.2'
 
-    implementation platform("org.lwjgl:lwjgl-bom:$lwjglVersion")
+	implementation platform("org.lwjgl:lwjgl-bom:$lwjglVersion")
 
 	implementation "org.lwjgl:lwjgl"
 	implementation "org.lwjgl:lwjgl-assimp"
@@ -31,20 +31,20 @@ dependencies {
 }
 
 application {
-    mainClass = 'example.HelloWorld'
-    applicationDefaultJvmArgs = ['-XstartOnFirstThread']
+	mainClass = 'example.HelloWorld'
+	applicationDefaultJvmArgs = ['-XstartOnFirstThread']
 }
 
 jar {
-    manifest {
-        attributes(
-            'Main-Class': 'example.HelloWorld'
-        )
-    }
+	manifest {
+		attributes(
+			'Main-Class': 'example.HelloWorld'
+		)
+	}
 }
 
 java {
   toolchain {
-    languageVersion.set(JavaLanguageVersion.of(11))
+	languageVersion.set(JavaLanguageVersion.of(11))
   }
 }

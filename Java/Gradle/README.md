@@ -2,20 +2,20 @@
 
 ## Contents
 - [Project Management](#project-management)
-    - [Creating Projects](#creating-projects)
-    - [Compiling Projects](#compiling-projects)
-    - [Building Projects](#building-projects)
-    - [Executing Projects](#executing-projects)
-        - [Using `java` Command](#using-java-command)
-        - [Using `run` Task](#using-run-task)
-        - [Arguments](#arguments)
+	- [Creating Projects](#creating-projects)
+	- [Compiling Projects](#compiling-projects)
+	- [Building Projects](#building-projects)
+	- [Executing Projects](#executing-projects)
+		- [Using `java` Command](#using-java-command)
+		- [Using `run` Task](#using-run-task)
+		- [Arguments](#arguments)
 - [Dependencies](#dependencies)
-    - [Central Repository Dependencies](#central-repository-dependencies)
-    - [Local Jar Dependencies](#local-jar-dependencies)
+	- [Central Repository Dependencies](#central-repository-dependencies)
+	- [Local Jar Dependencies](#local-jar-dependencies)
 - [Useful Links](#useful-links)
-    - [Documentation Links](#documentation-links)
-    - [Dependency Links](#dependency-links)
-    - [General Information Links](#general-information-links)
+	- [Documentation Links](#documentation-links)
+	- [Dependency Links](#dependency-links)
+	- [General Information Links](#general-information-links)
 
 ## Project Management
 ### Creating Projects
@@ -26,7 +26,7 @@ Once created, navigate to this directory and run:
 gradle init
 ```
 This will launch the gradle `init` task that is used to generate a project.
-After completing the project initialization, a gradle project and all the 
+After completing the project initialization, a gradle project and all the
 required files will be created in the project directory.
 ### Compiling Projects
 ---
@@ -35,8 +35,8 @@ To compile a java gradle project, from the project root directory, run:
 gradle clean compileJava
 ```
 This will compile all source code into the `./build/classes/` directory.
-> Note: using `clean` is optional and when used, it will clean the project 
-output directory before compilation, by removing the `./build` directory 
+> Note: using `clean` is optional and when used, it will clean the project
+output directory before compilation, by removing the `./build` directory
 completely and then generating a new one.
 ### Building Projects
 ---
@@ -49,12 +49,12 @@ the tests and just package the project, run:
 ```
 gradle clean assemble
 ```
-> Note: using `clean` is optional and when used, it will clean the project 
-output directory before compilation, by removing the `./build` directory 
+> Note: using `clean` is optional and when used, it will clean the project
+output directory before compilation, by removing the `./build` directory
 completely and then generating a new one.
 ### Executing Projects:
 #### Using `java` Command:
-To run a compiled java gradle project, from the root directory of the project, 
+To run a compiled java gradle project, from the root directory of the project,
 run:
 ```
 java -cp ./build/classes MainClass
@@ -82,7 +82,7 @@ project, run:
 gradle run
 ```
 #### Arguments:
-When running a java gradle project using the `java` command, command line and 
+When running a java gradle project using the `java` command, command line and
 VM arguments can be passed as normal to the program.
 
 When running a java gradle project using the `run` task, run:
@@ -93,8 +93,8 @@ To pass VM arguments when running a java gradle project, in the `build.gradle`
 file, add:
 ```groovy
 application {
-    mainClass = 'MainClass'
-    applicationDefaultJvmArgs = ['-XvmArg1 -XvmArg2']
+	mainClass = 'MainClass'
+	applicationDefaultJvmArgs = ['-XvmArg1 -XvmArg2']
 }
 ```
 
@@ -108,11 +108,11 @@ An example of what to add to the `build.gradle` file for using the `junit`
 dependency:
 ```groovy
 repositories {
-    mavenCentral()
+	mavenCentral()
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.13.2'
+	testImplementation 'junit:junit:4.13.2'
 }
 ```
 > Note: `testImplementation` specifies that this dependency is used only for
@@ -126,7 +126,7 @@ in the project root where the local `jar` files will go, e.g. `./libs`.
 Next, add to the `build.gradle` file:
 ```groovy
 dependencies {
-    implementation fileTree('libs') { include '*.jar' }
+	implementation fileTree('libs') { include '*.jar' }
 }
 ```
 This will include any `.jar` files in the project as an implementation
@@ -134,10 +134,10 @@ dependency.
 
 ## Useful Links
 - #### Documentation Links:
-    - <https://docs.gradle.org/current/userguide/userguide.html>
-    - <https://docs.gradle.org/current/javadoc/index.html?overview-summary.html>
+	- <https://docs.gradle.org/current/userguide/userguide.html>
+	- <https://docs.gradle.org/current/javadoc/index.html?overview-summary.html>
 - #### Dependency Links:
-    - Maven Central: <https://mvnrepository.com/repos/central>
+	- Maven Central: <https://mvnrepository.com/repos/central>
 - #### General Information Links:
-    - <https://www.tutorialspoint.com/gradle/index.htm>
-    - <https://www.baeldung.com/gradle>
+	- <https://www.tutorialspoint.com/gradle/index.htm>
+	- <https://www.baeldung.com/gradle>
