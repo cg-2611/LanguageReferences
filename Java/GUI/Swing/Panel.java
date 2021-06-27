@@ -88,7 +88,7 @@ public class Panel extends JPanel {
 		add(checkBox);
 		checkBox.addActionListener((e) -> {
 			if (checkBox.isSelected()) {
-				button.setEnabled(false );
+				button.setEnabled(false);
 			} else {
 				button.setEnabled(true);
 			}
