@@ -49,14 +49,16 @@
 	- [Handling Exceptions](#handling-exceptions)
 - [Executing Programs](#executing-programs)
 	- [Compiling](#compiling)
+	- [Creating `jar` Files](#creating-jar-files)
 	- [Running](#running)
 - [Javadoc](#javadoc)
 	- [Writing](#writing)
 	- [Generating](#generating)
 - [Useful Links](#useful-links)
-	- [Execution Links](#execution-links)
-	- [Javadoc Links](#javadoc-links)
-	- [General Information Links](#general-information-links)
+	- [Java Documentation](#java-documentation)
+	- [Execution Documentation](#execution-documentation)
+	- [Javadoc Documentation](#javadoc-documentation)
+	- [General Information](#general-information)
 
 ## Language Basics
 ### Entry Point
@@ -293,7 +295,7 @@ modifiers static type identifier = value; // has value of 'value'
 ```
 #### Class Methods:
 ```java
-modifiers static type methodName(type parameter1, type parameter2) throws Exception {
+modifiers static type methodName(type param1, type param2) throws Exception {
 	// method body
 }
 ```
@@ -433,21 +435,59 @@ To compile a java program using the `javac` command, run:
 ```
 javac -cp path/to/src -d path/to/bin path/to/src/**/*.java
 ```
+The `-cp` option specifies the classpath and `-d` specifies the output 
+directory.
 
 e.g. if the command is being run from the project root directory, run:
 ```
 javac -cp ./src -d ./bin ./src/**/*.java
 ```
-> Note: using `src/**/*.java` will maintain the package structure in the output directory specified by the `-d` option. 
+> Note: using `src/**/*.java` will maintain the package structure in the output 
+> directory specified by the `-d` option. 
+### Creating `jar` Files
+---
+To compress a java program into a `jar` file using the `jar` command, run:
+```
+jar -c -f jar-name.jar -e MainClass -C path/to/class/files path/to/jar/location
+```
+The `-c` options specifies that the `jar` file is being created, `-f` specifies 
+the name of the file, `-e` specifies the entry point of the program and `-C` 
+specifies the location of the class files being packaged.
+
+e.g. if the command is being run from the project root directory where the 
+entry point is located in `./bin/main/HelloWorld.class`, and the `jar` is to
+be created in the project root directory, run:
+```
+jar -c -f JarName.jar -e main.MainClass -C ./bin .
+```
+> Note: if a `MANIFEST.MF` file is created and has the main class specified, the
+> `-e` option should be replaced with the `-m path/to/META-INF/MANIFEST.MF`.
+> To specify the main class in the `MANIFEST.MF` file, add the following (the
+> blank line is important):
+> ```
+> Main-Class: main.MainClass
+>
+> ```
 ### Running
 ---
 To run a compiled java program using the `java` command, run:
 ```
-java -cp path/to/bin mainpackage.MainClass
+java -cp path/to/bin MainClass
 ```
-e.g. if the command is being run from the project root directory where the entry point is located in `./bin/mainpackage/HelloWorld.class`, run:
+The `-cp` option specifies the classpath.
+
+e.g. if the command is being run from the project root directory where the 
+entry point is located in `./bin/main/HelloWorld.class`, run:
 ```
-java -cp ./bin mainpackage.HelloWorld
+java -cp ./bin main.HelloWorld
+```
+To run a `jar` file using the `java` command, run:
+```
+java -jar path/to/JarFile.jar
+```
+e.g. if the file `JarFile.jar` is located in the project root directory, run:
+```
+java -jar ./JarFile.jar
 ```
 
 ## Javadoc
@@ -466,25 +506,29 @@ java -cp ./bin mainpackage.HelloWorld
 ```
 ### Generating
 ---
-To generate the javadoc html from the javadoc comments in the source code, the `javadoc` command can be used, run:
+To generate the javadoc html from the javadoc comments in the source code, 
+the `javadoc` command can be used, run:
 ```
 javadoc -d path/to/output/dir path/to/src/**/*.java
 ```
-e.g. if the command is being run from the project root directory, and the output files are to be placed in directory in  called doc, run:
+e.g. if the command is being run from the project root directory, and the 
+output files are to be placed in directory in  called doc, run:
 ```
 javadoc -d ./doc ./src/**/*.java
 ```
 
 ## Useful Links
-- #### Execution Links:
-	- `javac` command documentation (for jdk version 11): <https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9>
-	- `java` command documentation (for jdk version 11): <https://docs.oracle.com/en/java/javase/11/tools/java.html#GUID-3B1CE181-CD30-4178-9602-230B800D4FAE>
-
-- #### Javadoc Links:
-	- `javadoc` command documentation (for jdk version 11): <https://docs.oracle.com/en/java/javase/11/tools/javadoc.html>
+- #### Java Documentation:
+	- JDK 11 documentation: <https://docs.oracle.com/en/java/javase/11/>
+	- Java 11 API documentation: <https://docs.oracle.com/en/java/javase/11/docs/api/index.html>
+- #### Execution Documentation:
+	- `javac` command (for JDK 11): <https://docs.oracle.com/en/java/javase/11/tools/javac.html#GUID-AEEC9F07-CB49-4E96-8BC7-BCC2C7F725C9>
+	- `jar` command (for JDK 11): <https://docs.oracle.com/en/java/javase/11/tools/jar.html#GUID-51C11B76-D9F6-4BC2-A805-3C847E857867>
+	- `java` command (for JDK 11): <https://docs.oracle.com/en/java/javase/11/tools/java.html#GUID-3B1CE181-CD30-4178-9602-230B800D4FAE>
+- #### Javadoc Documentation:
+	- `javadoc` command (for JDK 11): <https://docs.oracle.com/en/java/javase/11/tools/javadoc.html>
 	- Writing comments: <https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html>
-
-- #### General Information Links:
+- #### General Information:
 	- <https://docs.oracle.com/javase/tutorial/>
 	- <https://www.tutorialspoint.com/java/index.htm>
 	- <https://www.w3schools.com/java/default.asp>
