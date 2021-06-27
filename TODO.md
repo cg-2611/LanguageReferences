@@ -29,9 +29,9 @@
 - [x] Overloading
 - [x] Polymorphism
 - [x] Networking
-- [ ] GUI
+- [x] GUI
 	- [x] Swing
-	- [ ] JavaFX
+	- [x] JavaFX
 - [x] Maven
 - [x] Gradle
 - [ ] Unit Testing
