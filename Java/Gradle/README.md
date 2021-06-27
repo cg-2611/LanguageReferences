@@ -13,9 +13,9 @@
 	- [Central Repository Dependencies](#central-repository-dependencies)
 	- [Local Jar Dependencies](#local-jar-dependencies)
 - [Useful Links](#useful-links)
-	- [Documentation Links](#documentation-links)
-	- [Dependency Links](#dependency-links)
-	- [General Information Links](#general-information-links)
+	- [Documentation](#documentation)
+	- [Dependency Information](#dependency-information)
+	- [General Information](#general-information)
 
 ## Project Management
 ### Creating Projects
@@ -133,11 +133,11 @@ This will include any `.jar` files in the project as an implementation
 dependency.
 
 ## Useful Links
-- #### Documentation Links:
+- #### Documentation:
 	- <https://docs.gradle.org/current/userguide/userguide.html>
 	- <https://docs.gradle.org/current/javadoc/index.html?overview-summary.html>
-- #### Dependency Links:
+- #### Dependency Information:
 	- Maven Central: <https://mvnrepository.com/repos/central>
-- #### General Information Links:
+- #### General Information:
 	- <https://www.tutorialspoint.com/gradle/index.htm>
 	- <https://www.baeldung.com/gradle>

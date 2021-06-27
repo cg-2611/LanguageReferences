@@ -16,10 +16,10 @@
 		- [Local Repository Method](#local-repository-method)
 		- [Lib Directory Method](#lib-directory-method)
 - [Useful Links](#useful-links)
-	- [Documentation Links](#documentation-links)
-	- [Plugin Links](#plugin-links)
-	- [Dependency Links](#dependency-links)
-	- [General Information Links](#general-information-links)
+	- [Documentation](#documentation)
+	- [Plugin Information](#plugin-links-information)
+	- [Dependency Information](#dependency-links-information)
+	- [General Information](#general-information)
 
 ## Project Management
 ### Creating Projects
@@ -291,19 +291,19 @@ Finally, place the `jar` file in the location `lib/jar/group/id/jarArtifactId/ja
 > Note: The `jar` file must have the name `jarArtifactId-jarVersion.jar`.
 
 ## Useful Links
-- #### Documentation Links:
+- #### Documentation:
 	- <http://maven.apache.org/>
-- #### Plugin Links:
+- #### Plugin Information:
 	- <https://maven.apache.org/plugins/>
 	- <https://repo.maven.apache.org/maven2/org/apache/maven/plugins/>
 	- MojoHaus: <https://www.mojohaus.org/plugins.html>
-- #### Dependency Links:
+- #### Dependency Information:
 	- <https://maven.apache.org/guides/introduction/introduction-to-repositories.html>
 	- Maven Central: <https://mvnrepository.com/repos/central>
 	- Google: <https://maven.google.com/web/index.html>
 	- Using local `jar` files as dependencies:
 		- <https://gist.github.com/timmolderez/92bea7cc90201cd3273a07cf21d119eb>
 		- <https://stackoverflow.com/questions/4955635/how-to-add-local-jar-files-to-a-maven-project>
-- #### General Information Links:
+- #### General Information:
 	- <https://www.baeldung.com/maven>
 	- <https://www.tutorialspoint.com/maven/index.htm>
