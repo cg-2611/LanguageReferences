@@ -3,20 +3,20 @@ Markdown
 Contents
 --------
 - [Basic Syntax](#basic-syntax)
-    - [Headings](#headings)
-    - [Stylings](#stylings)
-    - [Quotes](#quotes)
-    - [Links](#links)
-    - [Images](#images)
-    - [Lists](#lists)
+	- [Headings](#headings)
+	- [Stylings](#stylings)
+	- [Quotes](#quotes)
+	- [Links](#links)
+	- [Images](#images)
+	- [Lists](#lists)
 - [Extended Syntax](#extended-syntax)
-    - [Task Lists](#task-lists)
-    - [Tables](#tables)
-    - [Fenced Code Blocks](#fenced-code-blocks)
+	- [Task Lists](#task-lists)
+	- [Tables](#tables)
+	- [Fenced Code Blocks](#fenced-code-blocks)
 - [Useful Links](#useful-links)
-    - [Basic Syntax Links](#basic-syntax-links)
-    - [Extended Syntax Links](#extended-syntax-links)
-    - [General Information Links](#general-information-links)
+	- [Basic Syntax Links](#basic-syntax-links)
+	- [Extended Syntax Links](#extended-syntax-links)
+	- [General Information Links](#general-information-links)
 
 Basic Syntax
 ------------
@@ -109,10 +109,10 @@ Output:
 
 1. Item 1
 2. Item 2
-    - Sub Item 1
-        - Sub Sub Item 1
-        - Sub Sub Item 2
-    - Sub Item 2
+	- Sub Item 1
+		- Sub Sub Item 1
+		- Sub Sub Item 2
+	- Sub Item 2
 3. Item 3
 ```
 Output:
@@ -127,10 +127,10 @@ Output:
 
 1. Item 1
 2. Item 2
-    - Sub Item 1
-        - Sub Sub Item 1
-        - Sub Sub Item 2
-    - Sub Item 2
+	- Sub Item 1
+		- Sub Sub Item 1
+		- Sub Sub Item 2
+	- Sub Item 2
 3. Item 3
 
 Extended Syntax
@@ -177,7 +177,7 @@ Output:
 ````markdown
 ```javascript
 function test() {
-    console.log("fenced code block");
+	console.log("fenced code block");
 }
 ```
 ````
@@ -185,18 +185,18 @@ Output:
 
 ```javascript
 function test() {
-    console.log("fenced code block");
+	console.log("fenced code block");
 }
 ```
 Useful Links
 ------------
-- #### Basic Syntax Links: 
-    - <https://www.markdownguide.org/basic-syntax/>
-    - <https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github>
+- #### Basic Syntax Links:
+	- <https://www.markdownguide.org/basic-syntax/>
+	- <https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github>
 - #### Extended Syntax Links:
-    - <https://www.markdownguide.org/extended-syntax>
-    - <https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting>
+	- <https://www.markdownguide.org/extended-syntax>
+	- <https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting>
 - #### General Information Links
-    - <https://daringfireball.net/projects/markdown/>
-    - <https://guides.github.com/features/mastering-markdown/>
-    - <https://github.github.com/gfm/>
+	- <https://daringfireball.net/projects/markdown/>
+	- <https://guides.github.com/features/mastering-markdown/>
+	- <https://github.github.com/gfm/>
