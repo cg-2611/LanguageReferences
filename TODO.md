@@ -12,10 +12,10 @@
 - [x] User Input
 - [x] Files
 - [x] Data Structures
-    - [x] ArrayList
-    - [x] LinkedList
-    - [x] Hashtable
-    - [x] Stack
+	- [x] ArrayList
+	- [x] LinkedList
+	- [x] HashMap
+	- [x] Stack
 - [x] Date and Time
 - [x] Enums
 - [x] Interfaces
@@ -26,12 +26,12 @@
 - [x] Lambda Expressions
 - [x] Generics
 - [x] Serialisation
-- [x] Overloading 
+- [x] Overloading
 - [x] Polymorphism
 - [x] Networking
 - [ ] GUI
-    - [x] Swing
-    - [ ] JavaFX
+	- [x] Swing
+	- [ ] JavaFX
 - [x] Maven
 - [x] Gradle
 - [ ] Unit Testing
