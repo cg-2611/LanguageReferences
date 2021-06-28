@@ -16,7 +16,7 @@
 		- [Local Repository Method](#local-repository-method)
 		- [Lib Directory Method](#lib-directory-method)
 - [Useful Links](#useful-links)
-	- [Documentation](#documentation)
+	- [Maven Documentation](#maven-documentation)
 	- [Plugin Information](#plugin-links-information)
 	- [Dependency Information](#dependency-links-information)
 	- [General Information](#general-information)
@@ -291,7 +291,7 @@ Finally, place the `jar` file in the location `lib/jar/group/id/jarArtifactId/ja
 > Note: The `jar` file must have the name `jarArtifactId-jarVersion.jar`.
 
 ## Useful Links
-- #### Documentation:
+- #### Maven Documentation:
 	- <http://maven.apache.org/>
 - #### Plugin Information:
 	- <https://maven.apache.org/plugins/>

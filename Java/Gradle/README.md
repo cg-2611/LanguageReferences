@@ -13,7 +13,7 @@
 	- [Central Repository Dependencies](#central-repository-dependencies)
 	- [Local Jar Dependencies](#local-jar-dependencies)
 - [Useful Links](#useful-links)
-	- [Documentation](#documentation)
+	- [Gradle Documentation](#gradle-documentation)
 	- [Dependency Information](#dependency-information)
 	- [General Information](#general-information)
 
@@ -133,7 +133,7 @@ This will include any `.jar` files in the project as an implementation
 dependency.
 
 ## Useful Links
-- #### Documentation:
+- #### Gradle Documentation:
 	- <https://docs.gradle.org/current/userguide/userguide.html>
 	- <https://docs.gradle.org/current/javadoc/index.html?overview-summary.html>
 - #### Dependency Information:
