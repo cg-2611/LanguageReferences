@@ -105,7 +105,7 @@ Gradle is, by default, configured to resolve dependencies from the maven central
 repository. Dependencies can be added to a project in the `build.gradle` file.
 
 An example of what to add to the `build.gradle` file for using the `junit`
-dependency:
+version `4.13.2` dependency:
 ```groovy
 repositories {
 	mavenCentral()
