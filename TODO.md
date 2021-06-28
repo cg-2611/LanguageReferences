@@ -13,10 +13,10 @@
 - [x] User Input
 - [x] Files
 - [x] Data Structures
-	- [x] ArrayList
-	- [x] LinkedList
-	- [x] HashMap
-	- [x] Stack
+    - [x] ArrayList
+    - [x] LinkedList
+    - [x] HashMap
+    - [x] Stack
 - [x] Date and Time
 - [x] Graphics2D
 - [x] Enums
@@ -32,8 +32,8 @@
 - [x] Polymorphism
 - [x] Networking
 - [x] GUI
-	- [x] Swing
-	- [x] JavaFX
+    - [x] Swing
+    - [x] JavaFX
 - [x] Maven
 - [x] Gradle
 - [x] JUnit
