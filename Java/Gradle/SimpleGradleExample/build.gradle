@@ -1,29 +1,29 @@
 plugins {
-	id 'application'
+    id 'application'
 }
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 dependencies {
-	testImplementation 'junit:junit:4.13.2'
+    testImplementation 'junit:junit:4.13.2'
 }
 
 application {
-	mainClass = 'example.App'
+    mainClass = 'example.App'
 }
 
 jar {
-	manifest {
-		attributes(
-			'Main-Class': 'example.App'
-		)
-	}
+    manifest {
+        attributes(
+            'Main-Class': 'example.App'
+        )
+    }
 }
 
 java {
   toolchain {
-	languageVersion.set(JavaLanguageVersion.of(11))
+    languageVersion.set(JavaLanguageVersion.of(11))
   }
 }
