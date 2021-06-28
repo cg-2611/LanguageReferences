@@ -85,8 +85,7 @@ public static void main(String[] args) {
 ---
 #### Variables:
 ```java
-type identifier; // has value of 'null' until initialised
-
+type identifier; 		 // has value of 'null' until initialised
 type identifier = value; // has value of 'value'
 ```
 #### Constants:
@@ -105,14 +104,14 @@ type[] identifier = {element 1, element 2, element 3};
 ### Primitive Data Types
 ---
 ```java
-byte    // 8 bits,  1 byte 
-short   // 16 bits, 2 bytes
-int     // 32 bits, 4 bytes
-long    // 64 bits, 8 bytes
-float   // 32 bits, 4 bytes
-double  // 64 bits, 8 bytes
-char    // 16 bits, 2 bytes
-boolean // 1 bit
+byte	// 8 bits,  1 byte 
+short	// 16 bits, 2 bytes
+int		// 32 bits, 4 bytes
+long	// 64 bits, 8 bytes
+float	// 32 bits, 4 bytes
+double	// 64 bits, 8 bytes
+char	// 16 bits, 2 bytes
+boolean	// 1 bit
 ```
 ### Casting Primitive Types
 ---
@@ -129,64 +128,64 @@ int y = (int) x; // y has value 4
 ---
 ### Unary Operators:
 ```java
-+x  // positive value
--x  // negative value
-x++ // postfix increment
-++x // prefix increment
-x-- // postfix decrement
---x // prefix decrement
++x	// positive value
+-x	// negative value
+x++	// postfix increment
+++x	// prefix increment
+x--	// postfix decrement
+--x	// prefix decrement
 ```
 #### Arithmetic Operators:
 ```java
-x + y // addition
-x - y // subtraction
-x * y // multiplication
-x / y // division
-x % y // modulus
+x + y	// addition
+x - y	// subtraction
+x * y	// multiplication
+x / y	// division
+x % y	// modulus
 ```
 #### Comparison Operators:
 ```java
-x == y // equal
-x != y // not equal
-x > y  // greater than
-x < y  // less than
-x >= y // greater than or equal to
-x <= y // less than or equal to
+x == y	// equal
+x != y	// not equal
+x > y 	// greater than
+x < y	// less than
+x >= y	// greater than or equal to
+x <= y	// less than or equal to
 ```
 #### Logical Operators:
 ```java
-x && y // logical AND
-x || y // logical OR
-!x     // logical NOT
+x && y	// logical AND
+x || y	// logical OR
+!x		// logical NOT
 ```
 #### Bitwise Operators:
 ```java
-&   // binary AND
-|   // binary OR
-^   // binary XOR
-~   // binary complement
-<<  // binary left shift
->>  // binary right shift
->>> // binary shift right zero fill 
+&	// binary AND
+|	// binary OR
+^	// binary XOR
+~	// binary complement
+<<	// binary left shift
+>>	// binary right shift
+>>>	// binary shift right zero fill 
 ```
 #### Assignment Operators:
 ```java
-=   // simple assignment
-+=  // add and assign
--=  // subtract and assign
-*=  // multiply and assign
-/=  // divide and assign
-%=  // modulus and assign
-<<= // left shift and assign
->>= // right shift and assign
-&=  // bitwise AND and assign
-|=  // bitwise OR and assign
-^=  // bitwise XOR and assign
+=	// simple assignment
++=	// add and assign
+-=	// subtract and assign
+*=	// multiply and assign
+/=	// divide and assign
+%=	// modulus and assign
+<<=	// left shift and assign
+>>=	// right shift and assign
+&=	// bitwise AND and assign
+|=	// bitwise OR and assign
+^=	// bitwise XOR and assign
 ```
 #### Miscellaneous Operators:
 ```java
-?:         // conditional/ternary operator
-instanceof // returns if an object is an instance of a given class
+?:			// conditional/ternary operator
+instanceof	// returns if an object is an instance of a given class
 ```
 ### Control Flow Statements
 ---
@@ -200,6 +199,9 @@ if (condition) {
 } else {
 	// do something if no conditions met
 }
+
+// conditional operator
+(condition) ? (valueIfTrue) : (valueIfFalse);
 
 // switch statement (breaks optional)
 switch (expression) {
@@ -241,15 +243,15 @@ do {
 ---
 #### For Classes:
 ```java
-public  // available to all other classes
-no modifier // available to all classes in current package
+public		// available to all other classes
+no modifier	// available to all classes in current package
 ```
 #### For Class Members:
 ```java
-public // available to all other classes
-protected // available to classes within package or any subclasses
-no modifier // available to classes within package only
-private // available to class only
+public		// available to all other classes
+protected	// available to classes within package or any subclasses
+no modifier	// available to classes within package only
+private		// available to class only
 ```
 ### Classes
 ---
@@ -272,9 +274,8 @@ modifier ClassName(type parameter1, type parameter2) {
 ```
 #### Instance Fields:
 ```java
-modifiers type identifier; // has value of 'null' until initialised
-
-modifiers type identifier = value; // has value of 'value'
+modifiers type identifier;			// has value of 'null' until initialised
+modifiers type identifier = value;	// has value of 'value'
 ```
 #### Instance Methods:
 ```java
@@ -284,14 +285,13 @@ modifiers type methodName(type parameter1, type parameter2) throws Exception {
 ```
 #### Referencing Current Object:
 ```java
-this.field // accesses field 'field' of current object
-this.doSomething() // calls method 'doSomething' of current object
+this.field			// accesses field 'field' of current object
+this.doSomething()	// calls method 'doSomething' of current object
 ```
 #### Class Fields:
 ```java
-modifiers static type identifier; // has value of 'null' until initialised
-
-modifiers static type identifier = value; // has value of 'value'
+modifiers static type identifier;			// has value of 'null' until initialised
+modifiers static type identifier = value;	// has value of 'value'
 ```
 #### Class Methods:
 ```java
@@ -317,8 +317,8 @@ ClassName identifier = new ClassName(argument1, argument2);
 ```
 #### Accessing Members:
 ```java
-object.field // access field 'field' of object 'object'
-object.doSomething() // calls method 'doSomething' of object 'object'
+object.field 			// access field 'field' of object 'object'
+object.doSomething()	// calls method 'doSomething' of object 'object'
 ```
 ### Interfaces
 ---
