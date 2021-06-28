@@ -1,13 +1,13 @@
 public class SingleTypeGeneric<T> {
 
-	private T value;
+    private T value;
 
-	public SingleTypeGeneric(T value) {
-		this.value = value;
-	}
+    public SingleTypeGeneric(T value) {
+        this.value = value;
+    }
 
-	public T getValue() {
-		return value;
-	}
-
+    public T getValue() {
+        return value;
+    }
+    
 }
