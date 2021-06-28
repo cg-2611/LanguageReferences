@@ -9,49 +9,50 @@ import java.util.Scanner;
 
 public class ReadFile {
 
-	public static void readFileWithScanner(File file) {
-		try {
-			Scanner reader = new Scanner(file);
-			String line;
+    public static void readFileWithScanner(File file) {
+        try {
+            Scanner reader = new Scanner(file);
+            String line;
 
-			while(reader.hasNextLine()) {
-				line = reader.nextLine();
-				System.out.println(line);
-			}
+            while(reader.hasNextLine()) {
+                line = reader.nextLine();
+                System.out.println(line);
+            }
 
-			reader.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-	}
+            reader.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 
-	public static void readFileWithBufferedReader(File file) {
-		try {
-			BufferedReader br = new BufferedReader(new FileReader(file));
+    public static void readFileWithBufferedReader(File file) {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
 
-			String line;
+            String line;
 
-			while((line = br.readLine()) != null) {
-				System.out.println(line);
-			}
+            while((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
 
-			br.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+            br.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-	public static void main(String[] args) {
-		File fileToRead = new File("./reading/file.txt");
+    public static void main(String[] args) {
+        File fileToRead = new File("./reading/file.txt");
 
-		System.out.println("Read Using Scanner:");
-		readFileWithScanner(fileToRead);
-		System.out.println();
+        System.out.println("Read Using Scanner:");
+        readFileWithScanner(fileToRead);
+        System.out.println();
 
-		System.out.println("Read Using BufferedReader: ");
-		readFileWithBufferedReader(fileToRead);
-		System.out.println();
-	}
+        System.out.println("Read Using BufferedReader: ");
+        readFileWithBufferedReader(fileToRead);
+        System.out.println();
+    }
+    
 }
