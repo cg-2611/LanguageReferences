@@ -8,6 +8,7 @@
 - [x] Command Line Arguments
 - [x] System Properties
 - [x] Casting
+- [x] Random Numbers
 - [x] Math
 - [x] User Input
 - [x] Files
@@ -17,6 +18,7 @@
 	- [x] HashMap
 	- [x] Stack
 - [x] Date and Time
+- [x] Graphics2D
 - [x] Enums
 - [x] Interfaces
 - [x] Abstract Classes
@@ -34,4 +36,4 @@
 	- [x] JavaFX
 - [x] Maven
 - [x] Gradle
-- [ ] Unit Testing
+- [x] JUnit
