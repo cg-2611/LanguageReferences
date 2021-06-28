@@ -7,35 +7,37 @@ import java.time.Year;
 import java.time.format.DateTimeFormatter;
 
 public class DateAndTime {
-	public static void main(String[] args) {
-		LocalDate date = LocalDate.now();              // can also use LocalDate.of(year, month, dayOfMonth);
-		LocalTime time = LocalTime.now();              // can also use LocalTime.of(hour, minute, second);
-		LocalDateTime dateTime = LocalDateTime.now();  // other constructors available
-		DateTimeFormatter dateTimeFormatter;
 
-		System.out.println("Local Date: " + date);
-		System.out.println("Local Time: " + time);
+    public static void main(String[] args) {
+        LocalDate date = LocalDate.now();             // can also use LocalDate.of(year, month, dayOfMonth);
+        LocalTime time = LocalTime.now();             // can also use LocalTime.of(hour, minute, second);
+        LocalDateTime dateTime = LocalDateTime.now(); // other constructors available
+        DateTimeFormatter dateTimeFormatter;
 
-		System.out.println("\nLocal Date and Time: " + dateTime);
+        System.out.println("Local Date: " + date);
+        System.out.println("Local Time: " + time);
 
-		dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyy HH:mm:ss"); // supports many formats
-		String formattedDateTime = dateTimeFormatter.format(dateTime);
-		System.out.println("Formatted Local Date and Time: " + formattedDateTime);
+        System.out.println("\nLocal Date and Time: " + dateTime);
 
-		dateTimeFormatter = DateTimeFormatter.ofPattern("dd MMM YYYY HH:mm:ss");
-		formattedDateTime = dateTimeFormatter.format(dateTime);
-		System.out.println("Formatted Local Date and Time: " + formattedDateTime);
+        dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyy HH:mm:ss"); // supports many formats
+        String formattedDateTime = dateTimeFormatter.format(dateTime);
+        System.out.println("Formatted Local Date and Time: " + formattedDateTime);
 
-		System.out.println();
+        dateTimeFormatter = DateTimeFormatter.ofPattern("dd MMM YYYY HH:mm:ss");
+        formattedDateTime = dateTimeFormatter.format(dateTime);
+        System.out.println("Formatted Local Date and Time: " + formattedDateTime);
 
-		DayOfWeek dayOfWeek = DayOfWeek.from(date);
-		System.out.println(dayOfWeek.name() + " has value: " + dayOfWeek.getValue());
+        System.out.println();
 
-		Month month = Month.from(date);
-		System.out.println(month.name() + " has value: " + month.getValue());
+        DayOfWeek dayOfWeek = DayOfWeek.from(date);
+        System.out.println(dayOfWeek.name() + " has value: " + dayOfWeek.getValue());
 
-		Year year = Year.from(date);
-		System.out.println("Is " + year.getValue() + " a leap year: " + year.isLeap());
-		System.out.println("Length of " + year.getValue() + ": " + year.length() + " days");
-	}
+        Month month = Month.from(date);
+        System.out.println(month.name() + " has value: " + month.getValue());
+
+        Year year = Year.from(date);
+        System.out.println("Is " + year.getValue() + " a leap year: " + year.isLeap());
+        System.out.println("Length of " + year.getValue() + ": " + year.length() + " days");
+    }
+    
 }
