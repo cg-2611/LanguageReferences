@@ -1,14 +1,18 @@
 public enum Value {
-	VALUE1,
-	VALUE2,
-	VALUE3,
-	VALUE4;
+    
+    VALUE1,
+    VALUE2,
+    VALUE3,
+    VALUE4;
 
-	public int getValue() {
-		return ordinal() + 1;
-	}
+    public int getValue() {
+        return ordinal() + 1;
+    }
+
 }
+
 // These other examples produce the same result and will work for value types other than int
+
 // public enum Value {
 // 	VALUE1(1),
 // 	VALUE2(2),
