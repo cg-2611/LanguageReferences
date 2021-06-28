@@ -2,6 +2,7 @@
  * Class that contains the main method for the example.
  */
 public class JavadocExampleMain {
+
 	public static void main(String[] args) {
 		JavadocExampleClassOne classOne = new JavadocExampleClassOne(11);
 		JavadocExampleClassTwo classTwo = new JavadocExampleClassTwo(14, "Class 2");
@@ -12,4 +13,5 @@ public class JavadocExampleMain {
 		classTwo.setName("Class Two");
 		System.out.println(classTwo.getName());
 	}
+	
 }
