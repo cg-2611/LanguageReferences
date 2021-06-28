@@ -23,6 +23,10 @@ public class MathLibrary {
 		System.out.println("2^8 = " + Math.pow(2, 8));
 		System.out.println();
 
+		// square root
+		System.out.println("square root 64 = " + Math.sqrt(64));
+		System.out.println();
+
 		// logarithms
 		System.out.println("log_e 2 = " + Math.log(2));
 		System.out.println("log_10 2 = " + Math.log10(2));
