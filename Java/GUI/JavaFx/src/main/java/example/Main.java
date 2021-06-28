@@ -7,9 +7,9 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    public static final String TITLE = "JavaFX Example";
     public static final int WIDTH = 600;
-	public static final int HEIGHT = 400;
-	public static final String TITLE = "Swing Example";
+    public static final int HEIGHT = 400;
 
     private Stage stage;
 
@@ -33,4 +33,5 @@ public class Main extends Application {
             e.printStackTrace();
         }
     }
+    
 }
