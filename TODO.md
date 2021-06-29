@@ -68,8 +68,8 @@
     - [x] Bubble Sort
     - [x] Insertion Sort
     - [x] Selection Sort
-    - [ ] Quick Sort
-    - [ ] Merge Sort
+    - [x] Quick Sort
+    - [x] Merge Sort
 - [ ] Searching
     - [ ] Linear Search
     - [ ] Binary Search
