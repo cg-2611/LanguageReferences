@@ -1,7 +1,54 @@
 # TODO
 
 ## Contents
+- [C](#c)
 - [Java](#java)
+
+## C
+- [ ] Strings
+- [ ] Command Line Arguments
+- [ ] Static Variables
+- [ ] Files
+- [ ] Data Strictures
+    - [ ] Arrays
+    - [ ] Linked List
+    - [ ] Hash Map
+    - [ ] Stack
+    - [ ] Queue
+- [ ] Sorting
+    - [ ] Bubble Sort
+    - [ ] Insertion Sort
+    - [ ] Selection Sort
+    - [ ] Quick Sort
+    - [ ] Merge Sort
+- [ ] Searching
+    - [ ] Linear Search
+    - [ ] Binary Search
+    - [ ] Interpolation Search
+    - [ ] Jump Search
+- [ ] Casting
+- [ ] User Input
+- [ ] Math
+- [ ] Random Numbers
+- [ ] Variable Arguments
+- [ ] Pointers
+- [ ] Passing by Reference 
+- [ ] Structures
+- [ ] Unions
+- [ ] Enums
+- [ ] Bits
+- [ ] Preprocessors
+- [ ] Header Files
+- [ ] Memory Management
+- [ ] Error Handling
+- [ ] Multithreading
+- [ ] Thread Synchronization
+- [ ] Networking
+- [ ] Serialization
+- [ ] GUI
+- [ ] Makefile
+- [ ] CMake
+- [ ] Testing
 
 ## Java
 - [x] Strings
@@ -17,6 +64,17 @@
     - [x] LinkedList
     - [x] HashMap
     - [x] Stack
+- [ ] Sorting
+    - [ ] Bubble Sort
+    - [ ] Insertion Sort
+    - [ ] Selection Sort
+    - [ ] Quick Sort
+    - [ ] Merge Sort
+- [ ] Searching
+    - [ ] Linear Search
+    - [ ] Binary Search
+    - [ ] Interpolation Search
+    - [ ] Jump Search
 - [x] Date and Time
 - [x] Graphics2D
 - [x] Enums
@@ -24,10 +82,11 @@
 - [x] Abstract Classes
 - [x] Exceptions
 - [x] Javadoc
-- [x] Threads
+- [x] Multithreading
+- [x] Thread Synchronization
 - [x] Lambda Expressions
 - [x] Generics
-- [x] Serialisation
+- [x] Serialization
 - [x] Overloading
 - [x] Polymorphism
 - [x] Networking
