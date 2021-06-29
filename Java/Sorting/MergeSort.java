@@ -9,7 +9,9 @@ public class MergeSort {
     }
 
     private static void merge(int[] array, int[] left, int[] right, int leftIndex, int rightIndex) {
-        int i = 0, j = 0, k = 0;
+        int i = 0; 
+        int j = 0; 
+        int k = 0;
 
         while (i < leftIndex && j < rightIndex) {
             if (left[i] <= right[j]) {
