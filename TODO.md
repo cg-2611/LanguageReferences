@@ -65,9 +65,9 @@
     - [x] HashMap
     - [x] Stack
 - [ ] Sorting
-    - [ ] Bubble Sort
-    - [ ] Insertion Sort
-    - [ ] Selection Sort
+    - [x] Bubble Sort
+    - [x] Insertion Sort
+    - [x] Selection Sort
     - [ ] Quick Sort
     - [ ] Merge Sort
 - [ ] Searching
