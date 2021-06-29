@@ -100,7 +100,7 @@ static final type identifier = value;
 type[] identifier = new type[n];
 
 // declare and initialise array of 3 elements
-type[] identifier = {element 1, element 2, element 3, ...};
+type[] identifier = {element 1, element 2, element 3};
 ```
 ### Primitive Data Types
 ---
