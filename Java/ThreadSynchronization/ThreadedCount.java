@@ -16,8 +16,8 @@ public class ThreadedCount extends Thread {
     public void run() {
         // only one counter may run at a time
         synchronized(counter) {
-            for(int i = 0; i < 10; i++) {
-                if(i % 2 == 0) {
+            for (int i = 0; i < 10; i++) {
+                if (i % 2 == 0) {
                     counter.incrementByThree();
                     System.out.println(threadName + " - Counter incremented by 3 to: " + counter.getCount());
                 } else {
