@@ -435,35 +435,30 @@ To compile a java program using the `javac` command, run:
 ```
 javac -cp path/to/src -d path/to/bin path/to/src/**/*.java
 ```
-The `-cp` option specifies the classpath and `-d` specifies the output 
-directory.
+The `-cp` option specifies the classpath and `-d` specifies the output directory.
 
 e.g. if the command is being run from the project root directory, run:
 ```
 javac -cp ./src -d ./bin ./src/**/*.java
 ```
-> Note: using `src/**/*.java` will maintain the package structure in the output 
-> directory specified by the `-d` option. 
+> Note: using `src/**/*.java` will maintain the package structure in the output directory specified by the `-d` option. 
 ### Creating `jar` Files
 ---
 To compress a java program into a `jar` file using the `jar` command, run:
 ```
 jar -c -f jar-name.jar -e MainClass -C path/to/class/files path/to/jar/location
 ```
-The `-c` options specifies that the `jar` file is being created, `-f` specifies 
-the name of the file, `-e` specifies the entry point of the program and `-C` 
-specifies the location of the class files being packaged.
+The `-c` options specifies that the `jar` file is being created, `-f` specifies the name of the file, `-e` specifies 
+the entry point of the program and `-C` specifies the location of the class files being packaged.
 
-e.g. if the command is being run from the project root directory where the 
-entry point is located in `./bin/main/HelloWorld.class`, and the `jar` is to
-be created in the project root directory, run:
+e.g. if the command is being run from the project root directory where the entry point is located in 
+`./bin/main/HelloWorld.class`, and the `jar` is to be created in the project root directory, run:
 ```
 jar -c -f JarName.jar -e main.MainClass -C ./bin .
 ```
-> Note: if a `MANIFEST.MF` file is created and has the main class specified, the
-> `-e` option should be replaced with the `-m path/to/META-INF/MANIFEST.MF`.
-> To specify the main class in the `MANIFEST.MF` file, add the following (the
-> blank line is important):
+> Note: if a `MANIFEST.MF` file is created and has the main class specified, the `-e` option should be replaced 
+> with the `-m path/to/META-INF/MANIFEST.MF`. To specify the main class in the `MANIFEST.MF` file, add the 
+> following (the blank line is important):
 > ```
 > Main-Class: main.MainClass
 >
@@ -476,8 +471,8 @@ java -cp path/to/bin MainClass
 ```
 The `-cp` option specifies the classpath.
 
-e.g. if the command is being run from the project root directory where the 
-entry point is located in `./bin/main/HelloWorld.class`, run:
+e.g. if the command is being run from the project root directory where the entry point is located in 
+`./bin/main/HelloWorld.class`, run:
 ```
 java -cp ./bin main.HelloWorld
 ```
@@ -506,13 +501,12 @@ java -jar ./JarFile.jar
 ```
 ### Generating
 ---
-To generate the javadoc html from the javadoc comments in the source code, 
-the `javadoc` command can be used, run:
+To generate the javadoc html from the javadoc comments in the source code, the `javadoc` command can be used, run:
 ```
 javadoc -d path/to/output/dir path/to/src/**/*.java
 ```
-e.g. if the command is being run from the project root directory, and the 
-output files are to be placed in directory in  called doc, run:
+e.g. if the command is being run from the project root directory, and the output files are to be placed in directory 
+in  called doc, run:
 ```
 javadoc -d ./doc ./src/**/*.java
 ```
