@@ -64,17 +64,17 @@
     - [x] LinkedList
     - [x] HashMap
     - [x] Stack
-- [ ] Sorting
+- [x] Sorting
     - [x] Bubble Sort
     - [x] Insertion Sort
     - [x] Selection Sort
     - [x] Quick Sort
     - [x] Merge Sort
-- [ ] Searching
-    - [ ] Linear Search
-    - [ ] Binary Search
-    - [ ] Interpolation Search
-    - [ ] Jump Search
+- [x] Searching
+    - [x] Linear Search
+    - [x] Binary Search
+    - [x] Interpolation Search
+    - [x] Jump Search
 - [x] Date and Time
 - [x] Graphics2D
 - [x] Enums
