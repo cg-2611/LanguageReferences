@@ -7,6 +7,7 @@
     - [Variables and Constants](#variables-and-constants)
         - [Variables](#variables)
         - [Constants](#constants)
+    - [Arrays](#arrays)
     - [Primitive Data Types](#primitive-data-types)
     - [Casting Primitive Types](#casting-primitive-types)
     - [Operators](#operators)
