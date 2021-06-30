@@ -10,7 +10,7 @@
 - [x] Static Variables
 - [x] Casting
 - [x] User Input
-- [ ] Math
+- [x] Math
 - [ ] Random Numbers
 - [ ] Variable Arguments
 - [ ] Files
