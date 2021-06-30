@@ -9,6 +9,7 @@
         - [Constants](#constants)
     - [Arrays](#arrays)
     - [Primitive Data Types](#primitive-data-types)
+    - [Casting](#casting)
     - [Operators](#operators)
         - [Unary Operators](#unary-operators)
         - [Arithmetic Operators](#arithmetic-operators)
@@ -85,6 +86,11 @@ unsigned long long // 64 bits, 8 bytes, %llu
 float              // 32 bits, 4 bytes, %f
 double             // 64 bits, 8 bytes, %lf
 long double        // 128 bits, 16 bytes, %Lf
+```
+### Casting
+---
+```c
+(type) expression; // casts the expression to type 'type'
 ```
 ### Operators
 ---
