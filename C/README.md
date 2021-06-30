@@ -280,6 +280,7 @@ or include the path in the executed command:
     - C Standard: <http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf>
     - Devdocs (not official): <https://devdocs.io/c/>
     - cppreference (not official): <https://en.cppreference.com/w/c>
+    - cplusplus (not official): <https://www.cplusplus.com/reference/clibrary/>
 - #### Execution Documentation:
     - `gcc` command documentation: <https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC.html>
 - #### General Information:
