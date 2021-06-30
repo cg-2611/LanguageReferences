@@ -5,12 +5,21 @@
 - [Java](#java)
 
 ## C
-- [ ] Strings
-- [ ] Command Line Arguments
-- [ ] Static Variables
+- [x] Strings
+- [x] Command Line Arguments
+- [x] Static Variables
+- [x] Casting
+- [x] User Input
+- [ ] Math
+- [ ] Random Numbers
+- [ ] Variable Arguments
 - [ ] Files
+- [ ] Arrays
+- [ ] Pointers
+- [ ] Passing by Reference 
+- [ ] Structures
+- [ ] Memory Management
 - [ ] Data Strictures
-    - [ ] Arrays
     - [ ] Linked List
     - [ ] Hash Map
     - [ ] Stack
@@ -26,20 +35,12 @@
     - [ ] Binary Search
     - [ ] Interpolation Search
     - [ ] Jump Search
-- [ ] Casting
-- [ ] User Input
-- [ ] Math
-- [ ] Random Numbers
-- [ ] Variable Arguments
-- [ ] Pointers
-- [ ] Passing by Reference 
-- [ ] Structures
 - [ ] Unions
 - [ ] Enums
 - [ ] Bits
 - [ ] Preprocessors
 - [ ] Header Files
-- [ ] Memory Management
+- [ ] Extern variables
 - [ ] Error Handling
 - [ ] Multithreading
 - [ ] Thread Synchronization
