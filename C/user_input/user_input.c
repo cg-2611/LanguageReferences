@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 
     // can also use printf("Character entered: %c", character);
     printf("Character entered: ");
-    putchar(character);
+    putchar(character); // can also use putc(character, stdout);
 
     char string[256];
     
@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 
     // can also use printf("String entered: %s", string);
     printf("String entered: ");
-    puts(string);
+    puts(string); // can also use fputs(string, stdout);
 
     int integer;
 
