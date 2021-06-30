@@ -12,7 +12,7 @@ public class MathLibrary {
 
         // rounding
         System.out.println("Round 4.5 = " + Math.round(4.5));
-        System.out.println("Ceil 3.2 =  " + Math.ceil(3.2));
+        System.out.println("Ceil 3.2 = " + Math.ceil(3.2));
         System.out.println("Floor 5.9 = " + Math.floor(5.9));
         System.out.println();
 
