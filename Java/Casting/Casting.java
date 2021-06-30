@@ -25,7 +25,7 @@ public class Casting {
 
         System.out.println();
 
-        // casting double to double using wrapper objects
+        // casting integer to double using wrapper objects
         Double doubleFromInteger = integer.doubleValue();
         System.out.println("Integer = " + integer + " -> Double = " + doubleFromInteger);
 
