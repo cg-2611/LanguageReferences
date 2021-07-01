@@ -11,14 +11,14 @@
 - [x] Casting
 - [x] User Input
 - [x] Math
-- [ ] Random Numbers
-- [ ] Variable Arguments
-- [ ] Files
-- [ ] Arrays
+- [x] Random Numbers
+- [x] Variable Arguments
+- [x] Files
+- [x] Arrays
 - [ ] Pointers
-- [ ] Passing by Reference 
-- [ ] Structures
+- [ ] Functions and Passing by Reference 
 - [ ] Memory Management
+- [ ] Structures
 - [ ] Data Strictures
     - [ ] Linked List
     - [ ] Hash Map
@@ -40,7 +40,7 @@
 - [ ] Bits
 - [ ] Preprocessors
 - [ ] Header Files
-- [ ] Extern variables
+- [ ] External variables
 - [ ] Error Handling
 - [ ] Multithreading
 - [ ] Thread Synchronization
