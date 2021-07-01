@@ -67,7 +67,7 @@ const type identifier = value;
 type identifier[n];
 
 // initialize array of 3 elements (memory allocated and values stored)
-type identifier[3] =  {element 1, element 2, element 3, ...};
+type identifier[3] =  {element 1, element 2, element 3};
 ```
 ### Primitive Data Types
 ---
