@@ -23,7 +23,7 @@ public class Panel extends Pane {
     }
 
     private void initializeComponents() {
-        // lambda expressions equivalent to:
+        // lambda expressions can be replaced with:
         // button.setOnAction(new EventHandler<ActionEvent>() {
         //		@Override
         //		public void handle(ActionEvent event) {

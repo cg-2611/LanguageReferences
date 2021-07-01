@@ -29,7 +29,7 @@ public class Panel extends JPanel {
     private void initializeComponents() {
         setLayout(null);
 
-        // lambda expression is equivalent to:
+        // lambda expression can be replaced with:
         // addActionListener(new ActionListener() {
         //      public void actionPerformed(ActionEvent e) {
         //
