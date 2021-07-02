@@ -1,7 +1,6 @@
-Markdown
-========
-Contents
---------
+# Markdown
+
+## Contents
 - [Basic Syntax](#basic-syntax)
     - [Headings](#headings)
     - [Styling](#styling)
@@ -14,12 +13,11 @@ Contents
     - [Tables](#tables)
     - [Fenced Code Blocks](#fenced-code-blocks)
 - [Useful Links](#useful-links)
-    - [Basic Syntax Links](#basic-syntax-links)
-    - [Extended Syntax Links](#extended-syntax-links)
-    - [General Information Links](#general-information-links)
+    - [Basic Syntax Documentation](#basic-syntax-documentation)
+    - [Extended Syntax Documentation](#extended-syntax-documentation)
+    - [General Information](#general-information)
 
-Basic Syntax
-------------
+## Basic Syntax
 ### Headings
 ---
 ```markdown
@@ -34,9 +32,7 @@ H1
 H2
 --
 ```
-
 Output:
-
 # H1
 ## H2
 ### H3
@@ -47,7 +43,6 @@ H1
 ==
 H2
 --
-
 ### Styling
 ---
 ```markdown
@@ -56,13 +51,11 @@ H2
 ~~strike-through~~
 ```
 Output:
-
 **bold**
 
 *italic*
 
-~~strike-through~~
-
+~~strike through~~
 ### Quotes
 ---
 ```markdown
@@ -71,13 +64,11 @@ Output:
 `Code`
 ```
 Output:
-
 > Text
 
 >> Nested Quote
 
 `Code`
-
 ### Links
 ---
 ```markdown
@@ -85,11 +76,9 @@ Output:
 [Heading Link Text](#heading-text)
 ```
 Output:
-
 [Link Text](#)
 
 [Heading Link Text](#contents)
-
 ### Images
 ---
 ```markdown
@@ -116,7 +105,6 @@ Output:
 3. Item 3
 ```
 Output:
-
 1. Item 1
 2. Item 2
 3. Item 3
@@ -133,8 +121,7 @@ Output:
     - Sub Item 2
 3. Item 3
 
-Extended Syntax
----------------
+## Extended Syntax
 ### Task Lists
 ```markdown
 - [x] Task 1 is complete
@@ -142,11 +129,9 @@ Extended Syntax
 - [ ] Task 3 is incomplete
 ```
 Output:
-
 - [x] Task 1 is complete
 - [ ] Task 2 is incomplete
 - [ ] Task 3 is incomplete
-
 ### Tables
 ---
 ```markdown
@@ -161,7 +146,6 @@ Output:
 | Content Cell | Content Cell   | Content Cell  |
 ```
 Output:
-
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
@@ -171,7 +155,6 @@ Output:
 | :---         |     :---:      |          ---: |
 | Content Cell | Content Cell   | Content Cell  |
 | Content Cell | Content Cell   | Content Cell  |
-
 ### Fenced Code Blocks
 ---
 ````markdown
@@ -182,21 +165,20 @@ function test() {
 ```
 ````
 Output:
-
 ```javascript
 function test() {
     console.log("fenced code block");
 }
 ```
-Useful Links
-------------
-- #### Basic Syntax Links:
+
+## Useful Links
+- #### Basic Syntax Documentation:
     - <https://www.markdownguide.org/basic-syntax/>
     - <https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github>
-- #### Extended Syntax Links:
+- #### Extended Syntax Documentation:
     - <https://www.markdownguide.org/extended-syntax>
     - <https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting>
-- #### General Information Links
+- #### General Information:
     - <https://daringfireball.net/projects/markdown/>
     - <https://guides.github.com/features/mastering-markdown/>
     - <https://github.github.com/gfm/>
