@@ -15,9 +15,9 @@
 - [x] Variable Arguments
 - [x] Files
 - [x] Arrays
-- [ ] Pointers
-- [ ] Functions and Passing by Reference 
-- [ ] Memory Management
+- [x] Pointers
+- [x] Function Pointers and Passing by Reference
+- [x] Memory Management
 - [ ] Structures
 - [ ] Data Strictures
     - [ ] Linked List
