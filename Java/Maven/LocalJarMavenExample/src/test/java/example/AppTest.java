@@ -10,5 +10,5 @@ public class AppTest {
     public void shouldAnswerWithTrue() {
         assertTrue(true);
     }
-    
+
 }

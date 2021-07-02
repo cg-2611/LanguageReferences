@@ -63,5 +63,5 @@ public class Casting {
         System.out.println(floatFromString + " is Float? " + (floatFromString instanceof Float));
         System.out.println(doubleFromString + " is Double? " + (doubleFromString instanceof Double));
     }
-    
+
 }

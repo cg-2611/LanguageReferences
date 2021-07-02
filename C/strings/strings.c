@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     // strings in c must be defined as arrays of chars with a
     // null terminator at the end to indicate the end of the string
 
@@ -27,20 +28,23 @@ int main(int argc, char *argv[]) {
     printf("String last index of \'i\': %d\n", i_last_index);
 
     char * s_index_pointer = strchr(string, 's');
-    while (s_index_pointer != NULL) {
+    while (s_index_pointer != NULL)
+    {
         printf("\'s\' found at index: %ld\n", (s_index_pointer - string));
         s_index_pointer = strchr((s_index_pointer + 1), 's');
     }
-    
+
     char *substring_pointer = strstr(string, "string"); // returns a character pointer or null if not found
-    if (substring_pointer != NULL) {
+    if (substring_pointer != NULL)
+    {
         printf("String index of substring \"string\": %ld\n", (substring_pointer - string));
     }
 
     char string_to_split[] = "This, is.a-string";
     char *split_string_pointer = strtok(string_to_split, " ,.-");
     printf("Split string into tokens at every \' \', \',\', \'.\' and \'-\':\n");
-    while (split_string_pointer != NULL) {
+    while (split_string_pointer != NULL)
+    {
         printf("String token: %s\n", split_string_pointer);
         split_string_pointer = strtok(NULL, " ,.-");
     }

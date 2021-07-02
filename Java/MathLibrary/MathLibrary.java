@@ -1,5 +1,5 @@
 public class MathLibrary {
-    
+
     public static void main(String[] args) {
         // constants
         System.out.println("pi = " + Math.PI);

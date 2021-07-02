@@ -2,7 +2,7 @@
  * JavadocExampleClassOne stores a value.
  */
 public class JavadocExampleClassOne {
-    
+
     /**
      * The value of the object.
      */

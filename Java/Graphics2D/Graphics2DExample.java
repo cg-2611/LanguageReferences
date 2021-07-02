@@ -86,5 +86,5 @@ public class Graphics2DExample extends JFrame {
             new Graphics2DExample();
         });
     }
-    
+
 }

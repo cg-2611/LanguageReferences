@@ -17,5 +17,5 @@ public class Polymorphism {
             array.get(i).print();
         }
     }
-    
+
 }

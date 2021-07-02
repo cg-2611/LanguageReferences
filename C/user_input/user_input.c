@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     char character;
 
     printf("Enter character: ");
@@ -12,7 +13,7 @@ int main(int argc, char *argv[]) {
     putchar(character); // can also use putc(character, stdout);
 
     char string[256];
-    
+
     printf("\n\nEnter string: ");
     fflush(stdin); // flush the standard input buffer
     // can also use scanf("%s", string);

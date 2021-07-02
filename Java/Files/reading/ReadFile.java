@@ -54,5 +54,5 @@ public class ReadFile {
         readFileWithBufferedReader(fileToRead);
         System.out.println();
     }
-    
+
 }

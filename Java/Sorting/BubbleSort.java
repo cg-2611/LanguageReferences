@@ -21,7 +21,7 @@ public class BubbleSort {
             printArray(array);
         }
     }
-    
+
     private static void optimizedBubbleSort(int[] array) {
         int i = 0;
         boolean swapped = true;
@@ -46,16 +46,16 @@ public class BubbleSort {
         int[] unsortedArray1  = {9, 3, 2, 7, 1, 4, 5, 8, 6};
         System.out.println("Unsorted Array 1: ");
         printArray(unsortedArray1);
-        
+
         System.out.println("\nBubble Sort:");
         bubbleSort(unsortedArray1);
-        
+
         int[] unsortedArray2  = {9, 3, 2, 7, 1, 4, 5, 8, 6};
         System.out.println("\nUnsorted Array 2: ");
         printArray(unsortedArray2);
-        
+
         System.out.println("\nOptimized Bubble Sort:");
         optimizedBubbleSort(unsortedArray2);
     }
-    
+
 }

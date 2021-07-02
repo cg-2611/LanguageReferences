@@ -70,5 +70,5 @@ public class SerializationExample {
         System.out.println("\nAfter Serialization: ");
         printFields(objectRead);
     }
-    
+
 }

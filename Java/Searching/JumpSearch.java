@@ -8,7 +8,7 @@ public class JumpSearch {
         while (array[(int) Math.min(high, array.length) - 1] < target) {
             low = high;
             high += jump;
-            
+
             if (low >= array.length) {
                 return -1;
             }
@@ -28,7 +28,7 @@ public class JumpSearch {
             return -1;
         }
     }
-    
+
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 

@@ -1,5 +1,5 @@
 public class UnsynchronizedCounter implements Counter {
-    
+
     private int count;
 
     public UnsynchronizedCounter() {

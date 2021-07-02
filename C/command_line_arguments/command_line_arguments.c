@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     // argc always >= 1 as program name is counted
-    
+
     printf("Number of arguments passed: %d\n\n", argc);
 
     int i;

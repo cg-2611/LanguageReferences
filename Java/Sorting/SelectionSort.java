@@ -1,5 +1,5 @@
 public class SelectionSort {
-    
+
     private static void printArray(int[] array) {
         System.out.print("[");
         for (int i = 0; i < array.length - 1; i++) {
@@ -24,12 +24,12 @@ public class SelectionSort {
             printArray(array);
         }
     }
-    
+
     public static void main(String[] args) {
         int[] unsortedArray  = {9, 3, 2, 7, 1, 4, 5, 8, 6};
         System.out.println("Unsorted Array: ");
         printArray(unsortedArray);
-        
+
         System.out.println("\nSelection Sort:");
         selectionSort(unsortedArray);
     }

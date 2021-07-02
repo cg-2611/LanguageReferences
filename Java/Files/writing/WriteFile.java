@@ -35,5 +35,5 @@ public class WriteFile {
         File fileToWrite = new File("./writing/output.txt");
         writeFileWithBufferedWriter(fileToWrite);
     }
-    
+
 }

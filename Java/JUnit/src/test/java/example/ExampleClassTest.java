@@ -69,7 +69,7 @@ class ExampleClassTest {
         ExampleClass oneExampleObject = new ExampleClass(1);
         Assertions.assertEquals(0, oneExampleObject.getLogValue());
     }
-    
+
     @Test
     @DisplayName("The returned natural log of the value is -1 when = 0")
     void valueLogIsCorrectWithIntegerEqualToZero() {
@@ -89,7 +89,7 @@ class ExampleClassTest {
         System.out.println("Finished test " + i);
         i++;
     }
-    
+
     @AfterAll
     static void announceAllTestEnd() {
         System.out.println("Finished tests on ExampleClass");

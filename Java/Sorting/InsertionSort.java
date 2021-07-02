@@ -22,12 +22,12 @@ public class InsertionSort {
             printArray(array);
         }
     }
-    
+
     public static void main(String[] args) {
         int[] unsortedArray  = {9, 3, 2, 7, 1, 4, 5, 8, 6};
         System.out.println("Unsorted Array: ");
         printArray(unsortedArray);
-        
+
         System.out.println("\nInsertion Sort:");
         insertionSort(unsortedArray);
     }

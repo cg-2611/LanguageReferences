@@ -26,5 +26,5 @@ public class Generics {
         Generics.genericMethod(5.44f);
         Generics.genericMethod(6);
     }
-    
+
 }

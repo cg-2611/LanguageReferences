@@ -1,5 +1,5 @@
 public enum Value {
-    
+
     VALUE1,
     VALUE2,
     VALUE3,

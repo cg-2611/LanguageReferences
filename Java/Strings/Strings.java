@@ -51,5 +51,5 @@ public class Strings {
         System.out.print("Lexicographical difference between old string \"" + oldStr + "\" and new string \"" + str + "\": ");
         System.out.println(oldStr.compareTo(str));
     }
-    
+
 }

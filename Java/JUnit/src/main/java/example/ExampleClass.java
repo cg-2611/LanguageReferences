@@ -35,5 +35,5 @@ public class ExampleClass {
     public double getLogValue() {
         return value >= 1 ? Math.log(value) : -1;
     }
-    
+
 }

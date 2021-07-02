@@ -4,7 +4,7 @@ import example.library.one.ExampleClassOne;
 import example.library.two.ExampleClassTwo;
 
 public class App {
-    
+
     public static void main(String[] args) {
         ExampleClassOne classOne = new ExampleClassOne(2);
         ExampleClassTwo classTwo = new ExampleClassTwo("string");

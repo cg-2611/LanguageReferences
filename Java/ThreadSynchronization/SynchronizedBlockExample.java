@@ -1,5 +1,5 @@
 public class SynchronizedBlockExample {
-    
+
     public static void main(String[] args) {
         System.out.println("\nUsing synchronized blocks: ");
         UnsynchronizedCounter unsynchronizedCounter = new UnsynchronizedCounter();

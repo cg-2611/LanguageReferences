@@ -39,5 +39,5 @@ public class StackExample {
         System.out.println("\nCleared stack\n");
         System.out.println("Stack empty: " + stack.isEmpty());
     }
-    
+
 }

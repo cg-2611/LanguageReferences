@@ -44,5 +44,5 @@ public class ArrayListExample {
         System.out.println("\nCleared arrayList\n");
         System.out.println("ArrayList empty: " + arrayList.isEmpty());
     }
-    
+
 }

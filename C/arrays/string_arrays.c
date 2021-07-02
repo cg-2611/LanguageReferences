@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     int number_of_strings;
 
     printf("Enter number of strings: ");
@@ -13,7 +14,8 @@ int main(int argc, char *argv[]) {
     char **array_of_strings = (char **)malloc(sizeof(char *) * number_of_strings);
 
     int i, j;
-    for(i = 0; i < number_of_strings; i++) {
+    for(i = 0; i < number_of_strings; i++)
+    {
         char string[BUFSIZ];
 
         printf("Enter string %d: ", i + 1);
@@ -24,7 +26,8 @@ int main(int argc, char *argv[]) {
         array_of_strings[i] = (char *)malloc(sizeof(char) * (strlen(string) + 1));
 
         // store the characters of the string in the array
-        for (j = 0; j < strlen(string); j++) {
+        for (j = 0; j < strlen(string); j++)
+        {
             array_of_strings[i][j] = string[j];
         }
 
@@ -32,7 +35,8 @@ int main(int argc, char *argv[]) {
     }
 
     printf("\nStrings entered:\n");
-    for (i = 0; i < number_of_strings; i++) {
+    for (i = 0; i < number_of_strings; i++)
+    {
         printf("String %s\n", array_of_strings[i]);
 
         // deallocate the memory for the string

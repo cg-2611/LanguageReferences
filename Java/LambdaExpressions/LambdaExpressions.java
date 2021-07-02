@@ -40,5 +40,5 @@ public class LambdaExpressions {
         array.forEach(outputElementFactorial);
 
     }
-    
+
 }

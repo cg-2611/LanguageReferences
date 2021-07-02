@@ -13,5 +13,5 @@ public class JavadocExampleMain {
         classTwo.setName("Class Two");
         System.out.println(classTwo.getName());
     }
-    
+
 }

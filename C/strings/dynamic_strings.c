@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     // dynamic sized strings:
     // can be declared as either:
     // char *string;
@@ -24,7 +25,7 @@ int main(int argc, char *argv[]) {
 
     printf("Dynamic string value: %s\n", dynamic_string);
     printf("Dynamic string length: %lu\n", strlen(dynamic_string));
-    
+
     // deallocate memory
     free(dynamic_string);
 

@@ -45,5 +45,5 @@ public class LinkedListExample {
         System.out.println("LinkedList empty: " + linkedList.isEmpty());
 
     }
-    
+
 }

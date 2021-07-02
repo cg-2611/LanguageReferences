@@ -9,5 +9,5 @@ public class SingleTypeGeneric<T> {
     public T getValue() {
         return value;
     }
-    
+
 }

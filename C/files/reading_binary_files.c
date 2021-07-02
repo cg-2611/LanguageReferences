@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     FILE *file = fopen("./binary_file.bin", "rb");
 
-    if (file == NULL) {
+    if (file == NULL)
+    {
         // exit if file couldn't be opened
         return 1;
     }

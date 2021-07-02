@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     // fopen in "w" mode will create a file if it doesn't exist
     FILE *file = fopen("./written_file.txt", "w");
 

@@ -34,5 +34,5 @@ public class WriteFileBytes {
         File fileToWrite = new File("./writing/bytes_output.txt");
         writeBytesToFile(fileToWrite);
     }
-    
+
 }

@@ -22,5 +22,5 @@ public class MultithreadingMain {
 
         System.out.println("All threads joined");
     }
-    
+
 }

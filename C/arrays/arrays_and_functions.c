@@ -3,15 +3,18 @@
 #include <time.h>
 
 // returns a pointer to an array that contains a given number of random integers in range 1-99;
-int *create_array(size_t array_size) {
+int *create_array(size_t array_size)
+{
     int *array = (int *)malloc(sizeof(int) * array_size);
 
-    if (array == NULL) {
+    if (array == NULL)
+    {
         return NULL;
-    } 
-    
+    }
+
     int i;
-    for (i = 0; i < array_size; i++) {
+    for (i = 0; i < array_size; i++)
+    {
         array[i] = ((rand() % 99) + 1);
     }
 
@@ -19,11 +22,13 @@ int *create_array(size_t array_size) {
 }
 
 // returns an array with a new random number in range 1-99 added to the previous one in the array passed as an argument
-int *update_array(int *array_to_update, size_t array_size) {
+int *update_array(int *array_to_update, size_t array_size)
+{
     int *array = (int *)malloc(sizeof(int) * array_size);
 
     int i;
-    for (i = 0; i < array_size; i++) {
+    for (i = 0; i < array_size; i++)
+    {
         array[i] = array_to_update[i] + ((rand() % 99) + 1);
     }
 
@@ -34,16 +39,19 @@ int *update_array(int *array_to_update, size_t array_size) {
 }
 
 // prints the array provided as an argument
-void print_array(int *array, size_t array_size) {
+void print_array(int *array, size_t array_size)
+{
     int i;
-    for (i = 0; i < array_size; i++) {
+    for (i = 0; i < array_size; i++)
+    {
         printf("%d ", array[i]);
     }
 
     printf("\n");
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     const int ARRAY_SIZE = 16;
 
     srand(time(NULL));

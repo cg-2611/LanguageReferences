@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *arg[])
+{
     int array_size = 8;
     int *array;
 
@@ -15,11 +16,13 @@ int main(int argc, char *argv[]) {
     int i;
 
     // assign values to the array elemets
-    for (i = 0; i < array_size; i++) {
+    for (i = 0; i < array_size; i++)
+    {
         array[i] = i + 1;
     }
 
-    for (i = 0; i < array_size; i++) {
+    for (i = 0; i < array_size; i++)
+    {
         printf("%d ", array[i]);
     }
 
@@ -28,11 +31,13 @@ int main(int argc, char *argv[]) {
     array = (int *)realloc(array, sizeof(int) * array_size);
 
     // assign values to the new 8 memory locations
-    for(i = (array_size / 2) - 1; i < array_size; i++) {
+    for(i = (array_size / 2) - 1; i < array_size; i++)
+    {
         array[i] = i + 1;
     }
 
-    for (i = 0; i < array_size; i++) {
+    for (i = 0; i < array_size; i++)
+    {
         printf("%d ", array[i]);
     }
 

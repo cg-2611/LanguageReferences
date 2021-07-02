@@ -1,14 +1,16 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-void printArgs(int args_count, ...) {
+void printArgs(int args_count, ...)
+{
     va_list args;
 
     // initialize va_list args to store all arguments after args_count
     va_start(args, args_count);
 
     int i;
-    for (i = 0; i < args_count; i++) {
+    for (i = 0; i < args_count; i++)
+    {
         // print each argument, treating each one as a char *
         printf("%s, ", va_arg(args, char *));
     }
@@ -19,16 +21,18 @@ void printArgs(int args_count, ...) {
     printf("\n");
 }
 
-double average_args(int args_count, ...) {
+double average_args(int args_count, ...)
+{
     double sum = 0.0;
 
     va_list args;
 
     // initialize va_list args to store all arguments after args_count
     va_start(args, args_count);
-    
+
     int i;
-    for (i = 0; i < args_count; i++) {
+    for (i = 0; i < args_count; i++)
+    {
         // add each argument to the sum, treating each one as a double
         sum += va_arg(args, double);
     }
@@ -39,7 +43,8 @@ double average_args(int args_count, ...) {
     return (double)sum / (double)args_count;
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     printArgs(1, "Argument 1");
     printArgs(2, "Argument 1", "Argument 2");
     printArgs(3, "Argument 1", "Argument 2", "Argument 3");

@@ -1,8 +1,9 @@
 #include <math.h>
 #include <stdio.h>
-#include <stdlib.h> // contains maths functions abs and div 
+#include <stdlib.h> // contains maths functions abs and div
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 
     // some math functions have alternatives for different return types
 
@@ -42,11 +43,11 @@ int main(int argc, char *argv[]) {
     // exponents
     printf("2^8 = %f\n\n", pow(2, 8));
     printf("21.02^1.34 = %f\n\n", pow(21.02, 1.34));
-    
+
     // square and cube root
     printf("sqrt(64) = %f\n", sqrt(64));
     printf("cbrt(125) = %f\n\n", cbrt(125));
-    
+
     // logarithms
     printf("log_e 2 = %f\n", log(2));
     printf("log_10 2 = %f\n\n", log10(2));

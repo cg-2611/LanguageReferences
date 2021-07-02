@@ -11,7 +11,7 @@ import javafx.scene.control.Tooltip;
 import javafx.scene.layout.Pane;
 
 public class Panel extends Pane {
-    
+
     private TextField textField;
     private Button button;
     private Label label;

@@ -23,5 +23,5 @@ public class FileInformation {
         System.out.println("File is file: " + file.isFile());
         System.out.println("File is hidden: " + file.isHidden());
     }
-    
+
 }
