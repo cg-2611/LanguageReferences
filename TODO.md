@@ -19,7 +19,7 @@
 - [x] Function Pointers and Passing by Reference
 - [x] Memory Management
 - [ ] Structures
-- [ ] Data Strictures
+- [ ] Data Structures
     - [ ] Linked List
     - [ ] Hash Map
     - [ ] Stack
@@ -38,6 +38,7 @@
 - [ ] Unions
 - [ ] Enums
 - [ ] Bits
+- [ ] Generic Types
 - [ ] Preprocessors
 - [ ] Header Files
 - [ ] External variables
