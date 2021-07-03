@@ -295,12 +295,14 @@ or include the path in the executed command:
 
 ## Useful Links
 - #### C Documentation:
+    - Microsoft C Documentation: <https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-160>
     - C Standard: <http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf>
     - Devdocs (not official): <https://devdocs.io/c/>
     - cppreference (not official): <https://en.cppreference.com/w/c>
     - cplusplus (not official): <https://www.cplusplus.com/reference/clibrary/>
 - #### Execution Documentation:
-    - `clang` command documentation: <>
+    - `clang` command documentation: <https://clang.llvm.org/docs/index.html>
+    - extra `clang` tools documentation: <https://clang.llvm.org/extra/index.html>
 - #### General Information:
     - <https://www.tutorialspoint.com/cprogramming/index.htm>
     - <https://www.learn-c.org/>
