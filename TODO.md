@@ -18,7 +18,7 @@
 - [x] Pointers
 - [x] Function Pointers and Passing by Reference
 - [x] Memory Management
-- [ ] Structures
+- [x] Structures
 - [ ] Data Structures
     - [ ] Linked List
     - [ ] Hash Map
