@@ -16,10 +16,12 @@ int main(int argc, char *argv[])
     rewind(file); // go to start of file for reading
 
     // allocate memory to store data in file
-    char *data_from_file = (char *)malloc(sizeof(char) * file_size);
+    char *data_from_file = (char *)malloc(sizeof(char) * (file_size + 1)); // + 1 for null terminator
     size_t bytes_read = fread(data_from_file, sizeof(char), file_size, file);
 
     // good practice to check memory allocation and file reading is successful
+
+    data_from_file[file_size] = '\0';
 
     printf("Bytes read: %lu\n", bytes_read);
     printf("Data from file: %s\n", data_from_file);

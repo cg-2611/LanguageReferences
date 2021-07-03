@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     printf("\nEnter values: ");
     fflush(stdin);
     scanf("%d-%c %f, %s", &i, &c, &f, s);
-    printf("Values entered: %d, \'%c\', %f, \"%s\"", i, c, f, s);
+    printf("Values entered: %d, \'%c\', %f, \"%s\"\n", i, c, f, s);
 
     return 0;
 }

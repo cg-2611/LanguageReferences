@@ -79,7 +79,7 @@ int main(int argc, char const *argv[])
         printf("%d ", array3[i]);
     }
 
-    char string[] = "This is a string that will be altered.";
+    char string[] = "This is a string that will be altered..";
     printf("\nString before memmove: ");
     puts(string);
 

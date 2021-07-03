@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
     printf("\n\nDecrementing pointers: \n");
 
-    int decrement_numbers[] = {-1, 124, 152, 167, 132, 185, 149};
+    int decrement_numbers[] = {-1, 124, 152, 167, 132, 185, 149, 175};
     int *decrement_numbers_pointer = &decrement_numbers[7];
 
     i = 7;
