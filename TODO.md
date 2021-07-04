@@ -19,17 +19,18 @@
 - [x] Function Pointers and Passing by Reference
 - [x] Memory Management
 - [x] Structures
+- [x] Typedef
 - [ ] Data Structures
     - [ ] Linked List
     - [ ] Hash Map
     - [ ] Stack
     - [ ] Queue
-- [ ] Sorting
-    - [ ] Bubble Sort
-    - [ ] Insertion Sort
-    - [ ] Selection Sort
-    - [ ] Quick Sort
-    - [ ] Merge Sort
+- [x] Sorting
+    - [x] Bubble Sort
+    - [x] Insertion Sort
+    - [x] Selection Sort
+    - [x] Quick Sort
+    - [x] Merge Sort
 - [ ] Searching
     - [ ] Linear Search
     - [ ] Binary Search
