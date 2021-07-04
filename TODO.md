@@ -31,11 +31,11 @@
     - [x] Selection Sort
     - [x] Quick Sort
     - [x] Merge Sort
-- [ ] Searching
-    - [ ] Linear Search
-    - [ ] Binary Search
-    - [ ] Interpolation Search
-    - [ ] Jump Search
+- [x] Searching
+    - [x] Linear Search
+    - [x] Binary Search
+    - [x] Interpolation Search
+    - [x] Jump Search
 - [ ] Unions
 - [ ] Enums
 - [ ] Bits
