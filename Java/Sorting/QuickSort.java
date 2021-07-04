@@ -28,15 +28,15 @@ public class QuickSort {
 
         printArray(array);
 
-        return (index + 1);
+        return index + 1;
     }
 
     private static void quickSort(int[] array, int start, int end) {
         if (start < end) {
             int partitionIndex = partition(array, start, end);
 
-            quickSort(array, start, partitionIndex-1);
-            quickSort(array, partitionIndex+1, end);
+            quickSort(array, start, partitionIndex - 1);
+            quickSort(array, partitionIndex + 1, end);
         }
     }
 
