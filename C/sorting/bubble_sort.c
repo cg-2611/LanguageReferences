@@ -8,9 +8,12 @@ void print_array(int *array, size_t length);
 void bubble_sort(int *array, size_t length)
 {
     int i, j;
-    for (i = 0; i < length - 1; i++) {
-        for (j = 0; j < length - 1; j++) {
-            if (array[j] > array[j + 1]) {
+    for (i = 0; i < length - 1; i++)
+    {
+        for (j = 0; j < length - 1; j++)
+        {
+            if (array[j] > array[j + 1])
+            {
                 swap(&array[j], &array[j + 1]);
             }
         }
