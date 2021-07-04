@@ -2,7 +2,8 @@
 
 typedef unsigned long long int type_uint64;
 
-typedef struct example {
+typedef struct example
+{
     int value1;
     type_uint64 value2;
 } type_example;
