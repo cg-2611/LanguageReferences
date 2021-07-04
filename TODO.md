@@ -19,6 +19,7 @@
 - [x] Function Pointers and Passing by Reference
 - [x] Memory Management
 - [x] Structures
+    - [ ] Anonymous Structures
 - [x] Typedef
 - [ ] Data Structures
     - [ ] Linked List
@@ -36,9 +37,12 @@
     - [x] Binary Search
     - [x] Interpolation Search
     - [x] Jump Search
-- [ ] Unions
+- [x] Unions
+    - [ ] Anonymous Unions
 - [ ] Enums
-- [ ] Bits
+    - [ ] Anonymous Enums
+- [ ] Memory Padding
+- [ ] Bit Manipulation
 - [ ] Generic Types
 - [ ] Preprocessors
 - [ ] Header Files
