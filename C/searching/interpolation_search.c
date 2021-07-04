@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int interpolation_search(int *array, size_t length, int target) {
+int interpolation_search(int *array, size_t length, int target)
+{
     int low = 0, high = length - 1, mid;
 
     while ((array[high] != array[low]) && (target >= array[low]) && (target <= array[high]))

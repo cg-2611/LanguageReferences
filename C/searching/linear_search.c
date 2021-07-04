@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int linear_search(int *array, size_t length, int target) {
+int linear_search(int *array, size_t length, int target)
+{
     int i;
     for (i = 0; i < length; i++)
     {
