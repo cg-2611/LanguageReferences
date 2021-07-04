@@ -7,10 +7,10 @@ void change_string(char **old_string) {
 // returns square of x, square of y as square and the sum and product of x and y
 // actual return value is y^2, however, passing sum, product and square by reference allows
 // for more return values
-int perform_calculations(int x, int y, int *sum, int *product, int *square) {
-    *sum = x + y;
-    *product = x * y;
-    *square = y * y;
+int perform_calculations(int x, int y, int *sum_p, int *product_p, int *square_p) {
+    *sum_p = x + y;
+    *product_p = x * y;
+    *square_p = y * y;
     return x * x;
 }
 

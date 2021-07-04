@@ -73,20 +73,20 @@ type identifier[3] =  {element 1, element 2, element 3};
 ### Primitive Data Types
 ---
 ```c
-char               // 8 bits, 1 byte, %c
-signed char        // 8 bits, 1 byte, %c or %hhi
-unsigned char      // 8 bits, 1 byte, %c or %hhu
-int                // 32 bits, 4 bytes, %d or %i
-unsigned int       // 32 bits, 4 bytes, %u
-short              // 16 bits, 2 bytes, %hd or %hi
-unsigned short     // 16 bits, 2 bytes, %hu
-long               // 64 bits, 8 bytes, %ld or %li
-unsigned long      // 64 bits, 8 bytes, %lu
-long long          // 64 bits, 8 bytes, %lld or %lli
-unsigned long long // 64 bits, 8 bytes, %llu
-float              // 32 bits, 4 bytes, %f
-double             // 64 bits, 8 bytes, %lf
-long double        // 128 bits, 16 bytes, %Lf
+char                   // 8 bits, 1 byte, %c
+signed char            // 8 bits, 1 byte, %c or %hhi
+unsigned char          // 8 bits, 1 byte, %c or %hhu
+int                    // 32 bits, 4 bytes, %d or %i
+unsigned int           // 32 bits, 4 bytes, %u
+short int              // 16 bits, 2 bytes, %hd or %hi
+unsigned short int     // 16 bits, 2 bytes, %hu
+long int               // 64 bits, 8 bytes, %ld or %li
+unsigned long int      // 64 bits, 8 bytes, %lu
+long long int          // 64 bits, 8 bytes, %lld or %lli
+unsigned long long int // 64 bits, 8 bytes, %llu
+float                  // 32 bits, 4 bytes, %f
+double                 // 64 bits, 8 bytes, %lf
+long double            // 128 bits, 16 bytes, %Lf
 ```
 ### Casting
 ---

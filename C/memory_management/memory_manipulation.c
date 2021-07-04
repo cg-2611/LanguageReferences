@@ -27,25 +27,25 @@ int main(int argc, char const *argv[])
 
     // memchr returns a pointer to the location of the first occurrence of the given value
     // it searches the number of bytes specified
-    int *int_pointer1 = memchr(array2, 9, sizeof(array2));
-    int *int_pointer2 = memchr(array2, 7, sizeof(array2));
+    int *int1_p = memchr(array2, 9, sizeof(array2));
+    int *int2_p = memchr(array2, 7, sizeof(array2));
 
-    if (int_pointer1 == NULL)
+    if (int1_p == NULL)
     {
         printf("9 not found in array2\n");
     }
     else
     {
-        printf("9 found at index %ld of array2\n", int_pointer1 - array2); // calculate the index
+        printf("9 found at index %ld of array2\n", int1_p - array2); // calculate the index
     }
 
-    if (int_pointer2 == NULL)
+    if (int2_p == NULL)
     {
         printf("7 not found in array2\n");
     }
     else
     {
-        printf("7 found at index %ld of array2\n", int_pointer2 - array2); // calculate the index
+        printf("7 found at index %ld of array2\n", int2_p - array2); // calculate the index
     }
 
     int array3[] = {1, 1, 1, 1, 1};

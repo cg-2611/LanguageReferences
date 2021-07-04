@@ -18,12 +18,12 @@ long double cube(double x) {
     return x * x * x;
 }
 
-void execute_void_function(void (*void_function_pointer)(int, int), int a, int b) {
-    void_function_pointer(a, b);
+void execute_void_function(void (*void_function_p)(int, int), int a, int b) {
+    void_function_p(a, b);
 }
 
-void execute_long_double_function(long double(*long_double_function_pointer)(double), double a) {
-    long double result = long_double_function_pointer(a);
+void execute_long_double_function(long double(*long_double_function_p)(double), double a) {
+    long double result = long_double_function_p(a);
     printf("%Lf\n", result);
 }
 

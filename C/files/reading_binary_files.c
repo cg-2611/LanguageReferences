@@ -11,9 +11,9 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    fseek (file, 0, SEEK_END); // go to end of file
+    fseek (file, 0, SEEK_END);    // go to end of file
     long file_size = ftell(file); // get position of the end of the file
-    rewind(file); // go to start of file for reading
+    rewind(file);                 // go to start of file for reading
 
     // allocate memory to store data in file
     char *data_from_file = (char *)malloc(sizeof(char) * (file_size + 1)); // + 1 for null terminator
@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 
     fclose(file);
     free(data_from_file);
+    data_from_file = NULL;
 
     return 0;
 }

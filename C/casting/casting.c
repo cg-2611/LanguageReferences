@@ -17,12 +17,12 @@ int main(int argc, char *argv[])
     printf("string = %s, double = %f\n", double_as_string, double_from_string);
 
     char string_of_numbers[] = "1231 f4a5 0101101 77 0x0b27";
-    char * end_pointer;
-    long decimal = strtol (string_of_numbers, &end_pointer, 10);
-    long hexadecimal = strtol (end_pointer, &end_pointer, 16);
-    long binary = strtol (end_pointer, &end_pointer, 2);
-    long octal = strtol (end_pointer, &end_pointer, 8);
-    long number_from_format = strtol(end_pointer, NULL, 0);
+    char *end_p; // pointer to end of token in string
+    long int decimal = strtol (string_of_numbers, &end_p, 10);
+    long int hexadecimal = strtol (end_p, &end_p, 16);
+    long int binary = strtol (end_p, &end_p, 2);
+    long int octal = strtol (end_p, &end_p, 8);
+    long int number_from_format = strtol(end_p, NULL, 0);
     printf ("Numbers as decimals: %ld, %ld, %ld, %ld, %ld\n", decimal, hexadecimal, binary, octal, number_from_format);
 
     return 0;

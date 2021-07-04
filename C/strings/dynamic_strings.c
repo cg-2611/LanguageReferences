@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
     // deallocate memory
     free(dynamic_string);
-
+    dynamic_string = NULL;
 
     dynamic_string = (char *)malloc((sizeof(char) * 32) + 1); // allocate memory for a string of size 32 + 1
     strcpy(dynamic_string, "This is a bigger string"); // copy a larger string to the memory
@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 
     // deallocate memory
     free(dynamic_string);
+    dynamic_string = NULL;
 
     return 0;
 }

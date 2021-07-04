@@ -31,10 +31,10 @@ int main(int argc, char *argv[])
     size_t array_size = sizeof(int_array) / sizeof(int);
     print_array_bytes(int_array, array_size);
 
-    // each long is twice the size of an int, so the size must be doubled for the
+    // each long int is twice the size of an int, so the size must be doubled for the
     // correct number of elements to be output
-    long long_array[] = {3213, 32132, 321321};
-    array_size = (sizeof(long_array) / sizeof(long)) * 2;
+    long int long_array[] = {3213, 32132, 321321};
+    array_size = (sizeof(long_array) / sizeof(long int)) * 2;
     print_array_bytes(long_array, array_size);
 
 

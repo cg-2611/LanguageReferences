@@ -19,34 +19,34 @@ int main(int argc, char *argv[])
     printf("String value: %s\n", string);
     printf("String length: %lu\n", strlen(string));
 
-    char *first_i_character_pointer = strchr(string, 'i'); // strchr returns a character pointer or NULL if not found
-    int i_first_index = first_i_character_pointer - string;
+    char *first_i_p = strchr(string, 'i'); // strchr returns a character pointer or NULL if not found
+    int i_first_index = first_i_p - string;
     printf("String first index of \'i\': %d\n", i_first_index);
 
-    char *last_i_character_pointer = strrchr(string, 'i');
-    int i_last_index = last_i_character_pointer - string;
+    char *last_i_character_p = strrchr(string, 'i');
+    int i_last_index = last_i_character_p - string;
     printf("String last index of \'i\': %d\n", i_last_index);
 
-    char * s_index_pointer = strchr(string, 's');
-    while (s_index_pointer != NULL)
+    char * s_index_p = strchr(string, 's');
+    while (s_index_p != NULL)
     {
-        printf("\'s\' found at index: %ld\n", (s_index_pointer - string));
-        s_index_pointer = strchr((s_index_pointer + 1), 's');
+        printf("\'s\' found at index: %ld\n", (s_index_p - string));
+        s_index_p = strchr((s_index_p + 1), 's');
     }
 
-    char *substring_pointer = strstr(string, "string"); // returns a character pointer or null if not found
-    if (substring_pointer != NULL)
+    char *substring_p = strstr(string, "string"); // returns a character pointer or null if not found
+    if (substring_p != NULL)
     {
-        printf("String index of substring \"string\": %ld\n", (substring_pointer - string));
+        printf("String index of substring \"string\": %ld\n", (substring_p - string));
     }
 
     char string_to_split[] = "This, is.a-string";
-    char *split_string_pointer = strtok(string_to_split, " ,.-");
+    char *split_string_p = strtok(string_to_split, " ,.-"); // pointer to next token
     printf("Split string into tokens at every \' \', \',\', \'.\' and \'-\':\n");
-    while (split_string_pointer != NULL)
+    while (split_string_p != NULL)
     {
-        printf("String token: %s\n", split_string_pointer);
-        split_string_pointer = strtok(NULL, " ,.-");
+        printf("String token: %s\n", split_string_p);
+        split_string_p = strtok(NULL, " ,.-");
     }
 
     char another_string[] = "This is another string";
@@ -57,11 +57,11 @@ int main(int argc, char *argv[])
     printf("New string value: %s\n", new_string);
 
     // the destination string must be large enough to store itself and the source string
-    char concatenadted_string[128];
-    strcpy(concatenadted_string, string);
+    char concatenated_string[128];
+    strcpy(concatenated_string, string);
 
-    strcat(concatenadted_string, another_string);
-    printf("String concatenated with \"%s\": %s\n", another_string, concatenadted_string);
+    strcat(concatenated_string, another_string);
+    printf("String concatenated with \"%s\": %s\n", another_string, concatenated_string);
 
     return 0;
 }
