@@ -2,6 +2,11 @@
 
 typedef unsigned long long int type_uint64;
 
+// typedef also works for unions and enums
+// the 'example' tag is optional and allows for the declaration of the struct using either:
+// type_example identifier;
+// or
+// struct example identifier;
 typedef struct example
 {
     int value1;
