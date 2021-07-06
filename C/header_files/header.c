@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "headers/header.h"
 
+// imlementation for headers/header.h
+
 void print_struct_members(struct example struct_to_print)
 {
     printf("Struct value = %d\n", struct_to_print.value);
