@@ -46,7 +46,7 @@
 - [x] External variables
 - [x] Static Functions
 - [x] Error Handling
-- [ ] Serialization
+- [x] Serialization
 - [ ] Multithreading
 - [ ] Thread Synchronization
 - [ ] Networking
