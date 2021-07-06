@@ -45,7 +45,7 @@
 - [x] Header Files
 - [x] External variables
 - [x] Static Functions
-- [ ] Error Handling
+- [x] Error Handling
 - [ ] Multithreading
 - [ ] Thread Synchronization
 - [ ] Networking
