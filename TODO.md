@@ -41,8 +41,8 @@
 - [x] Memory Padding
 - [x] Bit Manipulation
     - [x] Masking
-- [ ] Preprocessors
-- [ ] Header Files
+- [x] Preprocessors
+- [x] Header Files
 - [ ] External variables
 - [ ] Error Handling
 - [ ] Multithreading
