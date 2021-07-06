@@ -43,7 +43,8 @@
     - [x] Masking
 - [x] Preprocessors
 - [x] Header Files
-- [ ] External variables
+- [x] External variables
+- [x] Static Functions
 - [ ] Error Handling
 - [ ] Multithreading
 - [ ] Thread Synchronization
