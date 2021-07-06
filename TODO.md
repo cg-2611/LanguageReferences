@@ -46,10 +46,10 @@
 - [x] External variables
 - [x] Static Functions
 - [x] Error Handling
+- [ ] Serialization
 - [ ] Multithreading
 - [ ] Thread Synchronization
 - [ ] Networking
-- [ ] Serialization
 - [ ] GUI
 - [ ] Makefile
 - [ ] CMake
