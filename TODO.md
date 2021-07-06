@@ -41,7 +41,6 @@
 - [x] Memory Padding
 - [x] Bit Manipulation
     - [x] Masking
-- [ ] Generic Types
 - [ ] Preprocessors
 - [ ] Header Files
 - [ ] External variables

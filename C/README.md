@@ -22,6 +22,7 @@
         - [Decision Making](#decision-making)
         - [Loop Control](#loop-control)
     - [Functions](#functions)
+    - [Preprocessor Directives](#preprocessor-directives)
 - [Executing Programs](#executing-programs)
     - [Compiling](#compiling)
     - [Running](#running)
@@ -223,6 +224,21 @@ type function_name(type parameter1, type parameter2)
 {
     // do something
 }
+```
+### Preprocessor Directives
+---
+```c
+#include // inserts a header from another file
+#define  // defines a preprocessor macro
+#undef   // undefines a previously defined preprocessor macro
+#ifdef   // returns true if the macro is defined
+#ifndef  // returns true is the macro is not defined
+#if      // returns true if condition is true
+#else    // executes when #if not true
+#elif    // combination of #else and #if
+#endif   // indicates end of conditional statement
+#error   // prints error message on stderr
+#pragma  // issues standardized commands to the compiler
 ```
 
 ## Executing Programs
