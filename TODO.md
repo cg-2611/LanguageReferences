@@ -43,12 +43,13 @@
     - [x] Masking
 - [x] Preprocessors
 - [x] Header Files
+- [x] Date and Time
 - [x] External variables
 - [x] Static Functions
 - [x] Error Handling
 - [x] Serialization
-- [ ] Multithreading
-- [ ] Thread Synchronization
+- [ ] Processes
+- [ ] Multithreading and Thread Synchronization
 - [ ] Networking
 - [ ] GUI
 - [ ] Makefile
