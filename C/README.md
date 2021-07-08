@@ -311,8 +311,10 @@ or include the path in the executed command:
 
 ## Useful Links
 - #### C Documentation:
-    - Microsoft C Documentation: <https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-160>
     - C Standard: <http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf>
+    - man pages: <https://man7.org/linux/man-pages/dir_all_alphabetic.html>
+    - Microsoft C Documentation: <https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-160>
+    - Open Group docs: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/>
     - Devdocs (not official): <https://devdocs.io/c/>
     - cppreference (not official): <https://en.cppreference.com/w/c>
     - cplusplus (not official): <https://www.cplusplus.com/reference/clibrary/>

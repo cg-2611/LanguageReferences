@@ -48,7 +48,7 @@
 - [x] Static Functions
 - [x] Error Handling
 - [x] Serialization
-- [ ] Processes
+- [x] Processes
 - [ ] Multithreading and Thread Synchronization
 - [ ] Networking
 - [ ] GUI
