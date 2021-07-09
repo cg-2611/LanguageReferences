@@ -49,7 +49,7 @@
 - [x] Error Handling
 - [x] Serialization
 - [x] Processes
-- [ ] Multithreading and Thread Synchronization
+- [x] Multithreading and Thread Synchronization
 - [ ] Networking
 - [ ] GUI
 - [ ] Makefile
