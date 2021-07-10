@@ -52,7 +52,6 @@
 - [x] Multithreading and Thread Synchronization
 - [x] Networking
 - [ ] GUI
-- [ ] Makefile
 - [ ] CMake
 - [ ] Testing
 
