@@ -8,7 +8,7 @@
 
 int main(int argc, char const *argv[])
 {
-    char fifo_path[] = "./fifo_file.out"; // .out added due to gitignore
+    char fifo_path[] = "./fifo_file";
 
     // create a fifo file for given modes (reading, writing and executing)
     int fifo_status = mkfifo(fifo_path, S_IRWXU | S_IRWXG | S_IRWXO);
