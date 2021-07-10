@@ -1,14 +1,17 @@
 # Java gitignore
-**/.classpath
-**/.project
-**/.settings/
 
+# eclipse project files
+.classpath
+.project
+.settings/
+
+# compiled files
 *.class
 
-**/bin/
+bin/
 
-**/target/
-**/dependency-reduced-pom.xml
+target/
+dependency-reduced-pom.xml
 
 .gradle
-**/build/
+build/

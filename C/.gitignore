@@ -1,4 +1,13 @@
 # C gitignore
-*.d
+
+# ignore anything with no extension
+*
+!/**/
+!*.*
+
+# ignore .o and .out files
 *.o
 *.out
+
+# ignore .vscode directory
+.vscode
