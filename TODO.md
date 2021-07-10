@@ -50,7 +50,7 @@
 - [x] Serialization
 - [x] Processes
 - [x] Multithreading and Thread Synchronization
-- [ ] Networking
+- [x] Networking
 - [ ] GUI
 - [ ] Makefile
 - [ ] CMake
