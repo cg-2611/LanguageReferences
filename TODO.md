@@ -23,7 +23,7 @@
 - [ ] Data Structures
     - [ ] Linked List
     - [ ] Hash Map
-    - [ ] Stack
+    - [x] Stack
     - [ ] Queue
 - [x] Sorting
     - [x] Bubble Sort
