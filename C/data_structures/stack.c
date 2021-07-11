@@ -97,22 +97,20 @@ int main(int argc, char *argv[])
     push(s, 4);
     push(s, 5);
     push(s, 6);
-
     peek(s);
-
     pop(s);
-
     peek(s);
-
     pop(s);
     pop(s);
-
     peek(s);
-
+    push(s, 9);
+    peek(s);
+    pop(s);
+    push(s, 13);
     pop(s);
     pop(s);
     pop(s);
-
+    pop(s);
     push(s, 3);
     push(s, 7);
     push(s, 11);
