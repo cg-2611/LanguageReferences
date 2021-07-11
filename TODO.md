@@ -51,9 +51,9 @@
 - [x] Processes
 - [x] Multithreading and Thread Synchronization
 - [x] Networking
-- [ ] GUI
-- [ ] CMake
+- [x] External Libraries
 - [ ] Testing
+- [ ] CMake
 
 ## Java
 - [x] Strings
