@@ -37,6 +37,5 @@ int main(int argc, char *argv[])
     array_size = (sizeof(long_array) / sizeof(long int)) * 2;
     print_array_bytes(long_array, array_size);
 
-
     return 0;
 }
