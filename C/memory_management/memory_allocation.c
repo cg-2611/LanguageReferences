@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     srand(time(NULL));
 
     // allocate memory on the heap to store 32 characters (+ 1 for null terminator)
-    char *string = (char *)malloc(sizeof(char) * (32 + 1));
+    char *string = malloc((32 + 1) * sizeof(*string));
 
     // return if memory allocation fails
     if (string == NULL)
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     printf("%lu character string: %s\n", strlen(string), string);
 
     // resize memory on heap for string so it can store 64 (+1 for null terminator)
-    string = (char *)realloc(string, sizeof(char) * (64 + 1));
+    string = realloc(string, (64 + 1) * sizeof(*string));
 
     // return if memory reallocation fails
     if (string == NULL)
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
     string = NULL;
 
     // allocate memory on the heap to store 16 integers and initialize each element to 0
-    int *int_array = (int *)calloc(16, sizeof(int));
+    int *int_array = calloc(16, sizeof(*int_array));
 
     // return if memory allocation fails
     if (int_array == NULL)
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
         printf("%d ", int_array[i]);
     }
 
-    int_array = (int *)realloc(int_array, sizeof(int) * 32);
+    int_array = realloc(int_array, 32 * sizeof(*int_array));
 
     // return if memory reallocation fails
     if (int_array == NULL)
