@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            struct thread_arguments *args = (struct thread_arguments *)malloc(sizeof(struct thread_arguments));
+            struct thread_arguments *args = malloc(sizeof(*args));
             args->arg1 = (THREAD_COUNT * i) + 1; // thread 1 - value = 1, thread 2 - value = 4
             args->arg2 = i + 1; // thread number
 

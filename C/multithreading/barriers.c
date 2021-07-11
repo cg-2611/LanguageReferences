@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
     int i;
     for (i = 0; i < THREAD_COUNT; i++)
     {
-        int * thread_number = (int *)malloc(sizeof(int));
+        int *thread_number = malloc(sizeof(*thread_number));
         *thread_number = i + 1;
         int thread_creation = pthread_create(&threads[i], NULL, &thread_function, (void *)thread_number);
         if (thread_creation != 0)

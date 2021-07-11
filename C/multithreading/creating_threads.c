@@ -20,7 +20,7 @@ void *thread_function(void *thread_number)
     }
 
     // allocate memory to store the returned string
-    char *return_string = (char *)malloc((sizeof(char) * strlen(thread_string)) + 1);
+    char *return_string = malloc((strlen(thread_string) + 1) * sizeof(*return_string));
     strcpy(return_string, thread_string); // copy the string to the returned string
 
     // can also ue pthread_exit((void *)return_string) to return from the thread as well
@@ -32,8 +32,8 @@ int main(int argc, char *argv[])
     pthread_t thread1, thread2;
 
     // allocate memory for arguments
-    int *thread1_number = (int *)malloc(sizeof(int));
-    int *thread2_number = (int *)malloc(sizeof(int));
+    int *thread1_number = malloc(sizeof(*thread1_number));
+    int *thread2_number = malloc(sizeof(*thread2_number));
 
     // give arguments values
     *thread1_number = 1;
