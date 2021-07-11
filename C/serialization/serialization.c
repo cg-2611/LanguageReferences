@@ -39,8 +39,8 @@ int main(int argc, char *argv[])
 
     rewind(file);
 
-    struct example *struct1_read = (struct example *)malloc(sizeof(struct example));
-    struct example *struct2_read = (struct example *)malloc(sizeof(struct example));
+    struct example *struct1_read = malloc(sizeof(*struct1_read));
+    struct example *struct2_read = malloc(sizeof(*struct2_read));
 
     // good practice to check if memory allocation successful
 
