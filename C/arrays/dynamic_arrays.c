@@ -9,7 +9,7 @@ int main(int argc, char *arg[])
     printf("Initial memory allocation: ");
     // allocates memory on the heap for 8 int values
     // alternative is array = (int *)calloc(array_size, sizeof(int)); which will also initialize each element to 0
-    array = (int *)malloc(sizeof(int) * 8);
+    array = malloc(8 * sizeof(*array));
 
     // good practice to check if the allocation was successful
 
@@ -28,7 +28,7 @@ int main(int argc, char *arg[])
 
     printf("\n\nMemory reallocation: ");
     array_size *= 2;
-    array = (int *)realloc(array, sizeof(int) * array_size);
+    array = realloc(array, array_size * sizeof(*array));
 
     // assign values to the new 8 memory locations
     for(i = (array_size / 2) - 1; i < array_size; i++)

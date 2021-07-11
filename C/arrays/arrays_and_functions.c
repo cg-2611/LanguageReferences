@@ -5,7 +5,7 @@
 // returns a pointer to an array that contains a given number of random integers in range 1-99;
 int *create_array(size_t array_size)
 {
-    int *array = (int *)malloc(sizeof(int) * array_size);
+    int *array = malloc(array_size * sizeof(*array));
 
     if (array == NULL)
     {
@@ -24,7 +24,7 @@ int *create_array(size_t array_size)
 // returns an array with a new random number in range 1-99 added to the previous one in the array passed as an argument
 int *update_array(int *array_to_update, size_t array_size)
 {
-    int *array = (int *)malloc(sizeof(int) * array_size);
+    int *array = malloc(array_size * sizeof(*array));
 
     int i;
     for (i = 0; i < array_size; i++)

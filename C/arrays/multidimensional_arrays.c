@@ -29,12 +29,12 @@ int main(int argc, char *argv[])
 
     // dynamic 2D array, memory allocated on the heap
     // allocated memory to store the pointers to the arrays stored in the 2d array
-    int **array = (int **)malloc(sizeof(int *) * array_rows);
+    int **array = malloc(array_rows * sizeof(*array));
 
     // allocate memory to store the integers in each array
     for(i = 0; i < array_rows; i++)
     {
-        array[i] = (int *)malloc(sizeof(int) * array_columns);
+        array[i] = malloc(array_columns * sizeof(*array[i]));
     }
 
     // assign values to each element of the individual arrays

@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     scanf("%d", &number_of_strings);
 
     // allocate memory to store pointers to the specified number of strings
-    char **array_of_strings = (char **)malloc(sizeof(char *) * number_of_strings);
+    char **array_of_strings = malloc(number_of_strings * sizeof(*array_of_strings));
 
     int i, j;
     for(i = 0; i < number_of_strings; i++)
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         scanf("%s", string);
 
         // allocate memory to store the string and + 1 for the null terminator
-        array_of_strings[i] = (char *)malloc(sizeof(char) * (strlen(string) + 1));
+        array_of_strings[i] = malloc((strlen(string) + 1) * sizeof(*array_of_strings[i]));
 
         // store the characters of the string in the array
         for (j = 0; j < strlen(string); j++)
