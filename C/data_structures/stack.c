@@ -10,7 +10,7 @@ struct stack
 };
 
 struct stack *initialize_stack(unsigned int max_size);
-void free_stack(struct stack *stack_to_free);
+void free_stack(struct stack *s);
 void push(struct stack *s, int item);
 int pop(struct stack *s);
 int peek(struct stack *s);
@@ -29,13 +29,13 @@ struct stack *initialize_stack(unsigned int max_size)
     return s;
 }
 
-void free_stack(struct stack *stack_to_free)
+void free_stack(struct stack *s)
 {
-    free(stack_to_free->array);
-    stack_to_free->array = NULL;
+    free(s->array);
+    s->array = NULL;
 
-    free(stack_to_free);
-    stack_to_free = NULL;
+    free(s);
+    s = NULL;
 }
 
 
