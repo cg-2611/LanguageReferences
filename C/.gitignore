@@ -15,5 +15,6 @@
 # ignore bin directories
 bin/
 
-# ignore .vscode directory
+# ignore .DS_Store and .vscode directories
+.DS_Store
 .vscode
