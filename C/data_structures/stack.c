@@ -19,12 +19,12 @@ int is_full(struct stack *s);
 
 struct stack *initialize_stack(unsigned int max_size)
 {
-    struct stack *s = (struct stack*)malloc(sizeof(struct stack));
+    struct stack *s = malloc(sizeof(*s));
 
     s->max_size = max_size;
     s->top = -1;
 
-    s->array = (int *)malloc(max_size * sizeof(int));
+    s->array = malloc(max_size * sizeof(*s->array));
 
     return s;
 }

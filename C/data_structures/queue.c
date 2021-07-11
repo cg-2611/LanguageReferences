@@ -20,14 +20,14 @@ int is_full(struct queue *q);
 
 struct queue *initialize_queue(unsigned int max_size)
 {
-    struct queue *q = (struct queue *)malloc(sizeof(struct queue));
+    struct queue *q = malloc(sizeof(*q));
 
     q->max_size = max_size;
     q->front = 0;
     q->size = 0;
     q->rear = max_size - 1;
 
-    q->array = (int *)malloc(max_size * sizeof(int));
+    q->array = malloc(max_size * sizeof(*q->array));
 
     return q;
 }
