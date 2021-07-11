@@ -5,9 +5,15 @@
 !/**/
 !*.*
 
+# don't ignore Makefiles
+!Makefile
+
 # ignore .o and .out files
 *.o
 *.out
+
+# ignore bin directories
+bin/
 
 # ignore .vscode directory
 .vscode
