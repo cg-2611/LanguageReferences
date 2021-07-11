@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     rewind(file);                 // go to start of file for reading
 
     // allocate memory to store data in file
-    char *data_from_file = (char *)malloc(sizeof(char) * (file_size + 1)); // + 1 for null terminator
+    char *data_from_file = malloc((file_size + 1) * sizeof(*data_from_file)); // + 1 for null terminator
     size_t bytes_read = fread(data_from_file, sizeof(char), file_size, file);
 
     // good practice to check memory allocation and file reading is successful
