@@ -17,7 +17,7 @@ double get_euclidean_distance(const struct point *point1, const struct point *po
 struct point *get_mid_point_return_pointer(const struct point *point1, const struct point *point2)
 {
     // allocate memory to store a struct point
-    struct point *mid_point = (struct point *)malloc(sizeof(struct point));
+    struct point *mid_point = malloc(sizeof(*mid_point));
 
     // good practice to check memory allocation was successful
 
