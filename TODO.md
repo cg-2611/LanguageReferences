@@ -24,7 +24,7 @@
     - [ ] Linked List
     - [ ] Hash Map
     - [x] Stack
-    - [ ] Queue
+    - [x] Queue
 - [x] Sorting
     - [x] Bubble Sort
     - [x] Insertion Sort
