@@ -12,8 +12,9 @@
 *.o
 *.out
 
-# ignore bin directories
+# ignore bin and build directories
 bin/
+build/
 
 # ignore .DS_Store and .vscode directories
 .DS_Store
