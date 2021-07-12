@@ -1,4 +1,4 @@
-# Make
+# CMake
 
 ## Contents
 - [Useful Links](#useful-links)
