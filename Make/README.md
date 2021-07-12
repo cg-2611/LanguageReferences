@@ -3,7 +3,7 @@
 ## Contents
 - [Useful Links](#useful-links)
     - [Make Documentation](#make-documentation)
-    - [General Links](#general-links)
+    - [General Information](#general-information)
 
 ## Useful Links
 - #### Make Documentation:
