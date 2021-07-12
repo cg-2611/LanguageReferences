@@ -3,7 +3,7 @@
 ## Contents
 - [Useful Links](#useful-links)
     - [CMake Documentation](#cmake-documentation)
-    - [General Links](#general-links)
+    - [General Information](#general-information)
 
 ## Useful Links
 - #### CMake Documentation:
