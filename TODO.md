@@ -52,8 +52,8 @@
 - [x] Multithreading and Thread Synchronization
 - [x] Networking
 - [x] External Libraries
+- [x] CMake
 - [ ] Testing
-- [ ] CMake
 
 ## Java
 - [x] Strings

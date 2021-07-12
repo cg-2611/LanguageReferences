@@ -1,0 +1,4 @@
+add_executable(simple_cmake_example main.c)
+
+target_link_libraries(simple_cmake_example example_library)
+target_include_directories(simple_cmake_example PUBLIC ${CMAKE_SOURCE_DIR}/lib)

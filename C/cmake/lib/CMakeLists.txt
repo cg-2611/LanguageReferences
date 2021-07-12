@@ -1,0 +1,1 @@
+add_library(example_library example_library.c)
