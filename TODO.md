@@ -3,6 +3,7 @@
 ## Contents
 - [C](#c)
 - [Java](#java)
+- [Python](#python)
 
 ## C
 - [x] Strings
@@ -20,9 +21,10 @@
 - [x] Memory Management
 - [x] Structures
 - [x] Typedef
-- [ ] Data Structures
-    - [ ] Linked List
-    - [ ] Hash Map
+- [x] Data Structures
+    - [x] Linked List
+    - [x] Hash Table Chaining
+    - [x] Hash Table Open Addressing
     - [x] Stack
     - [x] Queue
 - [x] Sorting
@@ -53,7 +55,7 @@
 - [x] Networking
 - [x] External Libraries
 - [x] CMake
-- [ ] Testing
+- [x] Testing
 
 ## Java
 - [x] Strings
@@ -101,3 +103,44 @@
 - [x] Maven
 - [x] Gradle
 - [x] JUnit
+
+## Python
+- [ ] Strings
+- [ ] Command Line Arguments
+- [ ] Data Structures
+    - [ ] List
+    - [ ] Tuple
+    - [ ] Dictionary
+    - [ ] Linked List
+    - [ ] Hash Map
+    - [ ] Stack
+    - [ ] Queue
+    - [ ] Sets
+- [ ] User Input
+- [ ] File I/O
+- [ ] System Properties
+- [ ] Casting
+- [ ] Random Numbers
+- [ ] Math
+- [ ] Date and Time
+- [ ] Objects
+- [ ] Comprehension
+- [ ] Sorting
+    - [ ] Bubble Sort
+    - [ ] Insertion Sort
+    - [ ] Selection Sort
+    - [ ] Quick Sort
+    - [ ] Merge Sort
+- [ ] Searching
+    - [ ] Linear Search
+    - [ ] Binary Search
+    - [ ] Interpolation Search
+    - [ ] Jump Search
+- [ ] Serialization
+- [ ] Error Handling
+- [ ] Lambda Expressions
+- [ ] Libraries
+- [ ] Networking
+- [ ] Multithreading
+- [ ] GUI
+- [ ] Testing
