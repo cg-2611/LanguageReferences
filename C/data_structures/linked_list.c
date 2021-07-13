@@ -7,16 +7,16 @@ struct node
     struct node *link;
 };
 
-void add_front_node(struct node **head_p, int value);
-void add_end_node(struct node **head_p, int value);
-void add_node_index(struct node **head_p, int value, int index);
+void insert_front_node(struct node **head_p, int value);
+void insert_end_node(struct node **head_p, int value);
+void insert_node_index(struct node **head_p, int value, int index);
 void remove_front_node(struct node **head_p);
 void remove_end_node(struct node **head_p);
 void remove_node_index(struct node **head_p, int index);
-void free_linked_list(struct node *head);
 void print_linked_list(struct node *head);
+void free_linked_list(struct node *head);
 
-void add_front_node(struct node **head_p, int value)
+void insert_front_node(struct node **head_p, int value)
 {
     struct node *new_node = malloc(sizeof(*new_node));
 
@@ -25,10 +25,10 @@ void add_front_node(struct node **head_p, int value)
 
     *head_p = new_node;
 
-    printf("Added node with value %d to front of linked list\n", value);
+    printf("Inserted node with value %d to front of linked list\n", value);
 }
 
-void add_end_node(struct node **head_p, int value)
+void insert_end_node(struct node **head_p, int value)
 {
     struct node *new_node = malloc(sizeof(*new_node));
     struct node *current_node = *head_p;
@@ -43,15 +43,15 @@ void add_end_node(struct node **head_p, int value)
 
     current_node->link = new_node;
 
-    printf("Added node with value %d to end of linked list\n", value);
+    printf("Inserted node with value %d to end of linked list\n", value);
 }
 
-void add_node_index(struct node **head_p, int value, int index)
+void insert_node_index(struct node **head_p, int value, int index)
 {
     // if the index is 0 or less, insert the node at the front of the list
     if (index <= 0)
     {
-        add_front_node(head_p, value);
+        insert_front_node(head_p, value);
         return;
     }
 
@@ -66,7 +66,7 @@ void add_node_index(struct node **head_p, int value, int index)
         // if the index is beyond the length of the list, insert the node at the end of the list
         if (current_node->link == NULL)
         {
-            add_end_node(head_p, value);
+            insert_end_node(head_p, value);
             return;
         }
     }
@@ -75,7 +75,7 @@ void add_node_index(struct node **head_p, int value, int index)
     new_node->link = current_node->link;
     current_node->link = new_node;
 
-    printf("Added node with value %d at index %d\n", value, index);
+    printf("Inserted node with value %d at index %d\n", value, index);
 }
 
 void remove_front_node(struct node **head_p)
@@ -144,6 +144,19 @@ void remove_node_index(struct node **head_p, int index)
     printf("Removed node at index %d\n", index);
 }
 
+void print_linked_list(struct node *head)
+{
+    struct node *current_node = head;
+
+    while (current_node != NULL)
+    {
+        printf("%d -> ", current_node->value);
+        current_node = current_node->link;
+    }
+
+    printf("NULL\n");
+}
+
 void free_linked_list(struct node *head)
 {
     struct node *temp_node;
@@ -159,30 +172,17 @@ void free_linked_list(struct node *head)
     }
 }
 
-void print_linked_list(struct node *head)
-{
-    struct node *current_node = head;
-
-    while (current_node != NULL)
-    {
-        printf("%d -> ", current_node->value);
-        current_node = current_node->link;
-    }
-
-    printf("NULL\n");
-}
-
 int main(int argc, char *argv[])
 {
     struct node *head = NULL;
 
-    add_front_node(&head, 14);
+    insert_front_node(&head, 14);
     print_linked_list(head);
-    add_front_node(&head, 11);
+    insert_front_node(&head, 11);
     print_linked_list(head);
-    add_end_node(&head, 13);
+    insert_end_node(&head, 13);
     print_linked_list(head);
-    add_node_index(&head, 12, 1);
+    insert_node_index(&head, 12, 1);
     print_linked_list(head);
     remove_node_index(&head, 1);
     print_linked_list(head);
@@ -190,7 +190,7 @@ int main(int argc, char *argv[])
     print_linked_list(head);
     remove_end_node(&head);
     print_linked_list(head);
-    add_front_node(&head, 17);
+    insert_front_node(&head, 17);
     print_linked_list(head);
 
     free_linked_list(head);

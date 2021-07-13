@@ -12,11 +12,12 @@ struct queue
 };
 
 struct queue *initialize_queue(unsigned int max_size);
-void free_queue(struct queue *queue_to_free);
 void enqueue(struct queue *q, int item);
 int dequeue(struct queue *q);
 int is_empty(struct queue *q);
 int is_full(struct queue *q);
+void print_queue(struct queue *q);
+void free_queue(struct queue *q);
 
 struct queue *initialize_queue(unsigned int max_size)
 {
@@ -30,15 +31,6 @@ struct queue *initialize_queue(unsigned int max_size)
     q->array = malloc(max_size * sizeof(*q->array));
 
     return q;
-}
-
-void free_queue(struct queue *queue_to_free)
-{
-    free(queue_to_free->array);
-    queue_to_free->array = NULL;
-
-    free(queue_to_free);
-    queue_to_free = NULL;
 }
 
 void enqueue(struct queue *q, int item)
@@ -80,29 +72,67 @@ int is_full(struct queue *q)
     return q->size == q->max_size;
 }
 
+void print_queue(struct queue *q)
+{
+    int i = q->front;
+    while (i != q->rear)
+    {
+        printf("%d, ", q->array[i]);
+
+        i = (i + 1) % q->max_size;
+    }
+    printf("%d\n", q->array[q->rear]);
+}
+
+void free_queue(struct queue *q)
+{
+    free(q->array);
+    q->array = NULL;
+
+    free(q);
+    q = NULL;
+}
+
 int main(int argc, char *argv[])
 {
     struct queue *q = initialize_queue(5);
 
     enqueue(q, 1);
+    print_queue(q);
     enqueue(q, 2);
+    print_queue(q);
     enqueue(q, 3);
+    print_queue(q);
     enqueue(q, 4);
+    print_queue(q);
     enqueue(q, 5);
+    print_queue(q);
     enqueue(q, 6);
+    print_queue(q);
     dequeue(q);
+    print_queue(q);
     dequeue(q);
+    print_queue(q);
     dequeue(q);
+    print_queue(q);
     enqueue(q, 9);
+    print_queue(q);
     dequeue(q);
+    print_queue(q);
     enqueue(q, 13);
+    print_queue(q);
     dequeue(q);
+    print_queue(q);
     dequeue(q);
+    print_queue(q);
     dequeue(q);
     dequeue(q);
     enqueue(q, 3);
+    print_queue(q);
     enqueue(q, 7);
+    print_queue(q);
     enqueue(q, 11);
+    print_queue(q);
 
     free_queue(q);
 

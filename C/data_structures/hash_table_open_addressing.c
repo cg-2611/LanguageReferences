@@ -41,22 +41,22 @@ unsigned int hash_function(const char *key)
 
 struct hash_table *initialize_hash_table(unsigned int max_size)
 {
-    struct hash_table *ht = (struct hash_table *)malloc(sizeof(*ht));
+    struct hash_table *ht = malloc(sizeof(*ht));
 
     ht->max_size = max_size;
     ht->current_size = 0;
 
-    ht->entries = (struct hash_table_entry **)calloc(max_size, sizeof(*ht->entries));
+    ht->entries = calloc(max_size, sizeof(*ht->entries));
 
     return ht;
 }
 
 struct hash_table_entry *create_hash_table_entry(const char *key, const char *value)
 {
-    struct hash_table_entry *new_entry = (struct hash_table_entry *)malloc(sizeof(*new_entry));
+    struct hash_table_entry *new_entry = malloc(sizeof(*new_entry));
 
-    new_entry->key = (char *)malloc(strlen(key) + 1);
-    new_entry->value = (char *)malloc(strlen(value) + 1);
+    new_entry->key = malloc(strlen(key) + 1);
+    new_entry->value = malloc(strlen(value) + 1);
 
     strcpy(new_entry->key, key);
     strcpy(new_entry->value, value);

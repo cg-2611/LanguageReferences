@@ -10,12 +10,13 @@ struct stack
 };
 
 struct stack *initialize_stack(unsigned int max_size);
-void free_stack(struct stack *s);
 void push(struct stack *s, int item);
 int pop(struct stack *s);
 int peek(struct stack *s);
 int is_empty(struct stack *s);
 int is_full(struct stack *s);
+void print_stack(struct stack *s);
+void free_stack(struct stack *s);
 
 struct stack *initialize_stack(unsigned int max_size)
 {
@@ -28,16 +29,6 @@ struct stack *initialize_stack(unsigned int max_size)
 
     return s;
 }
-
-void free_stack(struct stack *s)
-{
-    free(s->array);
-    s->array = NULL;
-
-    free(s);
-    s = NULL;
-}
-
 
 void push(struct stack *s, int item)
 {
@@ -87,33 +78,76 @@ int is_full(struct stack *s)
     return s->top == s->max_size - 1;
 }
 
+void print_stack(struct stack *s)
+{
+    if (!is_empty(s))
+    {
+        int i;
+        for (i = 0; i < s->top; i++)
+        {
+            printf("%d, ", s->array[i]);
+        }
+
+        printf("%d\n", s->array[s->top]);
+    }
+
+}
+
+void free_stack(struct stack *s)
+{
+    free(s->array);
+    s->array = NULL;
+
+    free(s);
+    s = NULL;
+}
+
 int main(int argc, char *argv[])
 {
     struct stack *s = initialize_stack(5);
 
     push(s, 1);
+    print_stack(s);
     push(s, 2);
+    print_stack(s);
     push(s, 3);
+    print_stack(s);
     push(s, 4);
+    print_stack(s);
     push(s, 5);
+    print_stack(s);
     push(s, 6);
+    print_stack(s);
     peek(s);
     pop(s);
+    print_stack(s);
     peek(s);
     pop(s);
+    print_stack(s);
     pop(s);
+    print_stack(s);
     peek(s);
     push(s, 9);
+    print_stack(s);
     peek(s);
     pop(s);
+    print_stack(s);
     push(s, 13);
+    print_stack(s);
     pop(s);
+    print_stack(s);
     pop(s);
+    print_stack(s);
     pop(s);
+    print_stack(s);
     pop(s);
+    print_stack(s);
     push(s, 3);
+    print_stack(s);
     push(s, 7);
+    print_stack(s);
     push(s, 11);
+    print_stack(s);
 
     free_stack(s);
 
