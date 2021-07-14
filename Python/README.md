@@ -96,7 +96,7 @@ memoryview # binary type
 ### Casting
 ---
 ```python
-new_type(expression)
+identifier = new_type(expression)
 ```
 ### Operators
 ---
