@@ -105,9 +105,9 @@ type[] identifier = {element 1, element 2, element 3};
 ### Primitive Data Types
 ---
 ```java
-byte    // 8 bits,  1 byte 
+byte    // 8 bits,  1 byte
 short   // 16 bits, 2 bytes
-int	    // 32 bits, 4 bytes
+int     // 32 bits, 4 bytes
 long    // 64 bits, 8 bytes
 float   // 32 bits, 4 bytes
 double  // 64 bits, 8 bytes
@@ -118,12 +118,12 @@ boolean // 1 bit
 ---
 ```java
 // from a smaller type to a larger type:
-int x = 4;
-double y = x;
+smaller_type x = value;
+larger_type y = x;
 
 // from a larger type to a smaller type:
-double x = 4.62;
-int y = (int) x; // y has value 4
+larger_type x = value;
+smaller_type y = (smaller_type) x;
 ```
 ### Operators
 ---
@@ -157,7 +157,7 @@ x <= y // less than or equal to
 ```java
 x && y // logical AND
 x || y // logical OR
-!x	   // logical NOT
+!x     // logical NOT
 ```
 #### Bitwise Operators:
 ```java
@@ -167,7 +167,7 @@ x || y // logical OR
 ~   // binary complement
 <<  // binary left shift
 >>  // binary right shift
->>> // binary shift right zero fill 
+>>> // binary shift right zero fill
 ```
 #### Assignment Operators:
 ```java
@@ -208,7 +208,7 @@ if (condition) {
 switch (expression) {
     case value 1:
         // do something and fall through
-    case value 2: 
+    case value 2:
         // do something else
         break;
     default:
@@ -442,23 +442,23 @@ e.g. if the command is being run from the project root directory, run:
 ```
 javac -cp ./src -d ./bin ./src/**/*.java
 ```
-> Note: using `src/**/*.java` will maintain the package structure in the output directory specified by the `-d` option. 
+> Note: using `src/**/*.java` will maintain the package structure in the output directory specified by the `-d` option.
 ### Creating `jar` Files
 ---
 To compress a java program into a `jar` file using the `jar` command, run:
 ```
 jar -c -f jar-name.jar -e MainClass -C path/to/class/files path/to/jar/location
 ```
-The `-c` options specifies that the `jar` file is being created, `-f` specifies the name of the file, `-e` specifies 
+The `-c` options specifies that the `jar` file is being created, `-f` specifies the name of the file, `-e` specifies
 the entry point of the program and `-C` specifies the location of the class files being packaged.
 
-e.g. if the command is being run from the project root directory where the entry point is located in 
+e.g. if the command is being run from the project root directory where the entry point is located in
 `./bin/main/HelloWorld.class`, and the `jar` is to be created in the project root directory, run:
 ```
 jar -c -f JarName.jar -e main.MainClass -C ./bin .
 ```
-> Note: if a `MANIFEST.MF` file is created and has the main class specified, the `-e` option should be replaced 
-> with the `-m path/to/META-INF/MANIFEST.MF`. To specify the main class in the `MANIFEST.MF` file, add the 
+> Note: if a `MANIFEST.MF` file is created and has the main class specified, the `-e` option should be replaced
+> with the `-m path/to/META-INF/MANIFEST.MF`. To specify the main class in the `MANIFEST.MF` file, add the
 > following (the blank line is important):
 > ```
 > Main-Class: main.MainClass
@@ -472,7 +472,7 @@ java -cp path/to/bin MainClass
 ```
 The `-cp` option specifies the classpath.
 
-e.g. if the command is being run from the project root directory where the entry point is located in 
+e.g. if the command is being run from the project root directory where the entry point is located in
 `./bin/main/HelloWorld.class`, run:
 ```
 java -cp ./bin main.HelloWorld
@@ -494,8 +494,8 @@ java -jar ./JarFile.jar
  * This is a javadoc comment.
  * Javadoc comments are used to generate a html page that
  * contains documentation about your program.
- * 
- * Tags such as {@link} (for linking to another class) and 
+ *
+ * Tags such as {@link} (for linking to another class) and
  * @param (for providing documentation about method parameters)
  * are supported.
  * /
@@ -506,7 +506,7 @@ To generate the javadoc html from the javadoc comments in the source code, the `
 ```
 javadoc -d path/to/output/dir path/to/src/**/*.java
 ```
-e.g. if the command is being run from the project root directory, and the output files are to be placed in directory 
+e.g. if the command is being run from the project root directory, and the output files are to be placed in directory
 in  called doc, run:
 ```
 javadoc -d ./doc ./src/**/*.java
