@@ -126,16 +126,16 @@ x <= y // less than or equal to
 ```c
 x && y // logical AND
 x || y // logical OR
-!x	   // logical NOT
+!x     // logical NOT
 ```
 #### Bitwise Operators:
 ```c
-&   // binary AND
-|   // binary OR
-^   // binary XOR
-~   // binary complement
-<<  // binary left shift
->>  // binary right shift
+&  // binary AND
+|  // binary OR
+^  // binary XOR
+~  // binary complement
+<< // binary left shift
+>> // binary right shift
 ```
 #### Assignment Operators:
 ```c
