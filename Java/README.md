@@ -219,7 +219,7 @@ switch (expression) {
 #### Loop Control:
 ```java
 // for loop
-for (initialisation; condition; update) {
+for (initialization; condition; update) {
     // do something
 }
 
