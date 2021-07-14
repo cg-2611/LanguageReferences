@@ -119,7 +119,7 @@
     - [ ] Sets
 - [x] User Input
 - [ ] File I/O
-- [ ] Random Numbers
+- [x] Random Numbers
 - [ ] Math
 - [ ] Date and Time
 - [ ] Objects
@@ -140,7 +140,7 @@
 - [ ] Lambda Expressions
 - [ ] Libraries
 - [ ] Networking
-- [ ] Pocesses
+- [ ] Processes
 - [ ] Multithreading
 - [ ] GUI
 - [ ] Pydoc
