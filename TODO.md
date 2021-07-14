@@ -117,7 +117,7 @@
     - [ ] Stack
     - [ ] Queue
     - [ ] Sets
-- [ ] User Input
+- [x] User Input
 - [ ] File I/O
 - [ ] Random Numbers
 - [ ] Math
