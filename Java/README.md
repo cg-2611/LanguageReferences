@@ -225,7 +225,7 @@ for (initialization; condition; update) {
 
 // for-each loop
 for (type object : array) {
-
+    // do something
 }
 
 // while loop
@@ -262,7 +262,7 @@ public class ClassName extends SuperClass {
     // class body
 
     @Override
-    modifier type superClassMethod(type parameter 1) {
+    modifier type superClassMethod(type parameter1) {
         // do something
     }
 }
