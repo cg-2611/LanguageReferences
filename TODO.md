@@ -107,7 +107,7 @@
 ## Python
 - [x] Strings
 - [x] Command Line Arguments
-- [ ] System Properties
+- [x] System Properties
 - [ ] Data Structures
     - [ ] List
     - [ ] Tuple
@@ -119,8 +119,6 @@
     - [ ] Sets
 - [ ] User Input
 - [ ] File I/O
-- [ ] System Properties
-- [ ] Casting
 - [ ] Random Numbers
 - [ ] Math
 - [ ] Date and Time
@@ -142,6 +140,11 @@
 - [ ] Lambda Expressions
 - [ ] Libraries
 - [ ] Networking
+- [ ] Pocesses
 - [ ] Multithreading
 - [ ] GUI
+- [ ] Pydoc
 - [ ] Testing
+- [ ] Databases
+- [ ] Packages
+- [ ] Modules
