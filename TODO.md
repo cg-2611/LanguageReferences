@@ -105,7 +105,7 @@
 - [x] JUnit
 
 ## Python
-- [ ] Strings
+- [x] Strings
 - [ ] Command Line Arguments
 - [ ] Data Structures
     - [ ] List
