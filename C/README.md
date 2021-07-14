@@ -195,7 +195,7 @@ switch (expression)
 #### Loop Control:
 ```c
 // for loop
-for (initialisation; condition; update)
+for (initialization; condition; update)
 {
     // do something
 }
