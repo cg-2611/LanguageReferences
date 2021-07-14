@@ -106,7 +106,8 @@
 
 ## Python
 - [x] Strings
-- [ ] Command Line Arguments
+- [x] Command Line Arguments
+- [ ] System Properties
 - [ ] Data Structures
     - [ ] List
     - [ ] Tuple
