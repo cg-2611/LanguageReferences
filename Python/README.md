@@ -8,6 +8,7 @@
     - [Primitive Data Types](#primitive-data-types)
     - [Casting](#casting)
     - [Operators](#operators)
+        - [Unary Operators](#unary-operators)
         - [Arithmetic Operators](#arithmetic-operators)
         - [Comparison Operators](#comparison-operators)
         - [Logical Operators](#logical-operators)
@@ -38,11 +39,10 @@
     - [Raising Exceptions](#raising-exceptions)
     - [Handling Exceptions](#handling-exceptions)
 - [Executing Programs](#executing-programs)
-- [Virtual Environments](#virtual-environments)
+- [Packages](#packages)
 - [Pydoc](#pydoc)
     - [Writing](#writing)
     - [Generating](#generating)
-- [Packages](#packages)
 - [Useful Links](#useful-links)
     - [Python Documentation](#python-documentation)
     - [Execution Documentation](#execution-documentation)
@@ -100,6 +100,11 @@ identifier = new_type(expression)
 ```
 ### Operators
 ---
+### Unary Operators:
+```python
++x # positive value
+-x # negative value
+```
 #### Arithmetic Operators:
 ```python
 x + y  # addition
@@ -302,9 +307,31 @@ To execute a python program, run:
 ```
 python file_name.py
 ```
-where file_name.py is the program to be run.
+where `file_name.py` is the program to be run.
 
 ## Packages
+To install a package, run:
+```
+pip install package
+```
+where `package` is the name of the package to be installed.
+
+To uninstall a package, run:
+```
+pip uninstall package
+```
+where `package` is the name of the package to be uninstalled.
+
+e.g. to install the `numpy` package, run:
+```
+pip install numpy
+```
+
+## Pydoc
+### Writing
+---
+### Generating
+---
 
 ## Useful Links
 - #### Python Documentation:
