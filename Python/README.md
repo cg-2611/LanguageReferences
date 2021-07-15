@@ -300,6 +300,9 @@ except:
     # handle any other exception
 finally:
     #executes no matter if there was an exception or not
+
+with target as expression:
+    # do something
 ```
 
 ## Executing Programs
