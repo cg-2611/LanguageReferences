@@ -121,7 +121,7 @@
 - [ ] File I/O
 - [x] Random Numbers
 - [x] Math Module
-- [ ] Date and Time
+- [x] Date and Time
 - [ ] Objects
 - [ ] Comprehension
 - [ ] Sorting
