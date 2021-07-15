@@ -118,7 +118,7 @@
     - [ ] Queue
     - [ ] Sets
 - [x] User Input
-- [ ] File I/O
+- [x] File I/O
 - [x] Random Numbers
 - [x] Math Module
 - [x] Date and Time
