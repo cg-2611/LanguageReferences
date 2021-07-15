@@ -120,7 +120,7 @@
 - [x] User Input
 - [ ] File I/O
 - [x] Random Numbers
-- [ ] Math
+- [x] Math Module
 - [ ] Date and Time
 - [ ] Objects
 - [ ] Comprehension
