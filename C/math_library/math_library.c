@@ -41,7 +41,8 @@ int main(int argc, char *argv[])
     printf("53.3 %% 7 = %f\n\n", fmod(53.3, 7));
 
     // exponents
-    printf("2^8 = %f\n\n", pow(2, 8));
+    printf("e^8 = %f\n", exp(8));
+    printf("2^8 = %f\n", pow(2, 8));
     printf("21.02^1.34 = %f\n\n", pow(21.02, 1.34));
 
     // square and cube root
@@ -50,13 +51,14 @@ int main(int argc, char *argv[])
 
     // logarithms
     printf("log_e 2 = %f\n", log(2));
-    printf("log_10 2 = %f\n\n", log10(2));
+    printf("log_10 2 = %f\n", log10(2));
+    printf("log_2 2 = %f\n\n", log2(2));
 
     // trigonometry
     printf("sin((4 * pi) / 7) = %f\n", sin((4 * M_PI) / 7));
     printf("cos(pi / 6) = %f\n", cos(M_PI / 6));
     printf("tan(0.4) = %f\n", tan(0.4));
-    printf("arcsin(7 / 4) = %f\n",  asin(7 / 4));
+    printf("arcsin(4 / 7) = %f\n",  asin(4.0f / 7.0f));
     printf("arccos(34.7 / 54.1) = %f\n",  acos(34.7 / 54.1));
     printf("arctan(0.4) = %f\n",  atan(0.4));
 
