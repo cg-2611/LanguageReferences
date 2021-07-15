@@ -56,6 +56,9 @@ int main(int argc, char *argv[])
     printf("sin((4 * pi) / 7) = %f\n", sin((4 * M_PI) / 7));
     printf("cos(pi / 6) = %f\n", cos(M_PI / 6));
     printf("tan(0.4) = %f\n", tan(0.4));
+    printf("arcsin(7 / 4) = %f\n",  asin(7 / 4));
+    printf("arccos(34.7 / 54.1) = %f\n",  acos(34.7 / 54.1));
+    printf("arctan(0.4) = %f\n",  atan(0.4));
 
     return 0;
 }
