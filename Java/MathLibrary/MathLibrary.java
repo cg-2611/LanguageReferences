@@ -38,11 +38,14 @@ public class MathLibrary {
         System.out.println("cos(pi/6) = " + Math.cos(Math.PI / 6));
         System.out.println("tan(0.4) = " + Math.tan(0.4));
         System.out.println();
+        System.out.println("arcsin(7 / 4) = " + Math.asin(7 / 4));
+        System.out.println("arccos(34.7 / 54.1) = " + Math.acos(34.7 / 54.1));
+        System.out.println("arctan(0.4) = " + Math.atan(0.4));
+        System.out.println();
 
         //angles
         System.out.println("90 degrees to radians = " + Math.toRadians(90));
         System.out.println("(6 * pi) / 4 radians to degrees = " + Math.toDegrees((6 * Math.PI) / 4));
-
     }
 
 }
