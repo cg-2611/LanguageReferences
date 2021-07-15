@@ -109,7 +109,7 @@
 - [x] Command Line Arguments
 - [x] System Properties
 - [ ] Data Structures
-    - [ ] List
+    - [x] List
     - [ ] Tuple
     - [ ] Dictionary
     - [ ] Linked List
@@ -123,7 +123,6 @@
 - [x] Math Module
 - [x] Date and Time
 - [ ] Objects
-- [ ] Comprehension
 - [ ] Sorting
     - [ ] Bubble Sort
     - [ ] Insertion Sort
