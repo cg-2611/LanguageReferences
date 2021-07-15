@@ -21,6 +21,7 @@ public class MathLibrary {
         System.out.println();
 
         // exponents
+        System.out.println("e^8 = " + Math.exp(8));
         System.out.println("2^8 = " + Math.pow(2, 8));
         System.out.println();
 
@@ -38,7 +39,7 @@ public class MathLibrary {
         System.out.println("cos(pi/6) = " + Math.cos(Math.PI / 6));
         System.out.println("tan(0.4) = " + Math.tan(0.4));
         System.out.println();
-        System.out.println("arcsin(7 / 4) = " + Math.asin(7 / 4));
+        System.out.println("arcsin(4 / 7) = " + Math.asin(4.0 / 7.0));
         System.out.println("arccos(34.7 / 54.1) = " + Math.acos(34.7 / 54.1));
         System.out.println("arctan(0.4) = " + Math.atan(0.4));
         System.out.println();
