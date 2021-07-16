@@ -21,14 +21,14 @@ def optimized_bubble_sort(array):
         i += 1
         print(array)
 
-unsorted_array1  = [9, 3, 2, 7, 1, 4, 5, 8, 6]
+unsorted_array1 = [9, 3, 2, 7, 1, 4, 5, 8, 6]
 print("Unsorted Array 1:", unsorted_array1)
 print("Bubble Sort:")
 bubble_sort(unsorted_array1)
 
 print()
 
-unsorted_array2  = [9, 3, 2, 7, 1, 4, 5, 8, 6]
+unsorted_array2 = [9, 3, 2, 7, 1, 4, 5, 8, 6]
 print("Unsorted Array 2:", unsorted_array2)
 print("Optimized Bubble Sort:")
 optimized_bubble_sort(unsorted_array2)
