@@ -122,7 +122,6 @@
 - [x] Random Numbers
 - [x] Math Module
 - [x] Date and Time
-- [ ] Objects
 - [ ] Sorting
     - [ ] Bubble Sort
     - [ ] Insertion Sort
@@ -134,6 +133,7 @@
     - [ ] Binary Search
     - [ ] Interpolation Search
     - [ ] Jump Search
+- [ ] Objects
 - [ ] Serialization
 - [ ] Error Handling
 - [ ] Lambda Expressions
