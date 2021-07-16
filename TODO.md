@@ -129,7 +129,7 @@
     - [x] Quick Sort
     - [x] Merge Sort
 - [ ] Searching
-    - [ ] Linear Search
+    - [x] Linear Search
     - [ ] Binary Search
     - [ ] Interpolation Search
     - [ ] Jump Search
