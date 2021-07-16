@@ -110,7 +110,7 @@
 - [x] System Properties
 - [ ] Data Structures
     - [x] List
-    - [ ] Tuple
+    - [x] Tuple
     - [ ] Dictionary
     - [ ] Linked List
     - [ ] Hash Map
