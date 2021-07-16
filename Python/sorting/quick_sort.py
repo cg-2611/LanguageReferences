@@ -19,7 +19,8 @@ def quick_sort(array, start, end):
         quick_sort(array, start, partition_index - 1)
         quick_sort(array, partition_index + 1, end)
 
-unsorted_array = [9, 3, 2, 7, 1, 4, 5, 8, 6]
-print("Unsorted Array:", unsorted_array)
-print("Quick Sort:")
-quick_sort(unsorted_array, 0, len(unsorted_array) - 1)
+if __name__ == "__main__":
+    unsorted_array = [9, 3, 2, 7, 1, 4, 5, 8, 6]
+    print("Unsorted Array:", unsorted_array)
+    print("Quick Sort:")
+    quick_sort(unsorted_array, 0, len(unsorted_array) - 1)
