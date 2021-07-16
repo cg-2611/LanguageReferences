@@ -131,7 +131,7 @@
 - [ ] Searching
     - [x] Linear Search
     - [x] Binary Search
-    - [ ] Interpolation Search
+    - [x] Interpolation Search
     - [ ] Jump Search
 - [ ] Objects
 - [ ] Serialization
