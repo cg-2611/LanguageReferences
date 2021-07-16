@@ -8,6 +8,7 @@ print("list1 sublist from index 2:", list1[2:])
 print("list1 sublist up to index 3:", list1[:3])
 print("list1 sublist between index 1 and 4:", list1[1:4]) # 1 inclusive, 4 exclusive
 print("list1 sublist between index -4 and -1:", list1[-4:-1]) # -4 inclusive, -1 exclusive
+print("list1 index of 3:", list1.index(3))
 
 if 6 in list1:
     print("6 is in list1")
@@ -77,4 +78,21 @@ list4 = list1.copy()
 print("\nlist4:", list4)
 list4.extend([1, 2, 3, 4, 3, 2, 1])
 print("list4:", list4)
+
+# counting list elements
 print("list4 occurrances of 3:", list4.count(3))
+
+# list multiplication
+list5 = [2] * 5 # create a list with 5 elements, all of which are 2
+print("\nlist5: ", list5)
+
+list5 = list1 * 2 # create a list which is 2 lots of list1
+print("list5:", list5)
+
+# multidimensional lists
+list6 = [[1, 2], [3, 4]]
+print("\nlist6:", list6)
+
+# each element in a multidimensional list can be accessed andmanipulated in the same way as a single dimension list
+print("list6[0][1]:", list6[0][1])
+
