@@ -95,4 +95,3 @@ print("\nlist6:", list6)
 
 # each element in a multidimensional list can be accessed andmanipulated in the same way as a single dimension list
 print("list6[0][1]:", list6[0][1])
-
