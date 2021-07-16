@@ -126,7 +126,7 @@
     - [x] Bubble Sort
     - [x] Insertion Sort
     - [x] Selection Sort
-    - [ ] Quick Sort
+    - [x] Quick Sort
     - [ ] Merge Sort
 - [ ] Searching
     - [ ] Linear Search
