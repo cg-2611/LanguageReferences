@@ -2,6 +2,8 @@ tuple1 = (1, 2, "element3", 4.5, "element5", 6.7)
 
 print("tuple1:", tuple1)
 print("tuple1 length:", len(tuple1))
+print("tuple1 max:", max(tuple1))
+print("tuple1 min:", min(tuple1))
 print("tuple1 item at index 3:", tuple1[3])
 print("tuple1 item at index -2:", tuple1[-2]) # -1 refers to the last item, -2 is the second to last etc.
 print("tuple1 subtuple from index 2:", tuple1[2:])
@@ -20,7 +22,7 @@ if 7 not in tuple1:
 print("\ntuple1 items:")
 # can also use for i in range(len(tuple1)) or a while loop and print tuple1[i]
 # can also use for x in tuple1, which will not allow access to the index on each iteration
-# enumerate allows for i to store the index and x to store the list item at i
+# enumerate allows for i to store the index and x to store the tuple item at i
 for i, x in enumerate(tuple1):
     print(i, ":", x)
 
@@ -33,7 +35,7 @@ print("\ntuple1:", tuple1)
 tuple1 += ("element8", "element9", 10.11)
 print("tuple1:", tuple1)
 
-# to delete a tuple completeley use del tuple
+# to delete the tuple, use del tuple, accessing the tuple again will raise a NameError
 
 # unpacking a tuple
 tuple2 = (1, 2.34, "element3")
@@ -80,7 +82,7 @@ print("tuple4:", tuple4)
 tuple4 = tuple2 * 2 # create a tuple which is 2 lots of tuple2
 print("tuple4:", tuple4)
 
-# multidimensional lists
+# multidimensional tuples
 tuple5 = ((1, 2), (3, 4))
 print("\ntuple5:", tuple5)
 
