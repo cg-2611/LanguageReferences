@@ -123,7 +123,7 @@
 - [x] Math Module
 - [x] Date and Time
 - [ ] Sorting
-    - [ ] Bubble Sort
+    - [x] Bubble Sort
     - [ ] Insertion Sort
     - [ ] Selection Sort
     - [ ] Quick Sort
