@@ -130,7 +130,7 @@
     - [x] Merge Sort
 - [ ] Searching
     - [x] Linear Search
-    - [ ] Binary Search
+    - [x] Binary Search
     - [ ] Interpolation Search
     - [ ] Jump Search
 - [ ] Objects
