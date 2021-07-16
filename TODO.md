@@ -111,7 +111,7 @@
 - [ ] Data Structures
     - [x] List
     - [x] Tuple
-    - [ ] Dictionary
+    - [x] Dictionary
     - [ ] Linked List
     - [ ] Hash Map
     - [ ] Stack
