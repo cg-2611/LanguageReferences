@@ -2,6 +2,8 @@ list1 = [1, 2, 3, 4, 5, 6]
 
 print("list1:", list1)
 print("list1 length:", len(list1))
+print("list1 max:", max(list1))
+print("list1 min:", min(list1))
 print("list1 item at index 3:", list1[3])
 print("list1 item at index -2:", list1[-2]) # -1 refers to the last item, -2 is the second to last etc.
 print("list1 sublist from index 2:", list1[2:])
@@ -44,7 +46,8 @@ print("list1:", list1)
 del list1[8]
 print("list1:", list1)
 
-# to clear the list, use del list or list.clear()
+# to clear the list, use list.clear()
+# to delete the list, use del list, accessing the list again will raise a NameError
 
 print("\nlist1 items:")
 # can also use for i in range(len(list1)) or a while loop and print list1[i]
