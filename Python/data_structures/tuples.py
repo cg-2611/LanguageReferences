@@ -1,4 +1,5 @@
 tuple1 = (1, 2, "element3", 4.5, "element5", 6.7)
+
 print("tuple1:", tuple1)
 print("tuple1 length:", len(tuple1))
 print("tuple1 item at index 3:", tuple1[3])
