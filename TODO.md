@@ -128,11 +128,11 @@
     - [x] Selection Sort
     - [x] Quick Sort
     - [x] Merge Sort
-- [ ] Searching
+- [x] Searching
     - [x] Linear Search
     - [x] Binary Search
     - [x] Interpolation Search
-    - [ ] Jump Search
+    - [x] Jump Search
 - [ ] Objects
 - [ ] Serialization
 - [ ] Error Handling
