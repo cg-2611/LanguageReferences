@@ -10,7 +10,8 @@ def insertion_sort(array):
         array[previous + 1] = element_to_insert
         print(array)
 
-unsorted_array = [9, 3, 2, 7, 1, 4, 5, 8, 6]
-print("Unsorted Array:", unsorted_array)
-print("Insertion Sort:")
-insertion_sort(unsorted_array)
+if __name__ == "__main__":
+    unsorted_array = [9, 3, 2, 7, 1, 4, 5, 8, 6]
+    print("Unsorted Array:", unsorted_array)
+    print("Insertion Sort:")
+    insertion_sort(unsorted_array)
