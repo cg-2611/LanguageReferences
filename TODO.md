@@ -112,11 +112,11 @@
     - [x] List
     - [x] Tuple
     - [x] Dictionary
+    - [x] Sets
     - [ ] Linked List
     - [ ] Hash Map
     - [ ] Stack
     - [ ] Queue
-    - [ ] Sets
 - [x] User Input
 - [x] File I/O
 - [x] Random Numbers
