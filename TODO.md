@@ -124,7 +124,7 @@
 - [x] Date and Time
 - [ ] Sorting
     - [x] Bubble Sort
-    - [ ] Insertion Sort
+    - [x] Insertion Sort
     - [ ] Selection Sort
     - [ ] Quick Sort
     - [ ] Merge Sort
