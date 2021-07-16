@@ -122,12 +122,12 @@
 - [x] Random Numbers
 - [x] Math Module
 - [x] Date and Time
-- [ ] Sorting
+- [x] Sorting
     - [x] Bubble Sort
     - [x] Insertion Sort
     - [x] Selection Sort
     - [x] Quick Sort
-    - [ ] Merge Sort
+    - [x] Merge Sort
 - [ ] Searching
     - [ ] Linear Search
     - [ ] Binary Search
