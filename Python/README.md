@@ -295,9 +295,13 @@ raise ExceptionType() # raises an exception
 try:
     # do something
 except ExceptionType:
-    # handle ExceptionTypes
+    # handle ExceptionType
+except (ExceptionType1, ExceptionType2) as e:
+    # handle ExceptionType1 and ExceptionType2 in the same block
 except:
     # handle any other exception
+else:
+    # executes after try, if no exceptions raised
 finally:
     #executes no matter if there was an exception or not
 
