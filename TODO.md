@@ -136,8 +136,11 @@
     - [x] Jump Search
 - [x] Variable Arguments
 - [x] Error Handling
+- [x] Lambda Expressions
+- [ ] Type Annotations
+- [ ] Decorators
+- [ ] Closures
 - [ ] Serialization
-- [ ] Lambda Expressions
 - [ ] Networking
 - [ ] Processes
 - [ ] Multithreading
