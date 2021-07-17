@@ -135,10 +135,9 @@
     - [x] Interpolation Search
     - [x] Jump Search
 - [x] Variable Arguments
+- [x] Error Handling
 - [ ] Serialization
-- [ ] Error Handling
 - [ ] Lambda Expressions
-- [ ] Libraries
 - [ ] Networking
 - [ ] Processes
 - [ ] Multithreading
