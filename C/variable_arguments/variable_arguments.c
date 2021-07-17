@@ -1,7 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-void printArgs(int args_count, ...)
+void print_args(int args_count, ...)
 {
     va_list args;
 
@@ -45,10 +45,10 @@ double average_args(int args_count, ...)
 
 int main(int argc, char *argv[])
 {
-    printArgs(1, "Argument 1");
-    printArgs(2, "Argument 1", "Argument 2");
-    printArgs(3, "Argument 1", "Argument 2", "Argument 3");
-    printArgs(6, "Argument 1", "Argument 2", "Argument 3", "Argument 4", "Argument 5", "Argument 6");
+    print_args(1, "Argument 1");
+    print_args(2, "Argument 1", "Argument 2");
+    print_args(3, "Argument 1", "Argument 2", "Argument 3");
+    print_args(6, "Argument 1", "Argument 2", "Argument 3", "Argument 4", "Argument 5", "Argument 6");
 
     double average =  average_args(5 , 1.4, 3.7, 5.1, 7.2, 9.9);
     printf("\nAverage of 1.4, 3.7, 5.1, 7.2, 9.9 = %lf\n", average);
