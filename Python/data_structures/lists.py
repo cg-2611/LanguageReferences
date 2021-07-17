@@ -60,6 +60,9 @@ print("\nlist1 items (using comprehension):")
 # print list items using list comprehension
 [print(i) for i in list1]
 
+# unpacking operator on a list
+print("list1 elements:", *list1)
+
 print("list1 reversed:", list1[::-1]) # can also use list1.reverse() which reverses the list in place
 print("list1 sorted:", list1.sort())
 

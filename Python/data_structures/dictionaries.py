@@ -52,6 +52,10 @@ print("\ndict1 items:")
 for key, value in dict1.items():
     print(f"{key}: {value}")
 
+# unpacking operator on a dict
+print("dict1 keys:", *dict1)
+print("dict1 values:", *dict1.values())
+
 # create a dictionary from variables
 keys = [1, 2, 3, 4] # can be any iterable object
 values = 0 # the value for all keys is optional, if not specified default is None

@@ -17,6 +17,9 @@ if 3.4 in set1:
 if 7 not in set1:
     print("7 is not in set1")
 
+# unpacking operator on a set
+print("set1 items:", *set1)
+
 # adding items
 set1.add(8)
 print("\nset1:", set1)
@@ -59,4 +62,3 @@ print("\nset6:", set6)
 print("\nset1 and set2 disjoint:", set1.isdisjoint(set2))
 print("set4 subset of set1:", set4.issubset(set1))
 print("set1 superset of set4:", set1.issuperset(set4))
-

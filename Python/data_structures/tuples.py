@@ -2,8 +2,6 @@ tuple1 = (1, 2, "element3", 4.5, "element5", 6.7)
 
 print("tuple1:", tuple1)
 print("tuple1 length:", len(tuple1))
-print("tuple1 max:", max(tuple1))
-print("tuple1 min:", min(tuple1))
 print("tuple1 item at index 3:", tuple1[3])
 print("tuple1 item at index -2:", tuple1[-2]) # -1 refers to the last item, -2 is the second to last etc.
 print("tuple1 subtuple from index 2:", tuple1[2:])
@@ -12,6 +10,11 @@ print("tuple1 subtuple between index 1 and 4:", tuple1[1:4]) # 1 inclusive, 4 ex
 print("tuple1 subtuple between index -4 and -1:", tuple1[-4:-1]) # -4 inclusive, -1 exclusive
 print("tuple1 index of 4.5:", tuple1.index(4.5))
 print("tuple1 index of \"element5\":", tuple1.index("element5"))
+
+
+# if tuples items are similar types, then the min and max functions can be used:
+# max(tuple)
+# min(tuple)
 
 if 6 in tuple1:
     print("6 is in tuple1")
@@ -26,8 +29,10 @@ print("\ntuple1 items:")
 for i, x in enumerate(tuple1):
     print(i, ":", x)
 
-# tuples are immutable so must be cast to a list object to make amendments and then cast back to a tuple object
+# unpacking operator on a tuple
+print("tuple1 items:", *tuple1)
 
+# tuples are immutable so must be cast to a list object to make amendments and then cast back to a tuple object
 # however, tuples can be extended with other tuples only
 tuple1 += (7,) # (7,) is a tuple of a single element
 print("\ntuple1:", tuple1)
