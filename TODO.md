@@ -1,6 +1,7 @@
 # TODO
 
 ## Contents
+- [Contents](#contents)
 - [C](#c)
 - [Java](#java)
 - [Python](#python)
@@ -133,7 +134,7 @@
     - [x] Binary Search
     - [x] Interpolation Search
     - [x] Jump Search
-- [ ] Objects
+- [x] Variable Arguments
 - [ ] Serialization
 - [ ] Error Handling
 - [ ] Lambda Expressions
