@@ -369,3 +369,4 @@ pip install numpy
     - <https://www.tutorialspoint.com/python/index.htm>
     - <https://www.learnpython.org/>
     - <https://www.programiz.com/python-programming>
+    - <https://realpython.com/>
