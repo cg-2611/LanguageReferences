@@ -138,7 +138,7 @@
 - [x] Error Handling
 - [x] Lambda Expressions
 - [x] Type Annotations
-- [ ] Serialization
+- [x] Serialization
 - [ ] Networking
 - [ ] Processes
 - [ ] Multithreading
