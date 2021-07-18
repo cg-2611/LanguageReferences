@@ -140,7 +140,7 @@
 - [x] Type Annotations
 - [x] Serialization
 - [x] Networking
-- [ ] Processes
+- [x] Processes
 - [ ] Multithreading
 - [ ] GUI
 - [ ] Pydoc
