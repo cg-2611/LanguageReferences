@@ -137,9 +137,7 @@
 - [x] Variable Arguments
 - [x] Error Handling
 - [x] Lambda Expressions
-- [ ] Type Annotations
-- [ ] Decorators
-- [ ] Closures
+- [x] Type Annotations
 - [ ] Serialization
 - [ ] Networking
 - [ ] Processes

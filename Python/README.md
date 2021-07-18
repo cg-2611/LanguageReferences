@@ -20,6 +20,7 @@
         - [Decision Making](#decision-making)
         - [Loop Control](#loop-control)
     - [Functions](#functions)
+    - [Type Annotations](#type-annotations)
 - [Classes and Objects](#classes-and-objects)
     - [Access Modifiers](#access-modifiers)
     - [Classes](#classes)
@@ -195,6 +196,15 @@ while condition:
 ---
 ```python
 def function_name(parameter1, parameter2):
+    # do something
+```
+### Type Annotations
+---
+```python
+# not type checking happens at runtime, however the annotations can still be accessed
+
+identifier: type = value
+def function_name(parameter1: type, parameter2: type) -> return_type:
     # do something
 ```
 ## Classes and Objects
