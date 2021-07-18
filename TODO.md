@@ -139,7 +139,7 @@
 - [x] Lambda Expressions
 - [x] Type Annotations
 - [x] Serialization
-- [ ] Networking
+- [x] Networking
 - [ ] Processes
 - [ ] Multithreading
 - [ ] GUI
