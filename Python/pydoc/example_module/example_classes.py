@@ -1,3 +1,7 @@
+"""
+Example classes used to demonstrate pydoc.
+"""
+
 class PydocExampleClassOne:
     """
     PydocExampleClassOne stores a value.
