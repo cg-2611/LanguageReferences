@@ -347,8 +347,28 @@ pip install numpy
 ## Pydoc
 ### Writing
 ---
+```python
+"""
+This is a python docstring comment.
+Docstring comments are used to generate pydoc documentation.
+There are different style guides on how to format docstring comments.
+"""
+```
 ### Generating
 ---
+To print pydoc documentation to the terminal, the `pydoc` script can be used, run:
+```
+pydoc module_name
+```
+e.g. to output the documentation for the `math` module, run:
+```
+pydoc math
+```
+To generate the pydoc html from the docstring comments in the source code, the `pydoc` script can be used, run:
+```
+pydoc -w path/to/module/directory
+```
+> Note: the pydoc -w will generate the pydoc html file into the the current directory.
 
 ## Useful Links
 - #### Python Documentation:
@@ -362,6 +382,7 @@ pip install numpy
     - `pip` documentation: <https://pip.pypa.io/en/stable/>
 - #### Pydoc Information:
     - Pydoc Style Guide: <https://www.python.org/dev/peps/pep-0257/>
+    - Numpy Pydoc Style Guide: <https://numpydoc.readthedocs.io/en/latest/format.html>
 - #### General Information:
     - Python PEP 8 Style Guide: <https://www.python.org/dev/peps/pep-0008/>
     - <https://docs.python.org/3/tutorial/>

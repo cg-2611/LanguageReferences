@@ -143,7 +143,9 @@
 - [x] Processes
 - [x] Multithreading
 - [ ] GUI
-- [ ] Pydoc
+  - [ ] Tkinter
+- [ ] Graphics
+- [x] Pydoc
 - [ ] Testing
 - [ ] Databases
 - [ ] Packages
