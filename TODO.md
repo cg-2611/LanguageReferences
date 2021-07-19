@@ -141,7 +141,7 @@
 - [x] Serialization
 - [x] Networking
 - [x] Processes
-- [ ] Multithreading
+- [x] Multithreading
 - [ ] GUI
 - [ ] Pydoc
 - [ ] Testing
