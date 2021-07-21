@@ -142,8 +142,8 @@
 - [x] Networking
 - [x] Processes
 - [x] Multithreading
-- [ ] GUI
-  - [ ] Tkinter
+- [x] GUI
+  - [x] Tkinter
 - [ ] Graphics
 - [x] Pydoc
 - [x] Testing
