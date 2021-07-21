@@ -146,7 +146,7 @@
   - [ ] Tkinter
 - [ ] Graphics
 - [x] Pydoc
-- [ ] Testing
+- [x] Testing
 - [ ] Databases
 - [ ] Packages
 - [ ] Modules
