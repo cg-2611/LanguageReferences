@@ -114,7 +114,7 @@
     - [x] Tuple
     - [x] Dictionary
     - [x] Sets
-    - [ ] Linked List
+    - [x] Linked List
     - [ ] Hash Map
     - [ ] Stack
     - [ ] Queue
