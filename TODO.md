@@ -144,7 +144,7 @@
 - [x] Multithreading
 - [x] GUI
   - [x] Tkinter
-- [ ] Graphics
+- [x] Graphics
 - [x] Pydoc
 - [x] Testing
 - [ ] Databases
