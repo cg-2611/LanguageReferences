@@ -10,7 +10,7 @@ class PydocExampleClassOne:
         """
         Constructor for PydocExampleClassOne.
 
-        ::param value:: the value of the object.
+        :param value: the value of the object.
         """
         self.value = value
 
