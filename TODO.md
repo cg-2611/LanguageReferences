@@ -115,7 +115,7 @@
     - [x] Dictionary
     - [x] Sets
     - [x] Linked List
-    - [ ] Hash Map
+    - [x] Hash Table Chaining
     - [ ] Stack
     - [ ] Queue
 - [x] User Input
@@ -148,5 +148,3 @@
 - [x] Pydoc
 - [x] Testing
 - [ ] Databases
-- [ ] Packages
-- [ ] Modules
