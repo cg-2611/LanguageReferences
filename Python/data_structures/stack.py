@@ -17,6 +17,9 @@ class Stack:
             items.append(str(item))
 
         # return a string with each item separated by commas
+        if len(items) == 1:
+            return "".join(items[0])
+
         return ", ".join(items[:-1]) + ", " + items[-1] if len(items) > 0 else "Empty"
 
     def push(self, item: int) -> None:
