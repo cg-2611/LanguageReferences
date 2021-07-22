@@ -22,7 +22,7 @@ class Queue:
         if len(items) == 1:
             return "".join(items[0])
 
-        return ", ".join(items[:-1]) + ", " + items[-1] if len(items) > 0 else "Empty"
+        return ", ".join(items) if len(items) > 0 else "Empty"
 
     def enqueue(self, item: int) -> None:
         if not self.is_full():
