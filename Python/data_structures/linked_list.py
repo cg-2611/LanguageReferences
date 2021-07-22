@@ -181,6 +181,7 @@ class LinkedList:
 
         node.link = node.link.link
 
+
 if __name__ == "__main__":
     linked_list = LinkedList()
 
