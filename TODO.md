@@ -116,7 +116,7 @@
     - [x] Sets
     - [x] Linked List
     - [x] Hash Table Chaining
-    - [ ] Stack
+    - [x] Stack
     - [ ] Queue
 - [x] User Input
 - [x] File I/O
