@@ -117,7 +117,7 @@
     - [x] Linked List
     - [x] Hash Table Chaining
     - [x] Stack
-    - [ ] Queue
+    - [x] Queue
 - [x] User Input
 - [x] File I/O
 - [x] Random Numbers
