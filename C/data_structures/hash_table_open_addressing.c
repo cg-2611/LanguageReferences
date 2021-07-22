@@ -101,6 +101,7 @@ void remove_entry(struct hash_table *ht, const char *key)
         if (strcmp(ht->entries[index]->key, key) == 0)
         {
             strcpy(ht->entries[index]->key, EMPTY_ENTRY);
+            ht->current_size--;
             return;
         }
 
