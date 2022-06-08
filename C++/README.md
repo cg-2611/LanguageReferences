@@ -340,10 +340,10 @@ modifier:
 #### Instance Methods:
 ```c++
 modifier:
-type methodName(type parameter1, type parameter2)
-{
-    // method body
-}
+    type methodName(type parameter1, type parameter2)
+    {
+        // method body
+    }
 ```
 #### Referencing Current Object:
 ```c++
@@ -353,16 +353,16 @@ this->doSomething()  // calls method 'doSomething' of current object (-> needed 
 #### Class Fields:
 ```c++
 modifier:
-static type identifier;         // has undefined value
-static type identifier = value; // has value of 'value'
+    static type identifier;         // has undefined value
+    static type identifier = value; // has value of 'value'
 ```
 #### Class Methods:
 ```c++
 modifier:
-static type methodName(type parameter1, type parameter2)
-{
-    // method body
-}
+    static type methodName(type parameter1, type parameter2)
+    {
+        // method body
+    }
 ```
 #### Nested Classes:
 ```c++
