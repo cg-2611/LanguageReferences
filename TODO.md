@@ -97,10 +97,12 @@
 - [ ] Abstract Classes
 - [ ] Lambda Expressions
 - [ ] Generics
+- [ ] Friends
 - [ ] Overloading
+- [ ] Abstract Classes
 - [ ] Polymorphism
-- [ ] GUI
 - [ ] Error Handling
+- [ ] GUI
 - [ ] Serialization
 - [ ] Multithreading and Thread Synchronization
 - [ ] Networking
