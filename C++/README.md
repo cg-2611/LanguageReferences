@@ -30,6 +30,7 @@
     - [Classes](#classes)
         - [Declaring Classes](#declaring-classes)
         - [Constructor](#constructor)
+        - [Destructor](#destructor)
         - [Instance Fields](#instance-fields)
         - [Instance Methods](#instance-methods)
         - [Referencing Current Object](#referencing-current-object)
@@ -326,6 +327,17 @@ class ClassName
 {
     public:
         ClassName(type parameter1, type parameter2)
+        {
+            // do something
+        }
+}
+```
+#### Destructor:
+```c++
+class ClassName
+{
+    public:
+        ~ClassName()
         {
             // do something
         }
