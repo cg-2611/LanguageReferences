@@ -1,0 +1,10 @@
+# C++ gitignore
+
+# ignore anything with no extension
+*
+!/**/
+!*.*
+
+# ignore .DS_Store and .vscode directories
+.DS_Store
+.vscode
