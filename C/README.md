@@ -96,7 +96,7 @@ long double            // 128 bits, 16 bytes, %Lf
 ```
 ### Operators
 ---
-### Unary Operators:
+#### Unary Operators:
 ```c
 +x  // positive value
 -x  // negative value
@@ -157,6 +157,8 @@ sizeof(x) // returns the size of variable x
 &x        // returns the address of x
 *x        // pointer to x
 ?:        // conditional operator
+x.y       // access member y of struct x
+x->y      // access member y of struct x when y is pointer
 ```
 ### Control Flow Statements:
 ---
