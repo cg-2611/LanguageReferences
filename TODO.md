@@ -58,6 +58,56 @@
 - [x] CMake
 - [x] Testing
 
+## C++
+- [ ] Strings
+- [ ] Command Line Arguments
+- [ ] Static Variables
+- [ ] Casting
+- [ ] User Input
+- [ ] Math
+- [ ] Random Numbers
+- [ ] Variable Arguments
+- [ ] Files
+- [ ] Arrays
+- [ ] Vectors
+- [ ] Pointers
+- [ ] Memory Management
+- [ ] Data Structures
+    - [ ] Linked List
+    - [ ] Hash Table Chaining
+    - [ ] Hash Table Open Addressing
+    - [ ] Stack
+    - [ ] Queue
+- [ ] Sorting
+    - [ ] Bubble Sort
+    - [ ] Insertion Sort
+    - [ ] Selection Sort
+    - [ ] Quick Sort
+    - [ ] Merge Sort
+- [ ] Searching
+    - [ ] Linear Search
+    - [ ] Binary Search
+    - [ ] Interpolation Search
+    - [ ] Jump Search
+- [ ] Unions
+- [ ] Enums
+- [ ] Preprocessors
+- [ ] Header Files
+- [ ] Date and Time
+- [ ] Abstract Classes
+- [ ] Lambda Expressions
+- [ ] Generics
+- [ ] Overloading
+- [ ] Polymorphism
+- [ ] GUI
+- [ ] Error Handling
+- [ ] Serialization
+- [ ] Multithreading and Thread Synchronization
+- [ ] Networking
+- [ ] External Libraries
+- [ ] CMake
+- [ ] Testing
+
 ## Java
 - [x] Strings
 - [x] Command Line Arguments
