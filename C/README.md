@@ -326,4 +326,5 @@ or include the path in the executed command:
     - <https://www.learn-c.org/>
     - <https://www.programiz.com/c-programming>
     - <https://www.cprogramming.com/tutorial/c-tutorial.html>
+    - <https://www.w3schools.com/c/index.php>
     - <https://code-vault.net/>
