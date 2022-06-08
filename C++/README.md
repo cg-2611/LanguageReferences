@@ -359,7 +359,7 @@ static type identifier = value; // has value of 'value'
 #### Class Methods:
 ```c++
 modifier:
-static type methodName(type param1, type param2)
+static type methodName(type parameter1, type parameter2)
 {
     // method body
 }
@@ -404,13 +404,13 @@ object->doSomething() // calls method 'doSomething' of object 'object'
 class AbstractClassName
 {
     public:
-        AbstractClassName(type argument1)
+        AbstractClassName(type parameter1)
         {
             // do something
         }
 
         // methodOne is abstract as it is a pure virtual method, i.e., it is virtual ... = 0
-        virtual type methodOne(type argument1) = 0;
+        virtual type methodOne(type parameter1) = 0;
 
         type methodTwo()
         {
@@ -426,13 +426,13 @@ class ClassName: public AbstractClassName
 {
     public:
         // calls constructor of AbstractClassName
-        ClassName(type argument1, type argument2) : AbstractClassName(argument1)
+        ClassName(type parameter1, type parameter2) : AbstractClassName(parameter1)
         {
             //constructor body
         }
 
     modifier:
-        type methodOne(type argument1) override {
+        type methodOne(type parameter1) override {
             // method body
         }
 
