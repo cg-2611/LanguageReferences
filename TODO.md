@@ -59,10 +59,9 @@
 - [x] Testing
 
 ## C++
-- [ ] Strings
-- [ ] Command Line Arguments
-- [ ] Static Variables
-- [ ] Casting
+- [x] Strings
+- [x] Command Line Arguments
+- [x] Casting
 - [ ] User Input
 - [ ] Math
 - [ ] Random Numbers
@@ -70,6 +69,7 @@
 - [ ] Files
 - [ ] Arrays
 - [ ] Vectors
+- [ ] Iterators
 - [ ] Pointers
 - [ ] Memory Management
 - [ ] Data Structures
@@ -89,11 +89,10 @@
     - [ ] Binary Search
     - [ ] Interpolation Search
     - [ ] Jump Search
-- [ ] Unions
 - [ ] Enums
 - [ ] Preprocessors
 - [ ] Header Files
-- [ ] Date and Time
+- [ ] Namespaces
 - [ ] Abstract Classes
 - [ ] Lambda Expressions
 - [ ] Generics
@@ -102,6 +101,7 @@
 - [ ] Abstract Classes
 - [ ] Polymorphism
 - [ ] Error Handling
+- [ ] Date and Time
 - [ ] GUI
 - [ ] Serialization
 - [ ] Multithreading and Thread Synchronization
