@@ -54,6 +54,16 @@
     - [Execution Documentation](#execution-documentation)
     - [General Information](#general-information)
 
+> There is a significant amount of similarity between C and C++, and so because of this refer to C for the following topics:
+>  - Bit Manipulation
+>  - Structures
+>  - Unions
+>  - Memory Padding
+>  - Function Pointers and Passing by Reference
+>  - Static Variables
+>  - External variables
+>  - Static Functions
+
 ## Language Basics
 ### Entry Point
 ```c++
@@ -97,6 +107,7 @@ type identifier[3] =  {element 1, element 2, element 3};
 ---
 #### Types
 ```c++
+bool                   // 8 bits, 1 byte
 char                   // 8 bits, 1 byte, %c
 signed char            // 8 bits, 1 byte, %c or %hhi
 unsigned char          // 8 bits, 1 byte, %c or %hhu
