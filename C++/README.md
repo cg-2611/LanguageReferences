@@ -87,8 +87,12 @@ int main(int argc, char const *argv[])
 ---
 #### Variables:
 ```c++
-type identifier;         // declaration (memory allocated)
-type identifier = value; // initialization (memory allocated and value stored)
+type identifier; // declaration (memory allocated), default initialization rules apply
+
+// initialization (memory allocated and value stored)
+type identifier{value}; // value initialization, does not allow narrowing/coercion, does zero-initialization if no value is provided
+type identifier(value); // direct initialization, does allow narrowing/coercion, does not do zero-initialization if no value is provided
+type identifier = value; // copy initialization, does allow narrowing/coercion, does not do zero-initialization if no value is provided
 ```
 #### Constants:
 ```c++
@@ -101,7 +105,9 @@ const type identifier = value;
 type identifier[n];
 
 // initialize array of 3 elements (memory allocated and values stored)
-type identifier[3] =  {element 1, element 2, element 3};
+type identifier{element 1, element 2, element 3}; // list initialization
+type identifier[3] =  {element 1, element 2, element 3}; // aggregate initialization
+type &identifier = array[0] // reference initialization
 ```
 ### Primitive Data Types
 ---
