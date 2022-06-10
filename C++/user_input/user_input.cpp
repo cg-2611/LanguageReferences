@@ -20,5 +20,14 @@ int main(int argc, char const *argv[])
     std::cin >> integer;
     std::cout << "Integer entered: " << integer << std::endl;
 
+    int i;
+    char c;
+    float f;
+    std::string s;
+
+    std::cout << "\nEnter values:" << std::endl;
+    std::cin >> i >> c >> f >> s;
+    std::cout << "Values entered: " << i << " \'" << c << "\' " << f << " \"" << s << " \"\n" << std::endl;
+
     return 0;
 }
