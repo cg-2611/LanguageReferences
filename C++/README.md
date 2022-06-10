@@ -55,14 +55,15 @@
     - [General Information](#general-information)
 
 > There is a significant amount of similarity between C and C++, and so because of this refer to C for the following topics:
->  - Bit Manipulation
->  - Structures
->  - Unions
->  - Memory Padding
->  - Function Pointers and Passing by Reference
->  - Static Variables
->  - External variables
->  - Static Functions
+> - Bit Manipulation
+> - Structures
+> - Unions
+> - Memory Padding
+> - Function Pointers and Passing by Reference
+> - Static Variables
+> - External variables
+> - Static Functions
+> - Variable Arguments (use cstdarg instead of stdarg.h)
 
 ## Language Basics
 ### Entry Point
