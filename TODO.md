@@ -62,11 +62,10 @@
 - [x] Strings
 - [x] Command Line Arguments
 - [x] Casting
-- [ ] User Input
-- [ ] Math
-- [ ] Random Numbers
-- [ ] Variable Arguments
-- [ ] Files
+- [x] User Input
+- [x] Math
+- [x] Random Numbers
+- [x] Files
 - [ ] Arrays
 - [ ] Vectors
 - [ ] Iterators
@@ -93,6 +92,7 @@
 - [ ] Preprocessors
 - [ ] Header Files
 - [ ] Namespaces
+- [ ] Templates
 - [ ] Abstract Classes
 - [ ] Lambda Expressions
 - [ ] Generics
