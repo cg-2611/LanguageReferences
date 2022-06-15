@@ -66,8 +66,8 @@
 - [x] Math
 - [x] Random Numbers
 - [x] Files
-- [ ] Arrays
-- [ ] Vectors
+- [x] Arrays
+- [x] Vectors
 - [ ] Iterators
 - [ ] Pointers
 - [ ] Memory Management
