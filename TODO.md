@@ -68,7 +68,7 @@
 - [x] Files
 - [x] Arrays
 - [x] Vectors
-- [ ] Iterators
+- [x] Iterators
 - [ ] Pointers
 - [ ] Memory Management
 - [ ] Data Structures
