@@ -6,7 +6,8 @@ int main(int argc, char const *argv[])
 
     std::cout << "Number of arguments passed: " << argc << "\n\n";
 
-    for (size_t i = 0; i < argc; i++) {
+    for (size_t i = 0; i < argc; i++)
+    {
         std::cout << "Argument " << (i + 1) << ": " << argv[i] << std::endl;
     }
 
