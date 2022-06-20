@@ -8,7 +8,8 @@ int main(int argc, char const *argv[])
     std::vector<int> vector {5, 6, 7, 8};
 
     // iterate using for loop
-    for (size_t i = 0; i < vector.size(); i++) {
+    for (size_t i = 0; i < vector.size(); i++)
+    {
         // can also use vector[i], however, this does not throw an out of bounds exception
         // vectors also support front() and back() methods for access
         std::cout << vector.at(i) << " ";
@@ -22,7 +23,8 @@ int main(int argc, char const *argv[])
     vector.push_back(11); // pushed 11 to back of vector
 
     // iterate using for each loop
-    for (const int x : vector) {
+    for (const int x : vector)
+    {
         std::cout << x << " ";
     }
 
@@ -31,7 +33,8 @@ int main(int argc, char const *argv[])
     vector.pop_back(); // remove last value from vector
 
     // iterate using for each loop
-    for (const int x : vector) {
+    for (const int x : vector)
+    {
         std::cout << x << " ";
     }
 
