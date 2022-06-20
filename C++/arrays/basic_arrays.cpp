@@ -5,7 +5,8 @@ int main(int argc, char const *argv[])
     int array[4] = {5, 6, 7, 8};
 
     // iterate using a for loop:
-    for (size_t i = 0; i < 4; i++) {
+    for (size_t i = 0; i < 4; i++)
+    {
         std::cout << array[i] << " ";
     }
 
@@ -15,7 +16,8 @@ int main(int argc, char const *argv[])
     array[0] = 4;
 
     // iterate using a for each loop
-    for (const int x : array) {
+    for (const int x : array)
+    {
         std::cout << x << " ";
     }
 
@@ -24,7 +26,8 @@ int main(int argc, char const *argv[])
     int array_1[6] = {2, 3, 4}; // initialises as [2, 3, 4, 0, 0, 0]
 
     // iterate using a for loop:
-    for (size_t i = 0; i < 6; i++) {
+    for (size_t i = 0; i < 6; i++)
+    {
         std::cout << array_1[i] << " ";
     }
 
@@ -35,7 +38,8 @@ int main(int argc, char const *argv[])
     array_1[5] = 9;
 
     // iterate using a for each loop
-    for (const int x : array_1) {
+    for (const int x : array_1)
+    {
         std::cout << x << " ";
     }
 
