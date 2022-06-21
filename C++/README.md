@@ -55,6 +55,7 @@
     - [General Information](#general-information)
 
 > There is a significant amount of similarity between C and C++, and so because of this refer to C for the following topics:
+> - Pointers
 > - Bit Manipulation
 > - Structures
 > - Unions
