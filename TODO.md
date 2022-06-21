@@ -69,8 +69,9 @@
 - [x] Arrays
 - [x] Vectors
 - [x] Iterators
-- [ ] Pointers
 - [ ] Memory Management
+  - [x] Dynamic Memory Allocation
+  - [ ] Object Memory Allocation
 - [ ] Data Structures
     - [ ] Linked List
     - [ ] Hash Table Chaining
@@ -88,8 +89,8 @@
     - [ ] Binary Search
     - [ ] Interpolation Search
     - [ ] Jump Search
-- [ ] Enums
-- [ ] Preprocessors
+- [x] Enums
+- [x] Preprocessors
 - [ ] Header Files
 - [ ] Namespaces
 - [ ] Templates
