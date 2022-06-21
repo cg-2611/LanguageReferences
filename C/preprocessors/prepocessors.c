@@ -12,6 +12,7 @@
 #define AREA_OF_CIRCLE(r) (PI * r * r)
 #define PRINT_AREA_OF_CIRCLE(r) printf("Area of circle with radius %d = %.2f\n", r, AREA_OF_CIRCLE(r))
 #define PRINT_VARIABLE_NAME_AND_VALUE(variable) printf("\nName: " #variable "\nValue: %d\n", variable)
+#define CONCAT(a, b) a ## b
 #define SWAP(a, b)  {           \
                         a ^= b; \
                         b ^= a; \
@@ -54,11 +55,16 @@ int main(int argc, char *argv[])
 
     printf("PI = %.2f\n\n", PI);
 
-    printf("Area of circle with radius 5 = %.2f\n", AREA_OF_CIRCLE(5));
+    printf("Area of circle with radius 5 = %.2f\n\n", AREA_OF_CIRCLE(5));
     PRINT_AREA_OF_CIRCLE(5);
 
     int integer_value = 17;
     PRINT_VARIABLE_NAME_AND_VALUE(integer_value);
+
+    // here, the ## preprocessor operator is being used to concatenate the arguments
+    // CONCAT(x, y) be replaced with xy and since xy is defined and assigned the value 13, this is what is printed
+    int xy = 13;
+    printf("xy = %d\n\n", CONCAT(x, y));
 
     int a = 3, b = 7;
     printf("a = %d, b = %d\n", a, b);
