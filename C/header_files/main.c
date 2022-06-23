@@ -2,6 +2,8 @@
 #include "headers/header.h"
 #include "util.h"
 
+// execute with: clang -Wall -o main main.c util.c header.c
+
 int main(int argc, char *argv[])
 {
     int a = 9;
@@ -16,7 +18,7 @@ int main(int argc, char *argv[])
     example_struct example = {19, "example string", strlen(example.string)};
 
     printf("\nStruct Example:\n");
-    // MAX_SIZE accessible trough incldue
+    // MAX_SIZE accessible trough include
     if(sizeof(example.string) == MAX_SIZE)
     {
         printf("Struct has size of MAX_SIZE = %lu\n", sizeof(example.string));
