@@ -91,16 +91,13 @@
     - [ ] Jump Search
 - [x] Enums
 - [x] Preprocessors
-- [ ] Header Files
-- [ ] Namespaces
-- [ ] Templates
+- [x] Namespaces
+- [x] Overloading
+- [x] Polymorphism
 - [ ] Abstract Classes
-- [ ] Lambda Expressions
-- [ ] Generics
+- [ ] Generics and Templates
 - [ ] Friends
-- [ ] Overloading
-- [ ] Abstract Classes
-- [ ] Polymorphism
+- [ ] Lambda Expressions
 - [ ] Error Handling
 - [ ] Date and Time
 - [ ] GUI
