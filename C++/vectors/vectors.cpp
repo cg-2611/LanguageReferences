@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
     // vectors are not indexable
     // std::vector<int> vector(5, 12) is equivalent to std::vector<int> vector = {12, 12, 12, 12, 12}
-    std::vector<int> vector {5, 6, 7, 8};
+    std::vector<int> vector = {5, 6, 7, 8};
 
     // iterate using for loop
     for (size_t i = 0; i < vector.size(); i++)
