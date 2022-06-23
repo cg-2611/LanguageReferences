@@ -445,7 +445,7 @@ class AbstractClassName
         // methodOne is abstract as it is a pure virtual method, i.e., it is virtual ... = 0
         virtual type methodOne(type parameter1) = 0;
 
-        type methodTwo()
+        virtual type methodTwo()
         {
             // do something
         }
@@ -465,11 +465,13 @@ class ClassName: public AbstractClassName
         }
 
     modifier:
-        type methodOne(type parameter1) override {
+        type methodOne(type parameter1) override
+        {
             // method body
         }
 
-        type methodTwo() override {
+        type methodTwo() override
+        {
             // new method body
         }
 }
