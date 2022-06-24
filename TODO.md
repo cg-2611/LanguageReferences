@@ -69,9 +69,9 @@
 - [x] Arrays
 - [x] Vectors
 - [x] Iterators
-- [ ] Memory Management
+- [x] Memory Management
   - [x] Dynamic Memory Allocation
-  - [ ] Object Memory Allocation
+  - [x] Object Memory Allocation
 - [ ] Data Structures
     - [ ] Linked List
     - [ ] Hash Table Chaining
@@ -94,8 +94,7 @@
 - [x] Namespaces
 - [x] Overloading
 - [x] Polymorphism
-- [ ] Abstract Classes
-- [ ] Generics and Templates
+- [x] Generics and Templates
 - [ ] Friends
 - [ ] Lambda Expressions
 - [ ] Error Handling
