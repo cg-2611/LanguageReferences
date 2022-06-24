@@ -1,13 +1,14 @@
 #include <iostream>
 
-template <class T>
+// typename and class are interchangeable keywords in these scenarios
+template <typename T>
 T max(T a, T b)
 {
     return a > b ? a : b;
 }
 
 // this allows multiple types to be used in the template, type S is given a default type of int
-template <class T, class S = int>
+template <typename T, typename S = int>
 S min(T a, S b)
 {
     return a < b ? a : b;
