@@ -3,6 +3,7 @@
 ## Contents
 - [Contents](#contents)
 - [C](#c)
+- [C++](c++)
 - [Java](#java)
 - [Python](#python)
 
@@ -95,10 +96,10 @@
 - [x] Overloading
 - [x] Polymorphism
 - [x] Generics and Templates
-- [ ] Friends
-- [ ] Lambda Expressions
-- [ ] Error Handling
-- [ ] Date and Time
+- [x] Friends
+- [x] Lambda Expressions
+- [x] Variable Arguments
+- [x] Error Handling
 - [ ] GUI
 - [ ] Serialization
 - [ ] Multithreading and Thread Synchronization
@@ -158,7 +159,7 @@
 - [x] Strings
 - [x] Command Line Arguments
 - [x] System Properties
-- [ ] Data Structures
+- [x] Data Structures
     - [x] List
     - [x] Tuple
     - [x] Dictionary
