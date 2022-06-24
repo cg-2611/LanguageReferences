@@ -64,8 +64,9 @@
 > - Memory Padding
 > - Function Pointers and Passing by Reference
 > - Static Variables
-> - External variables
+> - External Variables
 > - Static Functions
+> - Date and Time
 
 ## Language Basics
 ### Entry Point
