@@ -66,7 +66,6 @@
 > - Static Variables
 > - External variables
 > - Static Functions
-> - Variable Arguments (use cstdarg instead of stdarg.h)
 
 ## Language Basics
 ### Entry Point
