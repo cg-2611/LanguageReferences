@@ -100,11 +100,11 @@
 - [x] Lambda Expressions
 - [x] Variable Arguments
 - [x] Error Handling
-- [ ] GUI
-- [ ] Serialization
-- [ ] Multithreading and Thread Synchronization
+- [x] Multithreading and Thread Synchronization
 - [ ] Networking
 - [ ] External Libraries
+- [ ] Serialization
+- [ ] GUI
 - [ ] CMake
 - [ ] Testing
 
