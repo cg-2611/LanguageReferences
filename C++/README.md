@@ -67,6 +67,7 @@
 > - External Variables
 > - Static Functions
 > - Date and Time
+> - Networking
 
 ## Language Basics
 ### Entry Point
