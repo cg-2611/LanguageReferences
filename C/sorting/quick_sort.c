@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
     printf("Unsorted Array:\n");
     print_array(unsorted_array, array_length);
 
-    printf("\nInsertion Sort:\n");
+    printf("\nQuick Sort:\n");
     quick_sort(unsorted_array, array_length, 0, array_length - 1);
 
     return 0;

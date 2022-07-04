@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
     printf("Unsorted Array:\n");
     print_array(unsorted_array, array_length);
 
-    printf("\nInsertion Sort:\n");
+    printf("\nSelection Sort:\n");
     selection_sort(unsorted_array, array_length);
 
     return 0;

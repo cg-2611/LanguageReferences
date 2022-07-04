@@ -4,32 +4,33 @@ void merge(int *array, size_t length, int *left, int *right, int left_index, int
 void merge_sort(int *array, size_t length);
 void print_array(int *array, size_t length);
 
-void merge(int *array, size_t length, int *left, int *right, int left_index, int right_index) {
+void merge(int *array, size_t length, int *left, int *right, int left_index, int right_index)
+{
     int i = 0, j = 0, k = 0;
 
-        while (i < left_index && j < right_index)
-        {
-            if (left[i] <= right[j])
-            {
-                array[k++] = left[i++];
-            }
-            else
-            {
-                array[k++] = right[j++];
-            }
-        }
-
-        while (i < left_index)
+    while (i < left_index && j < right_index)
+    {
+        if (left[i] <= right[j])
         {
             array[k++] = left[i++];
         }
-
-        while (j < right_index)
+        else
         {
             array[k++] = right[j++];
         }
+    }
 
-        print_array(array, length);
+    while (i < left_index)
+    {
+        array[k++] = left[i++];
+    }
+
+    while (j < right_index)
+    {
+        array[k++] = right[j++];
+    }
+
+    print_array(array, length);
 }
 
 void merge_sort(int *array, size_t length)
@@ -75,7 +76,7 @@ int main(int argc, char *argv[])
     printf("Unsorted Array:\n");
     print_array(unsorted_array, array_length);
 
-    printf("\nInsertion Sort:\n");
+    printf("\nMerge Sort:\n");
     merge_sort(unsorted_array, array_length);
 
     return 0;
