@@ -29,12 +29,6 @@ private:
         archive(value, string);
     }
 public:
-    // default constructor
-    SerializationExample()
-    {
-        this->value = 0;
-        this->string = "";
-    }
 
     SerializationExample(int value, std::string string)
     {
