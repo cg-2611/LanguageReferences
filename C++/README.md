@@ -68,7 +68,7 @@
 > - Static Functions
 > - Date and Time
 > - Networking
-> - External Libraries (also, see C++ reference for serialization, gui and testing)
+> - External Libraries (also, see C++ reference for serialization, gui and cmake)
 
 ## Language Basics
 ### Entry Point
