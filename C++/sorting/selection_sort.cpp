@@ -1,11 +1,10 @@
 #include <iostream>
 #include <vector>
 
-void selection_sort(std::vector<int> array);
-void swap(int *a_p, int *b_p);
+void selection_sort(std::vector<int> &array);
 void print_array(std::vector<int> array);
 
-void selection_sort(std::vector<int> array)
+void selection_sort(std::vector<int> &array)
 {
     for (size_t i = 0; i < array.size() - 2; i++)
     {
@@ -18,17 +17,10 @@ void selection_sort(std::vector<int> array)
             }
         }
 
-        swap(&array[i], &array[smallest_index]);
+        std::swap(array[i], array[smallest_index]);
 
         print_array(array);
     }
-}
-
-void swap(int *a_p, int *b_p)
-{
-    int temp = *a_p;
-    *a_p = *b_p;
-    *b_p = temp;
 }
 
 void print_array(std::vector<int>array)
@@ -43,13 +35,12 @@ void print_array(std::vector<int>array)
 
 int main(int argc, const char *argv[])
 {
-    std::vector<int> unsorted_array1 = {9, 3, 2, 7, 1, 4, 5, 8, 6};
-    std::cout << "Unsorted Array 1:" << std::endl;
-    print_array(unsorted_array1);
+    std::vector<int> unsorted_array = {9, 3, 2, 7, 1, 4, 5, 8, 6};
+    std::cout << "Unsorted Array :" << std::endl;
+    print_array(unsorted_array);
 
-    std::cout << "\nInsertion Sort:" << std::endl;
-    selection_sort(unsorted_array1);
+    std::cout << "\nSelection Sort:" << std::endl;
+    selection_sort(unsorted_array);
 
     return 0;
 }
-
