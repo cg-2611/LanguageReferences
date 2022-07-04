@@ -79,16 +79,16 @@
     - [ ] Hash Table Open Addressing
     - [ ] Stack
     - [ ] Queue
-- [ ] Sorting
-    - [ ] Bubble Sort
-    - [ ] Insertion Sort
-    - [ ] Selection Sort
-    - [ ] Quick Sort
-    - [ ] Merge Sort
+- [x] Sorting
+    - [x] Bubble Sort
+    - [x] Insertion Sort
+    - [x] Selection Sort
+    - [x] Quick Sort
+    - [x] Merge Sort
 - [ ] Searching
-    - [ ] Linear Search
-    - [ ] Binary Search
-    - [ ] Interpolation Search
+    - [x] Linear Search
+    - [x] Binary Search
+    - [x] Interpolation Search
     - [ ] Jump Search
 - [x] Enums
 - [x] Preprocessors
