@@ -62,7 +62,7 @@ void print_array(std::vector<int>array)
     std::cout <<  array[array.size() - 1] << "]" << std::endl;
 }
 
-int main(int argc, char *argv[])
+int main(int argc, const char *argv[])
 {
     std::vector<int> unsorted_array1 = {9, 3, 2, 7, 1, 4, 5, 8, 6};
     std::cout << "Unsorted Array 1:" << std::endl;
