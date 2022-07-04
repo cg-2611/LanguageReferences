@@ -8,3 +8,6 @@
 # ignore .DS_Store and .vscode directories
 .DS_Store
 .vscode
+
+# ignore boost library as too large
+/serialization/lib
