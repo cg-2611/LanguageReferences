@@ -3,7 +3,7 @@
 ## Contents
 - [Contents](#contents)
 - [C](#c)
-- [C++](c++)
+- [C++](#c++)
 - [Java](#java)
 - [Python](#python)
 
@@ -101,9 +101,8 @@
 - [x] Variable Arguments
 - [x] Error Handling
 - [x] Multithreading and Thread Synchronization
-- [ ] Networking
-- [ ] External Libraries
-- [ ] Serialization
+- [x] External Libraries
+- [x] Serialization
 - [ ] GUI
 - [ ] CMake
 - [ ] Testing
