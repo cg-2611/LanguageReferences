@@ -1,12 +1,11 @@
 #include <iostream>
 #include <vector>
 
-void bubble_sort(std::vector<int> array);
-void optimized_bubble_sort(std::vector<int>array);
-void swap(int *a, int *b);
+void bubble_sort(std::vector<int> &array);
+void optimized_bubble_sort(std::vector<int> &array);
 void print_array(std::vector<int>array);
 
-void bubble_sort(std::vector<int>array)
+void bubble_sort(std::vector<int> &array)
 {
     for (size_t i = 0; i < array.size() - 1; i++)
     {
@@ -14,7 +13,7 @@ void bubble_sort(std::vector<int>array)
         {
             if (array[j] > array[j + 1])
             {
-                swap(&array[j], &array[j + 1]);
+                std::swap(array[j], array[j + 1]);
             }
         }
 
@@ -22,7 +21,7 @@ void bubble_sort(std::vector<int>array)
     }
 }
 
-void optimized_bubble_sort(std::vector<int> array)
+void optimized_bubble_sort(std::vector<int> &array)
 {
     size_t i = 0;
     bool swapped = true;
@@ -34,7 +33,7 @@ void optimized_bubble_sort(std::vector<int> array)
         {
             if (array[j] > array[j + 1])
             {
-                swap(&array[j], &array[j + 1]);
+                std::swap(array[j], array[j + 1]);
                 swapped = true;
             }
 
@@ -43,13 +42,6 @@ void optimized_bubble_sort(std::vector<int> array)
         i++;
         print_array(array);
     }
-}
-
-void swap(int *a_p, int *b_p)
-{
-    int temp = *a_p;
-    *a_p = *b_p;
-    *b_p = temp;
 }
 
 void print_array(std::vector<int>array)
