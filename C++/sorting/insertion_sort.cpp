@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 
-void insertion_sort(std::vector<int> array);
+void insertion_sort(std::vector<int> &array);
 void print_array(std::vector<int> array);
 
-void insertion_sort(std::vector<int> array)
+void insertion_sort(std::vector<int> &array)
 {
     for (size_t i = 1; i < array.size(); i++)
     {
@@ -34,12 +34,12 @@ void print_array(std::vector<int>array)
 
 int main(int argc, const char *argv[])
 {
-    std::vector<int> unsorted_array1 = {9, 3, 2, 7, 1, 4, 5, 8, 6};
-    std::cout << "Unsorted Array 1:" << std::endl;
-    print_array(unsorted_array1);
+    std::vector<int> unsorted_array = {9, 3, 2, 7, 1, 4, 5, 8, 6};
+    std::cout << "Unsorted Array:" << std::endl;
+    print_array(unsorted_array);
 
     std::cout << "\nInsertion Sort:" << std::endl;
-    insertion_sort(unsorted_array1);
+    insertion_sort(unsorted_array);
 
     return 0;
 }
