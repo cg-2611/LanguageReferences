@@ -9,5 +9,14 @@
 .DS_Store
 .vscode
 
+# ignore imgui library as too large
+/gui/lib
+# ignore gui object files
+/gui/*.o
+#ignore .ini file
+/gui/*.ini
+# don't ignore gui makefile
+!/gui/Makefile
+
 # ignore boost library as too large
 /serialization/lib
