@@ -20,3 +20,8 @@
 
 # ignore boost library as too large
 /serialization/lib
+
+# ignore cmake build directory
+/cmake/build
+# ignore any object files in cmake directory
+/cmake/**/*.o
