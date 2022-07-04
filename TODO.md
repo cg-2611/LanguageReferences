@@ -105,7 +105,7 @@
 - [x] Serialization
 - [x] GUI
 - [x] CMake
-- [ ] Testing
+- [x] Testing
 
 ## Java
 - [x] Strings
