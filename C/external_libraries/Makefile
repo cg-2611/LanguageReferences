@@ -1,5 +1,5 @@
 CC = clang
-CFLAGS = -Wall -Ilib/glad/include -I/opt/homebrew/include
+CFLAGS = -Wall -Ilib/glad/include -I/opt/homebrew/include 	# homebrew added for glfw
 LDFLAGS = -L/opt/homebrew/lib lib/glad/src/glad.o -lglfw
 
 SRC  = $(wildcard src/*.c)
