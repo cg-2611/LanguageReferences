@@ -1,6 +1,6 @@
 CC = clang
-CFLAGS = -Wall -Ilib/glad/include
-LDFLAGS = lib/glad/src/glad.o -lglfw
+CFLAGS = -Wall -Ilib/glad/include -I/opt/homebrew/include
+LDFLAGS = -L/opt/homebrew/lib lib/glad/src/glad.o -lglfw
 
 SRC  = $(wildcard src/*.c)
 OBJ  = $(SRC:.c=.o)

@@ -103,7 +103,7 @@
 - [x] Multithreading and Thread Synchronization
 - [x] External Libraries
 - [x] Serialization
-- [ ] GUI
+- [x] GUI
 - [ ] CMake
 - [ ] Testing
 
