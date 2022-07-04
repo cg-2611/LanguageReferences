@@ -104,7 +104,7 @@
 - [x] External Libraries
 - [x] Serialization
 - [x] GUI
-- [ ] CMake
+- [x] CMake
 - [ ] Testing
 
 ## Java
