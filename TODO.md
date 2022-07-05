@@ -73,12 +73,11 @@
 - [x] Memory Management
   - [x] Dynamic Memory Allocation
   - [x] Object Memory Allocation
-- [ ] Data Structures
-    - [ ] Linked List
-    - [ ] Hash Table Chaining
-    - [ ] Hash Table Open Addressing
-    - [ ] Stack
-    - [ ] Queue
+- [x] Data Structures
+    - [x] Linked List
+    - [x] Hashmap
+    - [x] Stack
+    - [x] Queue
 - [x] Sorting
     - [x] Bubble Sort
     - [x] Insertion Sort
