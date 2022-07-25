@@ -1,0 +1,5 @@
+# Rust gitignore
+
+# ignore Cargo generated files
+**/target
+**/Cargo.lock
