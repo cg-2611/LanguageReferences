@@ -6,6 +6,7 @@
 - [C++](#c++)
 - [Java](#java)
 - [Python](#python)
+- [Rust](#rust)
 
 ## C
 - [x] Strings
@@ -197,3 +198,6 @@
 - [x] Pydoc
 - [x] Testing
 - [x] Databases
+
+## Rust
+- [ ] Rust Book
