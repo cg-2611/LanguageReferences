@@ -201,3 +201,6 @@
 
 ## Rust
 - [ ] Rust Book
+- [ ] Shadowing
+- [ ] Structs
+- [ ] Enums
