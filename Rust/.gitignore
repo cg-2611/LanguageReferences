@@ -2,4 +2,7 @@
 
 # ignore Cargo generated files
 **/target
+**/Cargo.toml
 **/Cargo.lock
+
+!book_projects/Cargo.toml
