@@ -201,6 +201,7 @@
 
 ## Rust
 - [ ] Rust Book
-- [ ] Shadowing
-- [ ] Structs
-- [ ] Enums
+- [x] Shadowing
+- [x] Structs
+- [x] Enums
+- [x] Pattern Matching
