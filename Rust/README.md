@@ -150,6 +150,7 @@ path/to/compiled_file_name
     - Rust Standard Library: <https://doc.rust-lang.org/std/index.html>
     - Rust Book: <https://doc.rust-lang.org/book/>
     - Rust by Example: <https://doc.rust-lang.org/stable/rust-by-example/>
+    - The Rustonomicon: <https://doc.rust-lang.org/nomicon/intro.html>
 - #### Execution Documentation:
     - `rustc` Book: <https://doc.rust-lang.org/rustc/index.html>
 - #### General Information:
