@@ -202,6 +202,16 @@
 ## Rust
 - [ ] Rust Book
 - [x] Shadowing
+- [ ] Slices
 - [x] Structs
 - [x] Enums
 - [x] Pattern Matching
+- [ ] Module System
+  - [ ] Packages and Crates
+  - [ ] Modules
+  - [ ] Paths
+- [ ] Collections
+  - [x] Vectors
+  - [x] Strings
+  - [ ] Hash Maps
+- [ ] Error Handling
