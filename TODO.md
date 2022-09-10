@@ -215,3 +215,6 @@
   - [x] Strings
   - [ ] Hash Maps
 - [ ] Error Handling
+- [ ] Generics
+- [ ] Traits
+- [ ] Lifetimes
