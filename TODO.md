@@ -210,10 +210,10 @@
   - [ ] Packages and Crates
   - [ ] Modules
   - [ ] Paths
-- [ ] Collections
+- [x] Collections
   - [x] Vectors
   - [x] Strings
-  - [ ] Hash Maps
+  - [x] Hash Maps
 - [ ] Error Handling
 - [ ] Generics
 - [ ] Traits
