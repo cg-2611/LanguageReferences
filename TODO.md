@@ -202,7 +202,7 @@
 ## Rust
 - [ ] Rust Book
 - [x] Shadowing
-- [ ] Slices
+- [x] Slices
 - [x] Structs
 - [x] Enums
 - [x] Pattern Matching
