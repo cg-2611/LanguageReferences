@@ -214,7 +214,7 @@
   - [x] Vectors
   - [x] Strings
   - [x] Hash Maps
-- [ ] Error Handling
-- [ ] Generics
+- [x] Error Handling
+- [x] Generics
 - [ ] Traits
 - [ ] Lifetimes
