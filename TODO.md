@@ -216,5 +216,5 @@
   - [x] Hash Maps
 - [x] Error Handling
 - [x] Generics
-- [ ] Traits
-- [ ] Lifetimes
+- [x] Traits
+- [x] Lifetimes
