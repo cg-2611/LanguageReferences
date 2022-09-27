@@ -206,10 +206,6 @@
 - [x] Structs
 - [x] Enums
 - [x] Pattern Matching
-- [ ] Module System
-  - [ ] Packages and Crates
-  - [ ] Modules
-  - [ ] Paths
 - [x] Collections
   - [x] Vectors
   - [x] Strings
@@ -218,3 +214,4 @@
 - [x] Generics
 - [x] Traits
 - [x] Lifetimes
+- [x] Unit Testing
