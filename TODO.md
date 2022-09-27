@@ -200,7 +200,10 @@
 - [x] Databases
 
 ## Rust
-- [ ] Rust Book
+- [ ] Rust Book Projects
+  - [x] Guessing Game
+  - [x] I/0 CLI Program
+  - [ ] Multithreaded Web Server
 - [x] Shadowing
 - [x] Slices
 - [x] Structs
