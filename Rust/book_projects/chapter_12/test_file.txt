@@ -1,0 +1,5 @@
+This is a test file
+used to test the program made using
+the rust book chapter 12
+project
+as a guide
