@@ -218,3 +218,10 @@
 - [x] Traits
 - [x] Lifetimes
 - [x] Unit Testing
+- [x] Functional Features
+  - [x] Closures
+  - [x] Iterators
+- [ ] Smart Pointers
+- [ ] Multithreading
+- [ ] Object Oriented Features
+- [ ] Unsafe Rust
