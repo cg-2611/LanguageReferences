@@ -221,7 +221,10 @@
 - [x] Functional Features
   - [x] Closures
   - [x] Iterators
-- [ ] Smart Pointers
+- [x] Smart Pointers
+  - [x] Box
+  - [x] Rc
+  - [x] RefCell
 - [ ] Multithreading
 - [ ] Object Oriented Features
 - [ ] Unsafe Rust
