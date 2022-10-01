@@ -225,6 +225,8 @@
   - [x] Box
   - [x] Rc
   - [x] RefCell
-- [ ] Multithreading
-- [ ] Object Oriented Features
+- [x] Multithreading
+- [x] Object Oriented Features
+  - [x] Trait Objects
+- [x] Patterns
 - [ ] Unsafe Rust
