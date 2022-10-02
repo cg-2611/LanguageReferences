@@ -200,10 +200,10 @@
 - [x] Databases
 
 ## Rust
-- [ ] Rust Book Projects
+- [x] Rust Book Projects
   - [x] Guessing Game
   - [x] I/0 CLI Program
-  - [ ] Multithreaded Web Server
+  - [x] Multithreaded Web Server
 - [x] Shadowing
 - [x] Slices
 - [x] Structs
@@ -216,6 +216,10 @@
 - [x] Error Handling
 - [x] Generics
 - [x] Traits
+  - [x] Associated Types
+  - [x] Operator Overloading
+  - [x] Supertraits
+  - [x] Newtype Pattern
 - [x] Lifetimes
 - [x] Unit Testing
 - [x] Functional Features
@@ -229,4 +233,7 @@
 - [x] Object Oriented Features
   - [x] Trait Objects
 - [x] Patterns
-- [ ] Unsafe Rust
+- [x] Unsafe Rust
+- [x] Type Aliases
+- [x] Function Pointers
+- [x] Macros
