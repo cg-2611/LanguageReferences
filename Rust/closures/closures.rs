@@ -114,3 +114,8 @@ fn main() {
     });
     println!("{:#?}, sorted in {} operations", list, count);
 }
+
+// to return a closure from a function, we must use a Box as Rust cannot determine the size of the closure
+// fn returns_closure() -> Box<dyn Fn(i32) -> i32> {
+//     Box::new(|x| x + 1)
+// }
